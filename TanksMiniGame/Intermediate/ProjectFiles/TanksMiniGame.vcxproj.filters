@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TanksMiniGame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{42CFD62F-CA26-4C94-AC24-6A0FD8BE0912}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TanksMiniGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TanksMiniGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{30BF2AAC-DCFD-46C8-9DF9-3177D833023D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TanksMiniGame">
+      <UniqueIdentifier>{58A49619-0AE7-4028-8598-AC5616F33806}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TanksMiniGame\TanksMiniGame.Build.cs">
+      <Filter>Source\TanksMiniGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TanksMiniGame\TanksMiniGame.cpp">
+      <Filter>Source\TanksMiniGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TanksMiniGame\TanksMiniGame.h">
+      <Filter>Source\TanksMiniGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TanksMiniGame\TanksMiniGameGameModeBase.cpp">
+      <Filter>Source\TanksMiniGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TanksMiniGame\TanksMiniGameGameModeBase.h">
+      <Filter>Source\TanksMiniGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
