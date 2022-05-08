@@ -1,9 +1,0 @@
-E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\Definitions.TanksMiniGame.h
-E:\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-E:\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Source\TanksMiniGame/TanksMiniGameGameModeBase.h
-E:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-E:\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-E:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-E:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Inc\TanksMiniGame\TanksMiniGameGameModeBase.generated.h

@@ -1,0 +1,9 @@
+﻿  Cleaning TanksMiniGameEditor and UnrealHeaderTool binaries...
+  Using 'git status' to determine working set for adaptive non-unity build (E:\GitHub\UnrealProjects\Tanks\TanksGame).
+  Creating makefile for TanksMiniGameEditor (no existing makefile)
+  Parsing headers for TanksMiniGameEditor
+    Running UnrealHeaderTool "E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\TanksMiniGame.uproject" "E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\TanksMiniGameEditor\Development\TanksMiniGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for TanksMiniGameEditor in 213,229918 seconds
+  Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 11 actions with 4 processes...
+    [1/11] Default.rc2
