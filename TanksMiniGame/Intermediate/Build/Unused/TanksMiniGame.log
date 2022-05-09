@@ -7,3 +7,7 @@
   Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 11 actions with 4 processes...
     [1/11] Default.rc2
+    [2/11] SharedPCH.Engine.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(54,5): warning MSB5021: plik wykonywalny zadania „cmd” i jego procesy podrzędne zostaną zakończone, ponieważ anulowano kompilację.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(54,5): warning MSB4220: Oczekiwanie na anulowanie aktualnie wykonywanego zadania „Exec”.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(54,5): error MSB4181: Zadanie „Exec” zwróciło wartość false, ale nie zarejestrowało błędu.
