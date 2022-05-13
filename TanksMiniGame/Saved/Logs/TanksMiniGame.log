@@ -1,4 +1,4 @@
-﻿Log file open, 05/11/22 19:37:56
+﻿Log file open, 05/13/22 16:11:52
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: TanksMiniGame
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 1.466501
+LogStats: Stats thread started at 0.848956
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/libsndfile/Win64/libsndfile-1.dll' (GetLastError=126)
 LogWindows: File '../../../Engine/Binaries/ThirdParty/libsndfile/Win64/libsndfile-1.dll' does not exist
@@ -174,450 +174,1110 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2022.05.11-17.37.58:019][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2022.05.11-17.37.58:019][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2022.05.11-17.37.58:019][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
-[2022.05.11-17.37.58:019][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2022.05.11-17.37.58:019][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2022.05.11-17.37.58:019][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
-[2022.05.11-17.37.58:019][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
-[2022.05.11-17.37.58:019][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2022.05.11-17.37.58:019][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2022.05.11-17.37.58:020][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2022.05.11-17.37.58:020][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2022.05.11-17.37.58:020][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2022.05.11-17.37.58:020][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2022.05.11-17.37.58:020][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2022.05.11-17.37.58:020][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2022.05.11-17.37.58:020][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2022.05.11-17.37.58:020][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2022.05.11-17.37.58:020][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2022.05.11-17.37.58:020][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2022.05.11-17.37.58:020][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2022.05.11-17.37.58:020][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
-[2022.05.11-17.37.58:020][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2022.05.11-17.37.58:020][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2022.05.11-17.37.58:020][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2022.05.11-17.37.58:020][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2022.05.11-17.37.58:020][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2022.05.11-17.37.58:020][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2022.05.11-17.37.58:020][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2022.05.11-17.37.58:020][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2022.05.11-17.37.58:020][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2022.05.11-17.37.58:020][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2022.05.11-17.37.58:020][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2022.05.11-17.37.58:020][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2022.05.11-17.37.58:020][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2022.05.11-17.37.58:020][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
-[2022.05.11-17.37.58:020][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
-[2022.05.11-17.37.58:022][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.11-17.37.58:022][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2022.05.11-17.37.58:023][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2022.05.11-17.37.58:024][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2022.05.11-17.37.58:024][  0]LogInit: Selected Device Profile: [Windows]
-[2022.05.11-17.37.58:025][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2022.05.11-17.37.58:095][  0]LogHAL: Display: Platform has ~ 4 GB [4080635904 / 4294967296 / 4], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2022.05.11-17.37.58:095][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2022.05.11-17.37.58:095][  0]LogInit: Going up to parent DeviceProfile []
-[2022.05.11-17.37.58:095][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.11-17.37.58:095][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
-[2022.05.11-17.37.58:096][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.11-17.37.58:096][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
-[2022.05.11-17.37.58:097][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
-[2022.05.11-17.37.58:097][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
-[2022.05.11-17.37.58:097][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
-[2022.05.11-17.37.58:097][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
-[2022.05.11-17.37.58:097][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
-[2022.05.11-17.37.58:097][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
-[2022.05.11-17.37.58:097][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2022.05.11-17.37.58:097][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.11-17.37.58:097][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
-[2022.05.11-17.37.58:097][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
-[2022.05.11-17.37.58:097][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2022.05.11-17.37.58:097][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
-[2022.05.11-17.37.58:097][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
-[2022.05.11-17.37.58:097][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2022.05.11-17.37.58:097][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
-[2022.05.11-17.37.58:097][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
-[2022.05.11-17.37.58:097][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
-[2022.05.11-17.37.58:097][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
-[2022.05.11-17.37.58:097][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2022.05.11-17.37.58:097][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
-[2022.05.11-17.37.58:097][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
-[2022.05.11-17.37.58:097][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.11-17.37.58:097][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
-[2022.05.11-17.37.58:097][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
-[2022.05.11-17.37.58:097][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2022.05.11-17.37.58:135][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2022.05.11-17.37.58:135][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2022.05.11-17.37.58:135][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
-[2022.05.11-17.37.58:136][  0]LogInit: Computer: SONNY
-[2022.05.11-17.37.58:136][  0]LogInit: User: SonnyFixit
-[2022.05.11-17.37.58:136][  0]LogInit: CPU Page size=4096, Cores=2
-[2022.05.11-17.37.58:136][  0]LogInit: High frequency timer resolution =1.851273 MHz
-[2022.05.11-17.37.58:136][  0]LogMemory: Memory total: Physical=3.8GB (4GB approx)
-[2022.05.11-17.37.58:136][  0]LogMemory: Platform Memory Stats for Windows
-[2022.05.11-17.37.58:136][  0]LogMemory: Process Physical Memory: 94.77 MB used, 94.77 MB peak
-[2022.05.11-17.37.58:136][  0]LogMemory: Process Virtual Memory: 83.84 MB used, 83.84 MB peak
-[2022.05.11-17.37.58:136][  0]LogMemory: Physical Memory: 1489.24 MB used,  2402.36 MB free, 3891.60 MB total
-[2022.05.11-17.37.58:136][  0]LogMemory: Virtual Memory: 486.00 MB used,  134217240.00 MB free, 134217728.00 MB total
-[2022.05.11-17.37.58:895][  0]LogInit: Using OS detected language (pl-PL).
-[2022.05.11-17.37.58:895][  0]LogInit: Using OS detected locale (pl-PL).
-[2022.05.11-17.37.58:896][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
-[2022.05.11-17.37.58:897][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
-[2022.05.11-17.37.58:897][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
-[2022.05.11-17.37.58:897][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
-[2022.05.11-17.37.58:897][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
-[2022.05.11-17.37.58:898][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
-[2022.05.11-17.37.58:898][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
-[2022.05.11-17.37.58:898][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
-[2022.05.11-17.37.58:971][  0]LogInit: Setting process to per monitor DPI aware
-[2022.05.11-17.37.59:317][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2022.05.11-17.37.59:317][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2022.05.11-17.38.04:050][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2022.05.11-17.38.04:050][  0]LogD3D11RHI: D3D11 adapters:
-[2022.05.11-17.38.04:260][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 710M' (Feature Level 11_0)
-[2022.05.11-17.38.04:260][  0]LogD3D11RHI:       963/0/1945 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2022.05.11-17.38.04:290][  0]LogD3D11RHI:    1. 'NVIDIA GeForce 710M' (Feature Level 11_0)
-[2022.05.11-17.38.04:290][  0]LogD3D11RHI:       963/0/1945 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
-[2022.05.11-17.38.04:322][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2022.05.11-17.38.04:322][  0]LogD3D11RHI:       963/0/1945 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2022.05.11-17.38.04:322][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2022.05.11-17.38.04:332][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2022.05.11-17.38.04:332][  0]LogD3D11RHI:     GPU DeviceId: 0x1140 (for the marketing name, search the web for "GPU Device Id")
-[2022.05.11-17.38.04:332][  0]LogWindows: EnumDisplayDevices:
-[2022.05.11-17.38.04:332][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
-[2022.05.11-17.38.04:332][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
-[2022.05.11-17.38.04:333][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
-[2022.05.11-17.38.04:333][  0]LogWindows:    3. 'NVIDIA GeForce 710M' (P:0 D:0)
-[2022.05.11-17.38.04:333][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
-[2022.05.11-17.38.04:333][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 710M
-[2022.05.11-17.38.04:333][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
-[2022.05.11-17.38.04:333][  0]LogD3D11RHI:      Driver Date: 3-23-2018
-[2022.05.11-17.38.04:333][  0]LogRHI: Texture pool is 674 MB (70% of 963 MB)
-[2022.05.11-17.38.04:360][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
-[2022.05.11-17.38.04:360][  0]LogD3D11RHI: Async texture creation enabled
-[2022.05.11-17.38.04:367][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2022.05.11-17.38.04:368][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2022.05.11-17.38.04:368][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2022.05.11-17.38.04:383][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2022.05.11-17.38.06:096][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2022.05.11-17.38.06:137][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2022.05.11-17.38.06:176][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2022.05.11-17.38.06:218][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2022.05.11-17.38.06:307][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2022.05.11-17.38.06:433][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2022.05.11-17.38.06:477][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2022.05.11-17.38.06:519][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2022.05.11-17.38.06:544][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2022.05.11-17.38.06:717][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2022.05.11-17.38.06:717][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2022.05.11-17.38.06:717][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2022.05.11-17.38.06:717][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2022.05.11-17.38.06:717][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2022.05.11-17.38.06:717][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2022.05.11-17.38.06:717][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2022.05.11-17.38.06:717][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2022.05.11-17.38.06:717][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2022.05.11-17.38.06:717][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2022.05.11-17.38.06:717][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2022.05.11-17.38.06:718][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2022.05.11-17.38.06:718][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2022.05.11-17.38.06:718][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2022.05.11-17.38.06:718][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2022.05.11-17.38.06:718][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2022.05.11-17.38.06:718][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2022.05.11-17.38.06:718][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2022.05.11-17.38.06:730][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2022.05.11-17.38.06:867][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2022.05.11-17.38.06:867][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2022.05.11-17.38.06:938][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2022.05.11-17.38.06:938][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2022.05.11-17.38.06:971][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2022.05.11-17.38.06:996][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2022.05.11-17.38.07:024][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2022.05.11-17.38.07:072][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2022.05.11-17.38.07:216][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2022.05.11-17.38.07:217][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2022.05.11-17.38.07:217][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2022.05.11-17.38.07:312][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2022.05.11-17.38.07:918][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/Shaders/WorkingDirectory/6280/).
-[2022.05.11-17.38.07:918][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SonnyFixit/AppData/Local/Temp/UnrealShaderWorkingDir/374D888640F12480AB5B18A97381328D/'.
-[2022.05.11-17.38.07:936][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2022.05.11-17.38.07:936][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2022.05.11-17.38.07:936][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2022.05.11-17.38.11:970][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2022.05.11-17.38.12:101][  0]LogDerivedDataCache: Loaded boot cache 0.13s 83MB C:/Users/SonnyFixit/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2022.05.11-17.38.12:101][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/SonnyFixit/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2022.05.11-17.38.12:101][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2022.05.11-17.38.12:101][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2022.05.11-17.38.12:101][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2022.05.11-17.38.12:101][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2022.05.11-17.38.12:125][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2022.05.11-17.38.12:132][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
-[2022.05.11-17.38.12:144][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SonnyFixit/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2022.05.11-17.38.12:144][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2022.05.11-17.38.12:144][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2022.05.11-17.38.12:191][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2022.05.11-17.38.12:193][  0]LogSlate: Using FreeType 2.6.0
-[2022.05.11-17.38.12:193][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2022.05.11-17.38.13:680][  0]LogAssetRegistry: FAssetRegistry took 0.0446 seconds to start up
-[2022.05.11-17.38.14:388][  0]LogInit: Selected Device Profile: [Windows]
-[2022.05.11-17.38.14:485][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2022.05.11-17.38.14:485][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2022.05.11-17.38.14:485][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2022.05.11-17.38.14:485][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2022.05.11-17.38.14:485][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2022.05.11-17.38.14:668][  0]LogNetVersion: TanksMiniGame 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1412442164)
-[2022.05.11-17.38.15:475][  0]LogPackageLocalizationCache: Processed 16 localized package path(s) for 1 prioritized culture(s) in 0.089382 seconds
-[2022.05.11-17.38.15:485][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
-[2022.05.11-17.38.15:485][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
-[2022.05.11-17.38.15:485][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2022.05.11-17.38.32:182][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2022.05.11-17.38.32:198][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2022.05.11-17.38.32:499][  0]SourceControl: Source control is disabled
-[2022.05.11-17.38.32:499][  0]SourceControl: Source control is disabled
-[2022.05.11-17.38.32:504][  0]SourceControl: Source control is disabled
-[2022.05.11-17.38.32:506][  0]SourceControl: Source control is disabled
-[2022.05.11-17.38.34:124][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2022.05.11-17.38.34:230][  0]LogOcInput: OculusInput pre-init called
-[2022.05.11-17.38.45:288][  0]LogEngine: Initializing Engine...
-[2022.05.11-17.38.45:290][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2022.05.11-17.38.45:292][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2022.05.11-17.38.45:755][  0]LogInit: Initializing FReadOnlyCVARCache
-[2022.05.11-17.38.45:784][  0]LogAIModule: Creating AISystem for world Untitled
-[2022.05.11-17.38.45:812][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.05.11-17.38.45:968][  0]LogInit: FAudioDevice initialized.
-[2022.05.11-17.38.45:969][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2022.05.11-17.38.46:393][  0]LogDerivedDataCache: Saved boot cache 0.42s 84MB C:/Users/SonnyFixit/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2022.05.11-17.38.46:424][  0]LogInit: Texture streaming: Enabled
-[2022.05.11-17.38.46:459][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2022.05.11-17.38.46:459][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={3E65768A-4E22-7A81-B2FD-B9B3717D551B}
-[2022.05.11-17.38.46:459][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={67587B42-4248-0FD8-0470-39A3633C2DFE}
-[2022.05.11-17.38.46:459][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={7A174E7B-4AC7-8B07-16D4-D6A1C04D5B4A}
-[2022.05.11-17.38.46:516][  0]LogInit: Transaction tracking system initialized
-[2022.05.11-17.38.46:571][  0]BlueprintLog: New page: Editor Load
-[2022.05.11-17.38.46:741][  0]LocalizationService: Localization service is disabled
-[2022.05.11-17.38.48:567][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/' took 0.02s
-[2022.05.11-17.38.48:567][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2022.05.11-17.38.48:567][  0]LogCook: Display: Mobile HDR setting 1
-[2022.05.11-17.38.52:309][  0]SourceControl: Source control is disabled
-[2022.05.11-17.38.52:310][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2022.05.11-17.38.52:310][  0]LightingResults: New page: Lighting Build
-[2022.05.11-17.38.52:314][  0]MapCheck: New page: Map Check
-[2022.05.11-17.38.52:314][  0]LightingResults: New page: Lighting Build
-[2022.05.11-17.38.52:355][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
-[2022.05.11-17.38.52:521][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2022.05.11-17.38.52:530][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2022.05.11-17.38.52:590][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
-[2022.05.11-17.38.52:590][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2022.05.11-17.38.52:591][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,19ms to complete.
-[2022.05.11-17.38.52:591][  0]LogFileHelpers: Loading map 'Template_Default' took 0.282
-[2022.05.11-17.38.53:208][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2022.05.11-17.38.53:371][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2022.05.11-17.38.53:385][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2022.05.11-17.38.53:399][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2022.05.11-17.38.53:489][  0]LogCollectionManager: Loaded 0 collections in 0.002183 seconds
-[2022.05.11-17.38.53:626][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Collections/' took 0.01s
-[2022.05.11-17.38.53:626][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Developers/SonnyFixit/Collections/' took 0.00s
-[2022.05.11-17.38.53:626][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Collections/' took 0.00s
-[2022.05.11-17.38.53:626][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2022.05.11-17.38.53:645][  0]LogContentBrowser: Native class hierarchy populated in 0.0175 seconds. Added 2866 classes and 728 folders.
-[2022.05.11-17.38.53:785][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2022.05.11-17.38.53:928][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.53:990][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.54:060][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.54:084][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.54:102][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.54:185][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.54:195][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.54:229][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.54:262][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.54:291][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.54:329][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.54:344][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.54:379][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.54:418][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.54:474][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.54:512][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.54:592][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.54:725][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.54:777][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.54:798][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.54:906][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.55:080][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.55:121][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.55:203][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.55:292][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.55:343][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.55:380][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.55:491][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2022.05.11-17.38.58:717][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2022.05.11-17.38.58:825][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0171 seconds. Added 1 classes and 0 folders.
-[2022.05.11-17.38.58:961][  0]LogSlate: Took 0.000455 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2022.05.11-17.38.58:966][  0]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2022.05.11-17.38.59:051][  0]LogSlate: Took 0.037175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2022.05.11-17.38.59:925][  0]LogRenderer: Reallocating scene render targets to support 856x372 Format 9 NumSamples 1 (Frame:1).
-[2022.05.11-17.39.00:704][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2022.05.11-17.39.00:704][  0]LogLoad: (Engine Initialization) Total time: 79.54 seconds
-[2022.05.11-17.39.00:704][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.01 seconds
-[2022.05.11-17.39.00:877][  0]LogContentStreaming: Texture pool size now 400 MB
-[2022.05.11-17.39.01:062][  1]LogAssetRegistry: Asset discovery search completed in 47.4045 seconds
-[2022.05.11-17.39.01:160][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2022.05.11-17.39.01:160][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000130 seconds (updated 0 objects)
-[2022.05.11-17.39.05:117][154]LogSlate: Took 0.031483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2022.05.11-17.39.06:664][239]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2022.05.11-17.39.08:242][326]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2022.05.11-17.39.09:179][326]LogAIModule: Creating AISystem for world Main
-[2022.05.11-17.39.09:200][326]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Main.Main
-[2022.05.11-17.39.09:272][326]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
-[2022.05.11-17.39.09:274][326]Cmd: MAP LOAD FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2022.05.11-17.39.09:274][326]LightingResults: New page: Lighting Build
-[2022.05.11-17.39.09:275][326]LoadErrors: New page: Loading map: Main.umap
-[2022.05.11-17.39.09:275][326]MapCheck: New page: Map Check
-[2022.05.11-17.39.09:276][326]LightingResults: New page: Lighting Build
-[2022.05.11-17.39.09:315][326]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
-[2022.05.11-17.39.09:345][326]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2022.05.11-17.39.09:385][326]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
-[2022.05.11-17.39.09:479][326]Cmd: MAP CHECKDEP NOCLEARLOG
-[2022.05.11-17.39.09:481][326]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,629ms to complete.
-[2022.05.11-17.39.09:481][326]LogFileHelpers: Loading map 'Main' took 0.209
-[2022.05.11-17.39.19:128][882]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2022.05.11-17.39.19:128][882]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
-[2022.05.11-17.39.20:410][882]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 121 classes and 0 folders.
-[2022.05.11-17.39.26:839][ 77]LogSlate: Window 'BP_PawnTank' being destroyed
-[2022.05.11-17.39.26:983][ 77]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
-[2022.05.11-17.39.27:994][ 77]LogSlate: Took 0.023257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2022.05.11-17.39.29:897][147]LogSlate: Took 0.030888 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2022.05.11-17.39.34:582][369]LogRenderer: Reallocating scene render targets to support 856x588 Format 9 NumSamples 1 (Frame:1).
-[2022.05.11-17.40.05:464][426]LogSlate: Window 'BP_PawnTank' being destroyed
-[2022.05.11-17.40.05:467][426]LogSlate: Window 'BP_PawnTank' being destroyed
-[2022.05.11-17.40.13:833][918]LogAssetEditorManager: Opening Asset editor for Class /Script/TanksMiniGame.BasePawn
-[2022.05.11-17.45.09:552][135]LogVSAccessor: Couldn't get item operations. Visual Studio may still be initializing.
-[2022.05.11-17.45.09:566][136]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
-[2022.05.11-17.45.09:566][136]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
-[2022.05.11-17.45.09:566][136]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
-[2022.05.11-17.45.09:566][136]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
-[2022.05.11-17.45.09:570][136]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2022.05.11-17.46.00:901][261]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (51.335 sec). This should never happen. Something is wrong with the timer delegate!
-[2022.05.11-17.50.00:728][135]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (50.474 sec). This should never happen. Something is wrong with the timer delegate!
-[2022.05.11-17.50.52:666][354]Candidate modules for hot reload:
-[2022.05.11-17.50.52:666][354]  TanksMiniGame
-[2022.05.11-17.50.52:921][354]Launching UnrealBuildTool... [E:/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TanksMiniGame,2491 Win64 Development -TargetType=Editor -Project="E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/TanksMiniGame.uproject" "E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/TanksMiniGame.uproject"  -IgnoreJunk]
-[2022.05.11-17.53.24:296][354]Warning: Starting HotReload took 172.6s.
-[2022.05.11-17.53.26:487][355]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
-[2022.05.11-17.53.26:487][355]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
-[2022.05.11-17.54.01:034][457]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (34.547 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.05.13-14.11.55:610][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.05.13-14.11.55:610][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.05.13-14.11.55:610][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.05.13-14.11.55:610][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.05.13-14.11.55:610][  0]LogInit: Selected Device Profile: [Windows]
+[2022.05.13-14.11.55:610][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.05.13-14.11.55:750][  0]LogHAL: Display: Platform has ~ 4 GB [4080635904 / 4294967296 / 4], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2022.05.13-14.11.55:750][  0]LogInit: Going up to parent DeviceProfile []
+[2022.05.13-14.11.55:750][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2022.05.13-14.11.55:750][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.05.13-14.11.55:797][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.05.13-14.11.55:797][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.05.13-14.11.55:797][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.05.13-14.11.55:803][  0]LogInit: Computer: SONNY
+[2022.05.13-14.11.55:803][  0]LogInit: User: SonnyFixit
+[2022.05.13-14.11.55:803][  0]LogInit: CPU Page size=4096, Cores=2
+[2022.05.13-14.11.55:803][  0]LogInit: High frequency timer resolution =1.851267 MHz
+[2022.05.13-14.11.55:803][  0]LogMemory: Memory total: Physical=3.8GB (4GB approx)
+[2022.05.13-14.11.55:803][  0]LogMemory: Platform Memory Stats for Windows
+[2022.05.13-14.11.55:803][  0]LogMemory: Process Physical Memory: 94.71 MB used, 94.71 MB peak
+[2022.05.13-14.11.55:803][  0]LogMemory: Process Virtual Memory: 83.81 MB used, 83.81 MB peak
+[2022.05.13-14.11.55:803][  0]LogMemory: Physical Memory: 1769.38 MB used,  2122.21 MB free, 3891.60 MB total
+[2022.05.13-14.11.55:803][  0]LogMemory: Virtual Memory: 486.00 MB used,  134217240.00 MB free, 134217728.00 MB total
+[2022.05.13-14.11.56:659][  0]LogInit: Using OS detected language (pl-PL).
+[2022.05.13-14.11.56:659][  0]LogInit: Using OS detected locale (pl-PL).
+[2022.05.13-14.11.56:701][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
+[2022.05.13-14.11.56:701][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
+[2022.05.13-14.11.56:702][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
+[2022.05.13-14.11.56:702][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
+[2022.05.13-14.11.56:702][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
+[2022.05.13-14.11.56:711][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
+[2022.05.13-14.11.56:714][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
+[2022.05.13-14.11.56:714][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
+[2022.05.13-14.11.56:781][  0]LogInit: Setting process to per monitor DPI aware
+[2022.05.13-14.11.57:088][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.05.13-14.11.57:088][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.05.13-14.12.02:343][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.05.13-14.12.02:343][  0]LogD3D11RHI: D3D11 adapters:
+[2022.05.13-14.12.02:828][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 710M' (Feature Level 11_0)
+[2022.05.13-14.12.02:828][  0]LogD3D11RHI:       963/0/1945 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.05.13-14.12.02:859][  0]LogD3D11RHI:    1. 'NVIDIA GeForce 710M' (Feature Level 11_0)
+[2022.05.13-14.12.02:859][  0]LogD3D11RHI:       963/0/1945 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2022.05.13-14.12.02:861][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.05.13-14.12.02:862][  0]LogD3D11RHI:       963/0/1945 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.05.13-14.12.02:862][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.05.13-14.12.02:871][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.05.13-14.12.02:871][  0]LogD3D11RHI:     GPU DeviceId: 0x1140 (for the marketing name, search the web for "GPU Device Id")
+[2022.05.13-14.12.02:871][  0]LogWindows: EnumDisplayDevices:
+[2022.05.13-14.12.02:871][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2022.05.13-14.12.02:872][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2022.05.13-14.12.02:872][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2022.05.13-14.12.02:872][  0]LogWindows:    3. 'NVIDIA GeForce 710M' (P:0 D:0)
+[2022.05.13-14.12.02:872][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2022.05.13-14.12.02:872][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 710M
+[2022.05.13-14.12.02:872][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
+[2022.05.13-14.12.02:872][  0]LogD3D11RHI:      Driver Date: 3-23-2018
+[2022.05.13-14.12.02:873][  0]LogRHI: Texture pool is 674 MB (70% of 963 MB)
+[2022.05.13-14.12.02:899][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2022.05.13-14.12.02:899][  0]LogD3D11RHI: Async texture creation enabled
+[2022.05.13-14.12.02:906][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2022.05.13-14.12.02:907][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2022.05.13-14.12.02:907][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2022.05.13-14.12.02:923][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2022.05.13-14.12.05:398][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2022.05.13-14.12.05:484][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2022.05.13-14.12.05:568][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2022.05.13-14.12.05:711][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2022.05.13-14.12.05:883][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2022.05.13-14.12.06:037][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2022.05.13-14.12.06:114][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2022.05.13-14.12.06:200][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2022.05.13-14.12.06:282][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2022.05.13-14.12.06:545][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2022.05.13-14.12.06:545][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2022.05.13-14.12.06:545][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2022.05.13-14.12.06:545][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2022.05.13-14.12.06:545][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2022.05.13-14.12.06:545][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2022.05.13-14.12.06:545][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2022.05.13-14.12.06:545][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2022.05.13-14.12.06:545][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2022.05.13-14.12.06:545][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2022.05.13-14.12.06:545][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2022.05.13-14.12.06:545][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2022.05.13-14.12.06:545][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2022.05.13-14.12.06:545][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2022.05.13-14.12.06:545][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2022.05.13-14.12.06:545][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2022.05.13-14.12.06:545][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2022.05.13-14.12.06:545][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2022.05.13-14.12.06:608][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2022.05.13-14.12.07:048][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2022.05.13-14.12.07:048][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2022.05.13-14.12.07:150][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2022.05.13-14.12.07:150][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2022.05.13-14.12.07:271][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2022.05.13-14.12.07:376][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2022.05.13-14.12.07:471][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2022.05.13-14.12.07:669][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2022.05.13-14.12.07:815][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2022.05.13-14.12.07:815][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2022.05.13-14.12.07:815][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.05.13-14.12.08:274][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.05.13-14.12.10:097][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/Shaders/WorkingDirectory/3996/).
+[2022.05.13-14.12.10:097][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SonnyFixit/AppData/Local/Temp/UnrealShaderWorkingDir/BB551B634B5F1CB458DE8A8E2CEC0D47/'.
+[2022.05.13-14.12.10:100][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.05.13-14.12.10:100][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.05.13-14.12.10:100][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.05.13-14.12.15:091][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.05.13-14.12.16:452][  0]LogDerivedDataCache: Loaded boot cache 1.36s 72MB C:/Users/SonnyFixit/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2022.05.13-14.12.16:452][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/SonnyFixit/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2022.05.13-14.12.16:452][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.05.13-14.12.16:452][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.05.13-14.12.16:452][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.05.13-14.12.16:452][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.05.13-14.12.16:519][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.05.13-14.12.16:564][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2022.05.13-14.12.16:577][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SonnyFixit/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.05.13-14.12.16:577][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.05.13-14.12.16:577][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.05.13-14.12.16:635][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2022.05.13-14.12.16:637][  0]LogSlate: Using FreeType 2.6.0
+[2022.05.13-14.12.16:683][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.05.13-14.12.18:790][  0]LogAssetRegistry: FAssetRegistry took 0.0456 seconds to start up
+[2022.05.13-14.12.19:581][  0]LogInit: Selected Device Profile: [Windows]
+[2022.05.13-14.12.22:392][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.05.13-14.12.22:392][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.05.13-14.12.22:392][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.05.13-14.12.22:392][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.05.13-14.12.22:392][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.05.13-14.12.22:765][  0]LogNetVersion: TanksMiniGame 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1412442164)
+[2022.05.13-14.12.26:396][  0]LogPackageLocalizationCache: Processed 16 localized package path(s) for 1 prioritized culture(s) in 0.215866 seconds
+[2022.05.13-14.12.26:409][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2022.05.13-14.12.26:409][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2022.05.13-14.12.26:409][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.05.13-14.12.54:033][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.05.13-14.12.54:177][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.05.13-14.12.55:571][  0]SourceControl: Source control is disabled
+[2022.05.13-14.12.55:571][  0]SourceControl: Source control is disabled
+[2022.05.13-14.12.55:757][  0]SourceControl: Source control is disabled
+[2022.05.13-14.12.55:831][  0]SourceControl: Source control is disabled
+[2022.05.13-14.13.00:594][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.05.13-14.13.01:133][  0]LogOcInput: OculusInput pre-init called
+[2022.05.13-14.13.13:785][  0]LogEngine: Initializing Engine...
+[2022.05.13-14.13.13:787][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.05.13-14.13.13:789][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.05.13-14.13.15:928][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.05.13-14.13.16:040][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.05.13-14.13.16:220][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.05.13-14.13.16:450][  0]LogInit: FAudioDevice initialized.
+[2022.05.13-14.13.16:451][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.05.13-14.13.16:839][  0]LogDerivedDataCache: Saved boot cache 0.39s 72MB C:/Users/SonnyFixit/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2022.05.13-14.13.16:859][  0]LogInit: Texture streaming: Enabled
+[2022.05.13-14.13.17:323][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.05.13-14.13.17:893][  0]LogInit: Transaction tracking system initialized
+[2022.05.13-14.13.18:608][  0]BlueprintLog: New page: Editor Load
+[2022.05.13-14.13.21:247][  0]LocalizationService: Localization service is disabled
+[2022.05.13-14.13.27:110][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/' took 0.02s
+[2022.05.13-14.13.27:110][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.05.13-14.13.27:110][  0]LogCook: Display: Mobile HDR setting 1
+[2022.05.13-14.13.53:214][  0]SourceControl: Source control is disabled
+[2022.05.13-14.13.53:572][  0]LogSlate: Took 0.028170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.05.13-14.14.35:141][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2022.05.13-14.14.35:158][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.05.13-14.14.35:160][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.05.13-14.14.40:779][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2022.05.13-14.14.40:779][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.05.13-14.14.40:781][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.05.13-14.14.40:891][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.05.13-14.14.40:903][  0]LightingResults: New page: Lighting Build
+[2022.05.13-14.14.40:965][  0]MapCheck: New page: Map Check
+[2022.05.13-14.14.40:965][  0]LightingResults: New page: Lighting Build
+[2022.05.13-14.14.41:175][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2022.05.13-14.14.41:653][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2022.05.13-14.14.41:701][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.05.13-14.14.41:743][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2022.05.13-14.14.41:744][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.05.13-14.14.41:744][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,231ms to complete.
+[2022.05.13-14.14.41:744][  0]LogFileHelpers: Loading map 'Template_Default' took 0.853
+[2022.05.13-14.14.43:640][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.13-14.14.43:776][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.13-14.14.43:791][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.13-14.14.43:805][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.13-14.14.44:078][  0]LogCollectionManager: Loaded 0 collections in 0.002201 seconds
+[2022.05.13-14.14.44:442][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Collections/' took 0.01s
+[2022.05.13-14.14.44:442][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Developers/SonnyFixit/Collections/' took 0.01s
+[2022.05.13-14.14.44:442][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Collections/' took 0.00s
+[2022.05.13-14.14.44:442][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2022.05.13-14.14.44:480][  0]LogContentBrowser: Native class hierarchy populated in 0.0220 seconds. Added 2866 classes and 728 folders.
+[2022.05.13-14.14.44:716][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2022.05.13-14.14.44:902][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:028][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:129][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:182][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:200][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:220][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:229][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:259][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:280][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:333][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:382][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:396][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:406][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:437][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:462][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:477][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:555][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:599][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:643][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:670][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:714][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:742][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:819][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:850][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:884][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:907][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:941][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.45:963][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.13-14.14.47:594][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2022.05.13-14.14.47:764][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2022.05.13-14.14.48:780][  0]LogSlate: Took 0.025562 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.05.13-14.14.49:007][  0]LogSlate: Took 0.029949 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.05.13-14.14.49:649][  0]LogRenderer: Reallocating scene render targets to support 856x372 Format 9 NumSamples 1 (Frame:1).
+[2022.05.13-14.14.50:469][  0]LogSlate: Took 0.038066 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.05.13-14.14.51:117][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2022.05.13-14.14.51:117][  0]LogLoad: (Engine Initialization) Total time: 208.37 seconds
+[2022.05.13-14.14.51:117][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.01 seconds
+[2022.05.13-14.14.51:261][  0]LogContentStreaming: Texture pool size now 400 MB
+[2022.05.13-14.14.51:485][  1]LogAssetRegistry: Asset discovery search completed in 152.7182 seconds
+[2022.05.13-14.14.51:525][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2022.05.13-14.14.51:525][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000132 seconds (updated 0 objects)
+[2022.05.13-14.14.53:130][  3]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.05.13-14.14.57:684][264]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.05.13-14.14.58:474][271]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2022.05.13-14.15.00:581][271]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 121 classes and 0 folders.
+[2022.05.13-14.15.05:093][271]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2022.05.13-14.15.12:231][461]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2022.05.13-14.15.13:556][461]LogSlate: Took 0.017015 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.05.13-14.15.16:703][564]LogSlate: Took 0.023941 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.05.13-14.15.18:253][631]LogRenderer: Reallocating scene render targets to support 856x588 Format 9 NumSamples 1 (Frame:1).
+[2022.05.13-14.15.34:669][194]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.05.13-14.15.43:753][683]LogAIModule: Creating AISystem for world Main
+[2022.05.13-14.15.43:826][683]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Main.Main
+[2022.05.13-14.15.44:039][683]LogUObjectHash: Compacting FUObjectHashTables data took   7.17ms
+[2022.05.13-14.15.44:069][683]Cmd: MAP LOAD FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.05.13-14.15.44:070][683]LightingResults: New page: Lighting Build
+[2022.05.13-14.15.44:071][683]LoadErrors: New page: Loading map: Main.umap
+[2022.05.13-14.15.44:072][683]MapCheck: New page: Map Check
+[2022.05.13-14.15.44:072][683]LightingResults: New page: Lighting Build
+[2022.05.13-14.15.44:148][683]LogUObjectHash: Compacting FUObjectHashTables data took   5.12ms
+[2022.05.13-14.15.44:202][683]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.05.13-14.15.44:263][683]LogUObjectHash: Compacting FUObjectHashTables data took   4.49ms
+[2022.05.13-14.15.44:358][683]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.05.13-14.15.44:361][683]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,833ms to complete.
+[2022.05.13-14.15.44:361][683]LogFileHelpers: Loading map 'Main' took 0.320
+[2022.05.13-14.16.45:135][605]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.05.13-14.16.50:211][812]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.05.13-14.17.16:000][713]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.05.13-14.17.43:335][730]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.05.13-14.17.43:500][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTurret" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTurret.uasset" SILENT=true
+[2022.05.13-14.17.43:951][730]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/BP_PawnTurret6FE55AEC4D2C5A307DBBC59A638FC065.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTurret.uasset'
+[2022.05.13-14.18.27:890][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTurret" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTurret.uasset" SILENT=true
+[2022.05.13-14.18.27:967][553]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/BP_PawnTurret5999BDF1445BBD969F7C60A512CAB40A.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTurret.uasset'
+[2022.05.13-14.18.58:692][828]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.05.13-14.18.58:738][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTurret" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTurret.uasset" SILENT=true
+[2022.05.13-14.18.58:778][828]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/BP_PawnTurret07C5E95041256C4BD1F084A94419BA31.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTurret.uasset'
+[2022.05.13-14.19.07:613][148]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.05.13-14.19.11:222][273]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.05.13-14.19.11:266][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTurret" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTurret.uasset" SILENT=true
+[2022.05.13-14.19.11:306][273]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/BP_PawnTurret09C56CEE4DBF5E94863606B5E38F32B6.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTurret.uasset'
+[2022.05.13-14.20.24:470][704]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2022.05.13-14.20.27:631][859]Cmd: TRANSACTION UNDO
+[2022.05.13-14.20.27:631][859]LogEditorTransaction: Undo Move Actors
+[2022.05.13-14.20.29:564][963]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.05.13-14.20.29:587][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.05.13-14.20.29:656][963]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2022.05.13-14.20.30:655][963]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Main3D2B872D4E9BFA561B36009A4C48A252.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Maps/Main.umap'
+[2022.05.13-14.20.30:764][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2022.05.13-14.20.30:916][963]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Main_BuiltData0379505648F4641FD23CCFBD66C47222.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Maps/Main_BuiltData.uasset'
+[2022.05.13-14.20.34:982][203]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.05.13-14.20.50:234][950]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.05.13-14.20.59:809][475]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.05.13-14.21.01:484][575]Cmd: MODE GRID=0
+[2022.05.13-14.21.06:232][813]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.05.13-14.21.06:332][819]Cmd: MODE GRID=1
+[2022.05.13-14.21.09:180][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.05.13-14.21.09:244][984]LogUObjectHash: Compacting FUObjectHashTables data took   5.02ms
+[2022.05.13-14.21.09:588][984]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Main266538FC4CF2B14061103795269A6082.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Maps/Main.umap'
+[2022.05.13-14.21.09:693][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2022.05.13-14.21.09:776][984]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Main_BuiltData9DB3D1B74FA1A337D0F1AA8F4EE373B6.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Maps/Main_BuiltData.uasset'
+[2022.05.13-14.21.12:243][112]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.05.13-14.21.21:434][386]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2022.05.13-14.21.33:953][786]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.05.13-14.21.34:053][790]Cmd: MODE GRID=0
+[2022.05.13-14.21.41:385][  1]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.05.13-14.21.41:509][  6]Cmd: MODE GRID=1
+[2022.05.13-14.21.50:930][223]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.05.13-14.21.50:979][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2022.05.13-14.21.51:080][223]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/BP_PawnTank879150B04F5CD202D100EF9BE7357D8E.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2022.05.13-14.21.52:157][257]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.05.13-14.22.09:758][813]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.05.13-14.22.09:779][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2022.05.13-14.22.09:805][813]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/BP_PawnTank6416CC0F4348A1433FD5C2B9B1436115.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2022.05.13-14.22.46:617][981]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.05.13-14.22.46:743][985]LogSlate: Window 'BP_PawnTank' being destroyed
+[2022.05.13-14.22.46:746][985]LogSlate: Window 'BP_PawnTank' being destroyed
+[2022.05.13-14.22.46:912][985]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.05.13-14.22.48:549][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.05.13-14.23.41:709][448]Running E:/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/TanksMiniGame.uproject" -game -rocket -progress
+[2022.05.13-14.23.43:221][448]Discovering modules, targets and source code for project...
+[2022.05.13-14.23.53:980][448]Binding IntelliSense data...
+[2022.05.13-14.23.56:793][448]WARNING: Exception while generating include data for UE4Editor: Could not find definition for module 'Distorm' (referenced via allmodules option -> LiveCodingServer.Build.cs)
+[2022.05.13-14.23.57:903][448]Binding IntelliSense data... 100%
+[2022.05.13-14.23.58:004][448]Writing project files...
+[2022.05.13-14.24.04:935][448]Writing project files... 100%
+[2022.05.13-14.24.05:213][448]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.05.13-14.24.05:257][448]Candidate modules for hot reload:
+[2022.05.13-14.24.05:257][448]  TanksMiniGame
+[2022.05.13-14.24.05:257][448]Launching UnrealBuildTool... [E:/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TanksMiniGame,8777 Win64 Development -TargetType=Editor -Project="E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/TanksMiniGame.uproject" "E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/TanksMiniGame.uproject"  -IgnoreJunk]
+[2022.05.13-14.28.01:697][448]CompilerResultsLog: New page: Compilation - 13 maj 2022, 18:28:01
+[2022.05.13-14.28.01:708][448]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\GitHub\UnrealProjects\Tanks\TanksGame).
+[2022.05.13-14.28.01:708][448]CompilerResultsLog: Creating makefile for TanksMiniGameEditor (no existing makefile)
+[2022.05.13-14.28.01:709][448]CompilerResultsLog: Parsing headers for TanksMiniGameEditor
+[2022.05.13-14.28.01:709][448]CompilerResultsLog:   Running UnrealHeaderTool "E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\TanksMiniGame.uproject" "E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\TanksMiniGameEditor\Development\TanksMiniGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2022.05.13-14.28.01:709][448]CompilerResultsLog: Reflection code generated for TanksMiniGameEditor in 61,9442565 seconds
+[2022.05.13-14.28.01:709][448]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.13-14.28.01:709][448]CompilerResultsLog: Building 6 actions with 4 processes...
+[2022.05.13-14.28.01:709][448]CompilerResultsLog:   [1/6] TanksMiniGame.init.gen.cpp
+[2022.05.13-14.28.01:709][448]CompilerResultsLog:   [2/6] Tank.cpp
+[2022.05.13-14.28.01:709][448]CompilerResultsLog:   [3/6] Tank.gen.cpp
+[2022.05.13-14.28.01:709][448]CompilerResultsLog:   [4/6] UE4Editor-TanksMiniGame-8777.lib
+[2022.05.13-14.28.01:709][448]CompilerResultsLog:      Trwa tworzenie biblioteki E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-8777.lib i obiektu E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-8777.exp
+[2022.05.13-14.28.01:709][448]CompilerResultsLog:   [5/6] UE4Editor-TanksMiniGame-8777.dll
+[2022.05.13-14.28.01:709][448]CompilerResultsLog:      Trwa tworzenie biblioteki E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-8777.suppressed.lib i obiektu E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-8777.suppressed.exp
+[2022.05.13-14.28.01:710][448]CompilerResultsLog:   [6/6] TanksMiniGameEditor.target
+[2022.05.13-14.28.01:710][448]CompilerResultsLog: Total time in Parallel executor: 165,15 seconds
+[2022.05.13-14.28.01:710][448]CompilerResultsLog: Total execution time: 236,17 seconds
+[2022.05.13-14.28.01:731][448]LogMainFrame: MainFrame: Module compiling took 236.518 seconds
+[2022.05.13-14.28.01:825][448]LogUObjectHash: Compacting FUObjectHashTables data took   5.93ms
+[2022.05.13-14.28.01:963][448]LogClass: Could not find existing class Tank in package /Script/TanksMiniGame for HotReload, assuming new class
+[2022.05.13-14.28.01:972][448]LogContentBrowser: Native class hierarchy updated for 'TanksMiniGame' in 0.0007 seconds. Added 3 classes and 2 folders.
+[2022.05.13-14.28.01:978][448]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.05.13-14.28.02:234][448]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2022.05.13-14.28.02:271][448]LogContentBrowser: Native class hierarchy populated in 0.0180 seconds. Added 2867 classes and 728 folders.
+[2022.05.13-14.28.02:323][448]Display: HotReload took 237.1s.
+[2022.05.13-14.28.02:324][448]Warning: HotReload operation took 237.1s.
+[2022.05.13-14.28.04:562][448]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.05.13-14.28.05:302][448]LogHotReload: New module detected: UE4Editor-TanksMiniGame-8777.dll
+[2022.05.13-14.28.06:186][449]LogHotReload: Starting Hot-Reload from IDE
+[2022.05.13-14.28.06:354][449]LogUObjectHash: Compacting FUObjectHashTables data took   8.21ms
+[2022.05.13-14.28.06:361][449]LogContentBrowser: Native class hierarchy updated for 'TanksMiniGame' in 0.0006 seconds. Added 3 classes and 2 folders.
+[2022.05.13-14.28.06:366][449]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.05.13-14.28.06:454][449]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2022.05.13-14.28.06:486][449]LogContentBrowser: Native class hierarchy populated in 0.0179 seconds. Added 2867 classes and 728 folders.
+[2022.05.13-14.28.06:489][449]Display: HotReload took  0.3s.
+[2022.05.13-14.28.06:493][449]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.13-14.28.06:494][449]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.13-14.28.06:494][449]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.13-14.28.06:494][449]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.13-14.28.51:250][976]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (44.756 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.13-14.34.56:346][ 21]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.13-14.34.56:346][ 21]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.13-14.34.56:346][ 21]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.13-14.34.56:346][ 21]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.13-14.34.56:346][ 21]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.13-14.36.25:712][136]LogUObjectHash: Compacting FUObjectHashTables data took   7.64ms
+[2022.05.13-14.36.25:863][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Autosaves/Game/Maps/Main_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.05.13-14.36.32:640][136]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Main_Auto1E5AD65104515073C2ABB54976D2CC12B.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Autosaves/Game/Maps/Main_Auto1.umap'
+[2022.05.13-14.36.33:376][136]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 7.786
+[2022.05.13-14.36.33:376][136]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 7.786
+[2022.05.13-14.36.51:256][186]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (16.437 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.13-14.54.33:933][571]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2022.05.13-15.06.51:633][482]LogUObjectHash: Compacting FUObjectHashTables data took   7.27ms
+[2022.05.13-15.06.51:683][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Autosaves/Game/Maps/Main_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.05.13-15.06.56:210][482]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Main_Auto265638E7A48CE53532E05E8920E280A92.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Autosaves/Game/Maps/Main_Auto2.umap'
+[2022.05.13-15.06.57:336][482]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 5.974
+[2022.05.13-15.06.57:336][482]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 5.974
+[2022.05.13-15.06.57:342][482]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pawns/BP_PawnTank] ([1] browsable assets)...
+[2022.05.13-15.06.57:625][482]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank]
+[2022.05.13-15.06.57:625][482]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pawns/BP_PawnTank]
+[2022.05.13-15.06.59:126][482]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/BP_PawnTank_Auto2965529C14E300D9C38C348AC384A8E78.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Autosaves/Game/Blueprints/Pawns/BP_PawnTank_Auto2.uasset'
+[2022.05.13-15.06.59:127][482]LogFileHelpers: Auto-saving content packages took 1.786
+[2022.05.13-15.06.59:759][483]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.13-15.07.51:224][636]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (51.464 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.13-15.19.26:164][553]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.05.13-15.19.36:533][988]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank from BasePawn to Tank...
+[2022.05.13-15.19.36:604][988]BlueprintLog: New page: Compile BP_PawnTank
+[2022.05.13-15.19.37:361][988]LogUObjectHash: Compacting FUObjectHashTables data took   6.89ms
+[2022.05.13-15.19.44:317][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2022.05.13-15.19.44:696][216]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/BP_PawnTank4DD4865049E04D1176F58684C35FEC86.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2022.05.13-15.20.10:270][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2022.05.13-15.20.10:271][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Autosaves/Game/Maps/Main_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.05.13-15.20.10:785][ 97]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Main_Auto3DE9914934C7869D597BA3DA92B9489BD.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Autosaves/Game/Maps/Main_Auto3.umap'
+[2022.05.13-15.20.10:796][ 97]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.584
+[2022.05.13-15.20.10:796][ 97]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.584
+[2022.05.13-15.24.26:917][902]LogHotReload: New module detected: UE4Editor-TanksMiniGame-0007.dll
+[2022.05.13-15.24.32:530][920]LogHotReload: Starting Hot-Reload from IDE
+[2022.05.13-15.24.32:667][920]LogUObjectHash: Compacting FUObjectHashTables data took   5.94ms
+[2022.05.13-15.24.44:868][920]LogClass: Could not find existing class Tank in package /Script/TanksMiniGame for HotReload, assuming new class
+[2022.05.13-15.24.45:482][920]LogHotReload: Re-instancing Tank after hot-reload.
+[2022.05.13-15.24.47:121][920]LogContentBrowser: Native class hierarchy updated for 'TanksMiniGame' in 0.0930 seconds. Added 3 classes and 2 folders.
+[2022.05.13-15.24.47:204][920]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.05.13-15.24.47:997][920]LogUObjectHash: Compacting FUObjectHashTables data took   6.06ms
+[2022.05.13-15.24.48:655][920]LogContentBrowser: Native class hierarchy populated in 0.0188 seconds. Added 2867 classes and 728 folders.
+[2022.05.13-15.24.48:925][920]Display: HotReload took 16.4s.
+[2022.05.13-15.29.05:324][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2022.05.13-15.29.05:951][726]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/BP_PawnTankAC1A2FBC4BDB7F82A6E76A9576FD3365.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2022.05.13-15.29.33:686][629]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.05.13-15.30.19:070][974]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.05.13-15.30.19:109][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2022.05.13-15.30.19:212][974]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/BP_PawnTank156BC5D648ADDEB5D1F3BFB221034797.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2022.05.13-15.30.43:985][801]LogUObjectHash: Compacting FUObjectHashTables data took   8.44ms
+[2022.05.13-15.30.43:986][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Autosaves/Game/Maps/Main_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.05.13-15.30.44:560][801]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Main_Auto4C010DD2E4A88911C0DD50D9E53A9DA64.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Autosaves/Game/Maps/Main_Auto4.umap'
+[2022.05.13-15.30.44:564][801]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.736
+[2022.05.13-15.30.44:564][801]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.736
+[2022.05.13-15.45.55:182][210]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.05.13-15.46.11:616][185]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.05.13-15.46.16:814][427]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.05.13-15.46.16:826][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.05.13-15.46.17:807][427]LogUObjectHash: Compacting FUObjectHashTables data took   8.46ms
+[2022.05.13-15.46.21:959][427]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Main4A5D6356448C868C2816FA8C0581C232.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Maps/Main.umap'
+[2022.05.13-15.46.22:758][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2022.05.13-15.46.23:392][427]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Main_BuiltData43410D754A2C540E92306EBF28E19FBE.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Maps/Main_BuiltData.uasset'
+[2022.05.13-15.52.27:408][514]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.05.13-15.52.27:421][514]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.05.13-15.52.28:425][514]LogUObjectHash: Compacting FUObjectHashTables data took   7.45ms
+[2022.05.13-15.52.28:955][514]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/MainD9914F2C4FF726F910889DAEE4847C05.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Maps/Main.umap'
+[2022.05.13-15.52.29:061][514]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2022.05.13-15.52.29:181][514]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Main_BuiltData0743C9A64C8DEB8EF54E68946A6CC766.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Maps/Main_BuiltData.uasset'
+[2022.05.13-15.57.28:031][906]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.05.13-16.09.59:391][368]LogSlate: Window 'BP_PawnTank' being destroyed
+[2022.05.13-16.09.59:392][368]LogSlate: Window 'BP_PawnTank' being destroyed
+[2022.05.13-17.01.20:575][553]LogHotReload: New module detected: UE4Editor-TanksMiniGame-0008.dll
+[2022.05.13-17.01.32:170][588]LogHotReload: Starting Hot-Reload from IDE
+[2022.05.13-17.01.48:967][588]LogUObjectHash: Compacting FUObjectHashTables data took  75.03ms
+[2022.05.13-17.01.51:509][588]LogContentBrowser: Native class hierarchy updated for 'TanksMiniGame' in 0.3143 seconds. Added 3 classes and 2 folders.
+[2022.05.13-17.01.51:531][588]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.05.13-17.02.04:147][588]LogUObjectHash: Compacting FUObjectHashTables data took  39.83ms
+[2022.05.13-17.02.05:432][588]LogContentBrowser: Native class hierarchy populated in 0.7297 seconds. Added 2867 classes and 728 folders.
+[2022.05.13-17.02.05:837][588]Display: HotReload took 33.7s.
+[2022.05.13-17.02.13:398][642]LogSlate: Took 0.171503 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.05.13-17.02.51:142][587]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (45.297 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.13-17.04.19:117][702]LogSlate: Window 'Project Settings' being destroyed
+[2022.05.13-17.04.19:143][702]LogSlate: Window 'Project Settings' being destroyed
+[2022.05.13-17.04.22:824][750]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.13-17.04.23:427][750]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2022.05.13-17.04.23:522][750]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.13-17.04.23:946][750]PIE: New page: PIE session: Main (13 maj 2022, 21:04:23)
+[2022.05.13-17.04.25:005][750]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.05.13-17.04.26:794][750]LogPlayLevel: PIE: StaticDuplicateObject took: (1.508142s)
+[2022.05.13-17.04.27:860][750]LogAIModule: Creating AISystem for world Main
+[2022.05.13-17.04.28:217][750]LogPlayLevel: PIE: World Init took: (1.422333s)
+[2022.05.13-17.04.28:234][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (3.228654s)
+[2022.05.13-17.04.28:809][750]LogUObjectHash: Compacting FUObjectHashTables data took  37.50ms
+[2022.05.13-17.04.29:529][750]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.05.13-17.04.31:602][750]LogInit: FAudioDevice initialized.
+[2022.05.13-17.04.32:998][750]LogLoad: Game class is 'GameModeBase'
+[2022.05.13-17.04.34:120][750]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.05.13-19.04.34
+[2022.05.13-17.04.34:423][750]LogWorld: Bringing up level for play took: 0.837880
+[2022.05.13-17.04.35:104][750]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 20 classes and 0 folders.
+[2022.05.13-17.04.35:465][750]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main 12,477
+[2022.05.13-17.04.35:502][750]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2022.05.13-17.04.35:647][750]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.40:691][751]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.41:094][752]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.41:111][753]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.41:149][754]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.41:266][755]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.41:307][756]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.41:401][757]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.41:432][758]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.41:469][759]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.41:520][760]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.41:556][761]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.41:592][762]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.41:687][763]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.41:720][764]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.41:754][765]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.41:788][766]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.41:823][767]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.41:859][768]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.41:893][769]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.41:929][770]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.41:958][771]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.41:988][772]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:018][773]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:047][774]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:077][775]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:106][776]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:135][777]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:165][778]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:196][779]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:224][780]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:253][781]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:296][782]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:328][783]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:360][784]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:392][785]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:421][786]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:439][787]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:465][788]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:480][789]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:498][790]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:514][791]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:531][792]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:548][793]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:564][794]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:621][795]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:639][796]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:655][797]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:672][798]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:688][799]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:705][800]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:722][801]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:746][802]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:768][803]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:787][804]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:804][805]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:820][806]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:881][807]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:896][808]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:913][809]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:929][810]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:945][811]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:968][812]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.42:984][813]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:002][814]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:018][815]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:034][816]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:050][817]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:067][818]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:084][819]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:100][820]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:117][821]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:150][822]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:171][823]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:188][824]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:206][825]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:231][826]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:258][827]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:264][828]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:289][829]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:344][830]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:376][831]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:393][832]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:417][833]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:426][834]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:443][835]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:460][836]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:476][837]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:493][838]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:510][839]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:527][840]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:554][841]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:594][842]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:610][843]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:651][844]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:659][845]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:675][846]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:692][847]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:709][848]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:731][849]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:742][850]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:758][851]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:776][852]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:793][853]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:809][854]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:826][855]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:842][856]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:890][857]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:924][858]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:956][859]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:964][860]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.43:994][861]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:010][862]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:028][863]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:077][864]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:094][865]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:125][866]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:142][867]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:171][868]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:187][869]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:206][870]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:228][871]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:245][872]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:276][873]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:320][874]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:328][875]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:360][876]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:386][877]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:394][878]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:412][879]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:428][880]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:455][881]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:473][882]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:489][883]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:506][884]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:522][885]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:539][886]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:590][887]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:622][888]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:638][889]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:655][890]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:672][891]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:695][892]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:711][893]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.44:740][894]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:089][895]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:106][896]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:123][897]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:151][898]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:168][899]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:196][900]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:212][901]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:230][902]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:264][903]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:284][904]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:300][905]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:315][906]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:390][907]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:428][908]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:548][909]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:674][910]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:691][911]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:707][912]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:724][913]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:741][914]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:758][915]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:774][916]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:851][917]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:884][918]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:902][919]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:917][920]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.45:936][921]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.45:950][922]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.45:967][923]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.45:984][924]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.46:000][925]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.46:019][926]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.46:034][927]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.46:050][928]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.46:116][929]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.46:132][930]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.46:168][931]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.46:185][932]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.46:202][933]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.46:219][934]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.46:242][935]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.46:259][936]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.46:276][937]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.46:293][938]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.46:309][939]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.46:325][940]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.46:361][941]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.46:368][942]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.46:388][943]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.46:417][944]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.46:481][945]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.46:497][946]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.46:604][947]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.46:621][948]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.46:637][949]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.46:654][950]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.46:671][951]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.46:687][952]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.46:705][953]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.46:720][954]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.46:737][955]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.46:754][956]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.46:798][957]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.46:884][958]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.46:901][959]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.46:941][960]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.46:988][961]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.47:016][962]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.47:031][963]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.47:048][964]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.47:065][965]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.47:082][966]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.47:098][967]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.47:115][968]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.47:132][969]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.47:148][970]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.47:165][971]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.47:205][972]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.47:241][973]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.47:258][974]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.47:274][975]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.47:336][976]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.47:352][977]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.47:370][978]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.47:386][979]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.47:403][980]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.47:419][981]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.47:436][982]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.47:463][983]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.47:480][984]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.47:511][985]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.47:611][986]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.47:628][987]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.47:643][988]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.47:660][989]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.47:677][990]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.47:694][991]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.47:710][992]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.47:727][993]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.47:744][994]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.47:760][995]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.47:777][996]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.47:794][997]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.47:811][998]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.47:827][999]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.47:845][  0]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.47:862][  1]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.47:878][  2]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.47:894][  3]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.47:911][  4]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.47:927][  5]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.47:944][  6]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.47:962][  7]LogTemp: Warning: Value: 1.000000
+[2022.05.13-17.04.47:992][  8]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:029][  9]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:045][ 10]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:062][ 11]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:096][ 12]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:113][ 13]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.48:130][ 14]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.48:147][ 15]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.48:163][ 16]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.48:181][ 17]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.48:198][ 18]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.48:214][ 19]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.48:231][ 20]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.48:248][ 21]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.48:264][ 22]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.48:281][ 23]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.48:298][ 24]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.48:314][ 25]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.48:351][ 26]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.48:426][ 27]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.48:453][ 28]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.48:478][ 29]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.48:503][ 30]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.48:520][ 31]LogTemp: Warning: Value: -1.000000
+[2022.05.13-17.04.48:591][ 32]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:616][ 33]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:632][ 34]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:648][ 35]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:666][ 36]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:682][ 37]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:702][ 38]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:718][ 39]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:734][ 40]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:761][ 41]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:770][ 42]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:806][ 43]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:821][ 44]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:838][ 45]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:856][ 46]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:871][ 47]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:888][ 48]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:904][ 49]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:921][ 50]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:941][ 51]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:957][ 52]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:973][ 53]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.48:990][ 54]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:007][ 55]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:023][ 56]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:065][ 57]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:088][ 58]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:104][ 59]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:123][ 60]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:140][ 61]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:157][ 62]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:174][ 63]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:191][ 64]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:211][ 65]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:228][ 66]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:244][ 67]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:261][ 68]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:289][ 69]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:305][ 70]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:343][ 71]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:360][ 72]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:377][ 73]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:402][ 74]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:419][ 75]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:438][ 76]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:455][ 77]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:489][ 78]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:505][ 79]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:522][ 80]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:538][ 81]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:555][ 82]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:571][ 83]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:588][ 84]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:605][ 85]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:631][ 86]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:647][ 87]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:664][ 88]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:680][ 89]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:697][ 90]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:714][ 91]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:730][ 92]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:750][ 93]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:767][ 94]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:784][ 95]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:800][ 96]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:817][ 97]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:834][ 98]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:850][ 99]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:867][100]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:884][101]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:900][102]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:917][103]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:934][104]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:950][105]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:967][106]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.49:984][107]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:001][108]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:018][109]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:035][110]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:078][111]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:085][112]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:101][113]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:118][114]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:135][115]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:151][116]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:168][117]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:184][118]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:201][119]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:219][120]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:234][121]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:283][122]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:300][123]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:316][124]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:333][125]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:349][126]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:367][127]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:383][128]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:400][129]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:417][130]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:433][131]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:450][132]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:466][133]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:483][134]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:527][135]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:542][136]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:559][137]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:575][138]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:592][139]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:608][140]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:625][141]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:642][142]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:658][143]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:675][144]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:691][145]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:709][146]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:725][147]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:741][148]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:759][149]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:775][150]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:792][151]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:808][152]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:825][153]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:843][154]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:858][155]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:876][156]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:892][157]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:908][158]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:925][159]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:942][160]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:958][161]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:975][162]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.50:991][163]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.51:008][164]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.51:024][165]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.51:059][166]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.51:076][167]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.51:093][168]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.51:125][169]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.51:143][170]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.51:159][171]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.51:176][172]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.51:193][173]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.51:209][174]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.51:239][175]LogTemp: Warning: Value: 0.000000
+[2022.05.13-17.04.51:298][175]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2022.05.13-17.04.51:347][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.13-17.04.51:443][175]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.13-17.04.51:443][175]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2022.05.13-17.04.52:105][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.13-17.04.52:475][175]LogUObjectHash: Compacting FUObjectHashTables data took  55.75ms
+[2022.05.13-17.04.52:593][176]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2022.05.13-18.11.49:213][ 80]LogHotReload: New module detected: UE4Editor-TanksMiniGame-0009.dll
+[2022.05.13-18.11.58:173][108]LogHotReload: Starting Hot-Reload from IDE
+[2022.05.13-18.12.00:493][108]LogUObjectHash: Compacting FUObjectHashTables data took   5.74ms
+[2022.05.13-18.12.02:064][108]LogContentBrowser: Native class hierarchy updated for 'TanksMiniGame' in 0.1542 seconds. Added 3 classes and 2 folders.
+[2022.05.13-18.12.02:085][108]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.05.13-18.12.07:259][108]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2022.05.13-18.12.07:690][108]LogContentBrowser: Native class hierarchy populated in 0.0430 seconds. Added 2867 classes and 728 folders.
+[2022.05.13-18.12.07:964][108]Display: HotReload took  9.8s.
+[2022.05.13-18.12.08:025][108]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.05.13-18.12.13:868][281]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.13-18.12.14:260][281]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2022.05.13-18.12.14:387][281]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.13-18.12.14:631][281]PIE: New page: PIE session: Main (13 maj 2022, 22:12:14)
+[2022.05.13-18.12.14:811][281]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.05.13-18.12.16:230][281]LogPlayLevel: PIE: StaticDuplicateObject took: (1.352891s)
+[2022.05.13-18.12.17:466][281]LogAIModule: Creating AISystem for world Main
+[2022.05.13-18.12.17:809][281]LogPlayLevel: PIE: World Init took: (1.577937s)
+[2022.05.13-18.12.17:825][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (3.013771s)
+[2022.05.13-18.12.18:132][281]LogUObjectHash: Compacting FUObjectHashTables data took   7.03ms
+[2022.05.13-18.12.18:567][281]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.05.13-18.12.20:551][281]LogInit: FAudioDevice initialized.
+[2022.05.13-18.12.21:081][281]LogLoad: Game class is 'GameModeBase'
+[2022.05.13-18.12.22:147][281]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.05.13-20.12.22
+[2022.05.13-18.12.22:472][281]LogWorld: Bringing up level for play took: 1.148612
+[2022.05.13-18.12.23:231][281]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main 8,236
+[2022.05.13-18.12.23:412][281]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2022.05.13-18.12.38:626][938]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2022.05.13-18.12.38:697][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.13-18.12.38:989][938]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.13-18.12.38:990][938]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2022.05.13-18.12.39:459][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.13-18.12.39:857][938]LogUObjectHash: Compacting FUObjectHashTables data took   5.47ms
+[2022.05.13-18.12.40:009][939]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2022.05.13-18.12.45:308][ 19]LogSlate: FSceneViewport::OnFocusLost() reason 2

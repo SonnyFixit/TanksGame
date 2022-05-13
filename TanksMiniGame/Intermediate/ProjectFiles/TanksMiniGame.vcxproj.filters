@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TanksMiniGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{1B619589-F2CF-4243-B375-EF72B595E474}</UniqueIdentifier>
+      <UniqueIdentifier>{6F39F720-B3B8-43B9-AED9-80BE88F0F5BF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TanksMiniGame.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5BAB34C5-08E0-4977-96DA-D0C2200EEED1}</UniqueIdentifier>
+      <UniqueIdentifier>{024BE056-F152-4F6E-AEC1-DF034884100A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,12 +24,18 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TanksMiniGame">
-      <UniqueIdentifier>{5479A91C-F218-421E-9757-0C01003BBFD0}</UniqueIdentifier>
+      <UniqueIdentifier>{67F13C1A-A034-4AAC-996B-C8323FD38D28}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TanksMiniGame\BasePawn.cpp">
       <Filter>Source\TanksMiniGame</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TanksMiniGame\BasePawn.h">
+      <Filter>Source\TanksMiniGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TanksMiniGame\Tank.cpp">
+      <Filter>Source\TanksMiniGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TanksMiniGame\Tank.h">
       <Filter>Source\TanksMiniGame</Filter>
     </ClInclude>
     <None Include="..\..\Source\TanksMiniGame\TanksMiniGame.Build.cs">

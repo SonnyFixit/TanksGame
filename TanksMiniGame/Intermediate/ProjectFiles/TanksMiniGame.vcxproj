@@ -372,6 +372,8 @@
     <None Include="..\..\Config\DefaultGame.ini"/>
     <ClCompile Include="..\..\Source\TanksMiniGame\BasePawn.cpp"/>
     <ClInclude Include="..\..\Source\TanksMiniGame\BasePawn.h"/>
+    <ClCompile Include="..\..\Source\TanksMiniGame\Tank.cpp"/>
+    <ClInclude Include="..\..\Source\TanksMiniGame\Tank.h"/>
     <None Include="..\..\Source\TanksMiniGame\TanksMiniGame.Build.cs"/>
     <ClCompile Include="..\..\Source\TanksMiniGame\TanksMiniGame.cpp"/>
     <ClInclude Include="..\..\Source\TanksMiniGame\TanksMiniGame.h"/>
