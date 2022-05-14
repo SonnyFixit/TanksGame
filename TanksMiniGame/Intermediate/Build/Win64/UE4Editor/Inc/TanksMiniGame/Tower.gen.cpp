@@ -31,6 +31,11 @@ void EmptyLinkFunctionForGeneratedCodeTower() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FireRange_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_FireRange;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -45,6 +50,16 @@ void EmptyLinkFunctionForGeneratedCodeTower() {}
 		{ "ModuleRelativePath", "Tower.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATower_Statics::NewProp_FireRange_MetaData[] = {
+		{ "Category", "Combat" },
+		{ "ModuleRelativePath", "Tower.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATower_Statics::NewProp_FireRange = { "FireRange", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATower, FireRange), METADATA_PARAMS(Z_Construct_UClass_ATower_Statics::NewProp_FireRange_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATower_Statics::NewProp_FireRange_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATower_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATower_Statics::NewProp_FireRange,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATower_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATower>::IsAbstract,
 	};
@@ -54,11 +69,11 @@ void EmptyLinkFunctionForGeneratedCodeTower() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_ATower_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		ARRAY_COUNT(Z_Construct_UClass_ATower_Statics::PropPointers),
 		0,
 		0x009000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_ATower_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ATower_Statics::Class_MetaDataParams))
@@ -72,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodeTower() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATower, 2499727819);
+	IMPLEMENT_CLASS(ATower, 3094492228);
 	template<> TANKSMINIGAME_API UClass* StaticClass<ATower>()
 	{
 		return ATower::StaticClass();

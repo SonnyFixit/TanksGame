@@ -3,3 +3,15 @@ E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Source\TanksMiniGame\Towe
 E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Source\TanksMiniGame\BasePawn.h
 E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Inc\TanksMiniGame\BasePawn.generated.h
 E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Inc\TanksMiniGame\Tower.generated.h
+E:\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+E:\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+E:\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
+E:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
+E:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+E:\UE_4.22\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+E:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+E:\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+E:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+E:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Source\TanksMiniGame\Tank.h
+E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Inc\TanksMiniGame\Tank.generated.h

@@ -59,7 +59,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATower); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATower)
 
 
-#define TanksMiniGame_Source_TanksMiniGame_Tower_h_15_PRIVATE_PROPERTY_OFFSET
+#define TanksMiniGame_Source_TanksMiniGame_Tower_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__FireRange() { return STRUCT_OFFSET(ATower, FireRange); }
+
+
 #define TanksMiniGame_Source_TanksMiniGame_Tower_h_12_PROLOG
 #define TanksMiniGame_Source_TanksMiniGame_Tower_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

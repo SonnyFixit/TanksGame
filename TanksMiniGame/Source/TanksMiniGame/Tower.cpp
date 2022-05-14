@@ -12,7 +12,7 @@ void ATower::Tick(float DeltaTime)
 	//Check if Tank is valid and store the distance to the tank
 	if (Tank)
 	{
-		float Distance = FVector:Dist(GetActorLocation(), Tank->GetActorLocation());
+		float Distance = FVector::Dist(GetActorLocation(), Tank->GetActorLocation());
 
 		//Find if Tank Pawn is in the range
 		//If Tank is in range, rotate Turret in the Tank Direction
