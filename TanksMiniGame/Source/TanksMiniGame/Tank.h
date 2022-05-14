@@ -20,6 +20,13 @@ public:
 
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
 private:
 
 	UPROPERTY(VisibleAnywhere, Category = "Components")
@@ -28,6 +35,17 @@ private:
 	UPROPERTY(VisibleAnywhere, Category = "Components")
 		class UCameraComponent* Camera;
 
-	void Move(float Value);
+	UPROPERTY(VisibleAnywhere, Category = "Movements")
+		float Speed = 100.f;
+
+	UPROPERTY(VisibleAnywhere, Category = "Movements")
+		float TurnRate = 50.f;
+
+	
+	
+	void Move (float Value);
+	void Turn (float Value);
+
+	APlayerController* PlayerControllerRef;
 
 };
