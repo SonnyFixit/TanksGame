@@ -54,4 +54,14 @@
       <Filter>Source\TanksMiniGame</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\TanksMiniGame\Tower.h">
+      <Filter>Source\TanksMiniGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\TanksMiniGame\Tower.cpp">
+      <Filter>Source\TanksMiniGame</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
