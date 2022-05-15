@@ -1,0 +1,969 @@
+﻿Log file open, 05/14/22 17:23:42
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: TanksMiniGame
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.195771
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/libsndfile/Win64/libsndfile-1.dll' (GetLastError=126)
+LogWindows: File '../../../Engine/Binaries/ThirdParty/libsndfile/Win64/libsndfile-1.dll' does not exist
+LogAudioMixer: Display: Failed to load Sound File dll
+LogAudioEditor: Display: LibSoundFile failed to load. Importing audio will not work correctly.
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GLTFImporter
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin BlastPlugin
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin DatasmithCADImporter
+LogPluginManager: Mounting plugin DatasmithDataPrepEditor
+LogPluginManager: Mounting plugin DatasmithFBXImporter
+LogPluginManager: Mounting plugin DatasmithGLTFImporter
+LogPluginManager: Mounting plugin DatasmithImporter
+LogPluginManager: Mounting plugin MDLImporter
+LogPluginManager: Mounting plugin StaticMeshEditorExtension
+LogPluginManager: Mounting plugin VariantManager
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-5660361
+LogInit: Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 8.1 (), CPU:        Intel(R) Core(TM) i3-3227U CPU @ 1.90GHz, GPU: Intel(R) HD Graphics 4000
+LogInit: Compiled (64-bit): Mar 31 2019 02:05:09
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: E:/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.05.14-15.23.50:303][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.05.14-15.23.50:303][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.05.14-15.23.50:303][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.05.14-15.23.50:303][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.05.14-15.23.50:303][  0]LogInit: Selected Device Profile: [Windows]
+[2022.05.14-15.23.50:303][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.05.14-15.23.50:334][  0]LogHAL: Display: Platform has ~ 4 GB [4080635904 / 4294967296 / 4], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2022.05.14-15.23.50:334][  0]LogInit: Going up to parent DeviceProfile []
+[2022.05.14-15.23.50:334][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.05.14-15.23.50:334][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.05.14-15.23.50:338][  0]LogInit: Computer: SONNY
+[2022.05.14-15.23.50:338][  0]LogInit: User: SonnyFixit
+[2022.05.14-15.23.50:338][  0]LogInit: CPU Page size=4096, Cores=2
+[2022.05.14-15.23.50:338][  0]LogInit: High frequency timer resolution =1.851267 MHz
+[2022.05.14-15.23.50:338][  0]LogMemory: Memory total: Physical=3.8GB (4GB approx)
+[2022.05.14-15.23.50:338][  0]LogMemory: Platform Memory Stats for Windows
+[2022.05.14-15.23.50:338][  0]LogMemory: Process Physical Memory: 94.63 MB used, 94.63 MB peak
+[2022.05.14-15.23.50:338][  0]LogMemory: Process Virtual Memory: 83.68 MB used, 83.68 MB peak
+[2022.05.14-15.23.50:338][  0]LogMemory: Physical Memory: 2545.29 MB used,  1346.31 MB free, 3891.60 MB total
+[2022.05.14-15.23.50:338][  0]LogMemory: Virtual Memory: 486.00 MB used,  134217240.00 MB free, 134217728.00 MB total
+[2022.05.14-15.23.50:894][  0]LogInit: Using OS detected language (pl-PL).
+[2022.05.14-15.23.50:894][  0]LogInit: Using OS detected locale (pl-PL).
+[2022.05.14-15.23.50:895][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
+[2022.05.14-15.23.50:896][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
+[2022.05.14-15.23.50:896][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
+[2022.05.14-15.23.50:896][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
+[2022.05.14-15.23.50:896][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
+[2022.05.14-15.23.50:896][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
+[2022.05.14-15.23.50:896][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
+[2022.05.14-15.23.50:896][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
+[2022.05.14-15.23.50:898][  0]LogInit: Setting process to per monitor DPI aware
+[2022.05.14-15.23.50:940][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.05.14-15.23.50:940][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.05.14-15.23.51:267][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.05.14-15.23.51:267][  0]LogD3D11RHI: D3D11 adapters:
+[2022.05.14-15.23.51:311][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 710M' (Feature Level 11_0)
+[2022.05.14-15.23.51:311][  0]LogD3D11RHI:       963/0/1945 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.05.14-15.23.51:337][  0]LogD3D11RHI:    1. 'NVIDIA GeForce 710M' (Feature Level 11_0)
+[2022.05.14-15.23.51:337][  0]LogD3D11RHI:       963/0/1945 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2022.05.14-15.23.51:340][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.05.14-15.23.51:340][  0]LogD3D11RHI:       963/0/1945 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.05.14-15.23.51:340][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.05.14-15.23.51:349][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.05.14-15.23.51:349][  0]LogD3D11RHI:     GPU DeviceId: 0x1140 (for the marketing name, search the web for "GPU Device Id")
+[2022.05.14-15.23.51:350][  0]LogWindows: EnumDisplayDevices:
+[2022.05.14-15.23.51:350][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2022.05.14-15.23.51:350][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2022.05.14-15.23.51:350][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2022.05.14-15.23.51:351][  0]LogWindows:    3. 'NVIDIA GeForce 710M' (P:0 D:0)
+[2022.05.14-15.23.51:351][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2022.05.14-15.23.51:351][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 710M
+[2022.05.14-15.23.51:351][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
+[2022.05.14-15.23.51:351][  0]LogD3D11RHI:      Driver Date: 3-23-2018
+[2022.05.14-15.23.51:351][  0]LogRHI: Texture pool is 674 MB (70% of 963 MB)
+[2022.05.14-15.23.51:377][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2022.05.14-15.23.51:378][  0]LogD3D11RHI: Async texture creation enabled
+[2022.05.14-15.23.51:385][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2022.05.14-15.23.51:386][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2022.05.14-15.23.51:386][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2022.05.14-15.23.51:402][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2022.05.14-15.23.52:624][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2022.05.14-15.23.52:655][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2022.05.14-15.23.52:681][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2022.05.14-15.23.52:707][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2022.05.14-15.23.52:734][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2022.05.14-15.23.52:761][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2022.05.14-15.23.52:787][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2022.05.14-15.23.52:814][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2022.05.14-15.23.52:826][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2022.05.14-15.23.53:029][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2022.05.14-15.23.53:029][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2022.05.14-15.23.53:029][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2022.05.14-15.23.53:029][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2022.05.14-15.23.53:029][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2022.05.14-15.23.53:029][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2022.05.14-15.23.53:029][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2022.05.14-15.23.53:029][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2022.05.14-15.23.53:029][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2022.05.14-15.23.53:029][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2022.05.14-15.23.53:029][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2022.05.14-15.23.53:029][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2022.05.14-15.23.53:029][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2022.05.14-15.23.53:029][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2022.05.14-15.23.53:029][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2022.05.14-15.23.53:029][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2022.05.14-15.23.53:029][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2022.05.14-15.23.53:029][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2022.05.14-15.23.53:063][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2022.05.14-15.23.53:242][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2022.05.14-15.23.53:242][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2022.05.14-15.23.53:290][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2022.05.14-15.23.53:290][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2022.05.14-15.23.53:315][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2022.05.14-15.23.53:339][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2022.05.14-15.23.53:364][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2022.05.14-15.23.53:389][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2022.05.14-15.23.53:478][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2022.05.14-15.23.53:478][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2022.05.14-15.23.53:478][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.05.14-15.23.53:492][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.05.14-15.23.53:564][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/Shaders/WorkingDirectory/8012/).
+[2022.05.14-15.23.53:564][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SonnyFixit/AppData/Local/Temp/UnrealShaderWorkingDir/3E50EA4146A2D8950F8055A8697C1087/'.
+[2022.05.14-15.23.53:567][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.05.14-15.23.53:567][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.05.14-15.23.53:567][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.05.14-15.23.54:735][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.05.14-15.23.54:854][  0]LogDerivedDataCache: Loaded boot cache 0.12s 72MB C:/Users/SonnyFixit/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2022.05.14-15.23.54:855][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/SonnyFixit/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2022.05.14-15.23.54:855][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.05.14-15.23.54:855][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.05.14-15.23.54:855][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.05.14-15.23.54:855][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.05.14-15.23.54:878][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.05.14-15.23.54:884][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2022.05.14-15.23.54:941][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SonnyFixit/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.05.14-15.23.54:941][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.05.14-15.23.54:941][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.05.14-15.23.54:989][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2022.05.14-15.23.54:991][  0]LogSlate: Using FreeType 2.6.0
+[2022.05.14-15.23.54:991][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.05.14-15.23.55:131][  0]LogAssetRegistry: FAssetRegistry took 0.0456 seconds to start up
+[2022.05.14-15.23.55:863][  0]LogInit: Selected Device Profile: [Windows]
+[2022.05.14-15.23.56:172][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.05.14-15.23.56:172][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.05.14-15.23.56:172][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.05.14-15.23.56:172][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.05.14-15.23.56:172][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.05.14-15.23.56:201][  0]LogNetVersion: TanksMiniGame 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1412442164)
+[2022.05.14-15.23.57:027][  0]LogPackageLocalizationCache: Processed 16 localized package path(s) for 1 prioritized culture(s) in 0.089610 seconds
+[2022.05.14-15.23.57:039][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2022.05.14-15.23.57:039][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2022.05.14-15.23.57:039][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.05.14-15.23.58:552][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.05.14-15.23.58:567][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.05.14-15.23.59:474][  0]SourceControl: Source control is disabled
+[2022.05.14-15.23.59:474][  0]SourceControl: Source control is disabled
+[2022.05.14-15.23.59:479][  0]SourceControl: Source control is disabled
+[2022.05.14-15.23.59:480][  0]SourceControl: Source control is disabled
+[2022.05.14-15.24.32:791][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.05.14-15.24.32:845][  0]LogOcInput: OculusInput pre-init called
+[2022.05.14-15.24.59:103][  0]LogEngine: Initializing Engine...
+[2022.05.14-15.24.59:104][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.05.14-15.24.59:107][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.05.14-15.24.59:572][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.05.14-15.24.59:591][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.05.14-15.24.59:644][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.05.14-15.24.59:798][  0]LogInit: FAudioDevice initialized.
+[2022.05.14-15.24.59:798][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.05.14-15.25.03:181][  0]LogDerivedDataCache: Saved boot cache 3.38s 72MB C:/Users/SonnyFixit/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2022.05.14-15.25.03:203][  0]LogInit: Texture streaming: Enabled
+[2022.05.14-15.25.03:229][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.05.14-15.25.03:252][  0]LogInit: Transaction tracking system initialized
+[2022.05.14-15.25.03:288][  0]BlueprintLog: New page: Editor Load
+[2022.05.14-15.25.04:082][  0]LocalizationService: Localization service is disabled
+[2022.05.14-15.25.06:495][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/' took 0.02s
+[2022.05.14-15.25.06:495][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.05.14-15.25.06:495][  0]LogCook: Display: Mobile HDR setting 1
+[2022.05.14-15.25.11:727][  0]SourceControl: Source control is disabled
+[2022.05.14-15.25.11:728][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.05.14-15.25.11:728][  0]LightingResults: New page: Lighting Build
+[2022.05.14-15.25.11:732][  0]MapCheck: New page: Map Check
+[2022.05.14-15.25.11:732][  0]LightingResults: New page: Lighting Build
+[2022.05.14-15.25.11:815][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2022.05.14-15.25.12:012][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2022.05.14-15.25.12:062][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.05.14-15.25.12:103][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.19ms
+[2022.05.14-15.25.12:104][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.05.14-15.25.12:104][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,177ms to complete.
+[2022.05.14-15.25.12:104][  0]LogFileHelpers: Loading map 'Template_Default' took 0.377
+[2022.05.14-15.25.14:436][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.14-15.25.14:491][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.14-15.25.14:506][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.14-15.25.14:521][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.14-15.25.14:664][  0]LogCollectionManager: Loaded 0 collections in 0.002237 seconds
+[2022.05.14-15.25.14:901][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Collections/' took 0.01s
+[2022.05.14-15.25.14:901][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Developers/SonnyFixit/Collections/' took 0.01s
+[2022.05.14-15.25.14:901][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Collections/' took 0.00s
+[2022.05.14-15.25.14:901][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2022.05.14-15.25.14:921][  0]LogContentBrowser: Native class hierarchy populated in 0.0196 seconds. Added 2867 classes and 728 folders.
+[2022.05.14-15.25.15:221][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2022.05.14-15.25.15:364][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.15:455][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.15:556][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.15:588][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.15:650][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.15:692][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.15:701][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.15:748][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.15:788][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.15:851][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.15:899][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.15:924][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.15:981][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.16:009][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.16:032][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.16:048][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.16:145][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.16:249][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.16:291][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.16:319][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.16:378][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.16:402][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.16:476][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.16:518][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.16:554][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.16:577][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.16:612][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.16:634][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.05.14-15.25.18:253][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2022.05.14-15.25.18:327][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2022.05.14-15.25.19:029][  0]LogSlate: Took 0.000306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.05.14-15.25.19:037][  0]LogSlate: Took 0.000965 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.05.14-15.25.19:145][  0]LogSlate: Took 0.029147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.05.14-15.25.19:737][  0]LogRenderer: Reallocating scene render targets to support 856x372 Format 9 NumSamples 1 (Frame:1).
+[2022.05.14-15.25.20:491][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2022.05.14-15.25.20:491][  0]LogLoad: (Engine Initialization) Total time: 113.56 seconds
+[2022.05.14-15.25.20:491][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.01 seconds
+[2022.05.14-15.25.20:739][  0]LogContentStreaming: Texture pool size now 400 MB
+[2022.05.14-15.25.21:084][  0]LogSlate: Took 0.048057 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.05.14-15.25.21:232][  1]LogAssetRegistry: Asset discovery search completed in 86.1246 seconds
+[2022.05.14-15.25.21:300][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2022.05.14-15.25.21:300][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000136 seconds (updated 0 objects)
+[2022.05.14-15.25.33:558][528]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.05.14-15.25.35:139][584]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.05.14-15.25.36:910][584]LogAIModule: Creating AISystem for world Main
+[2022.05.14-15.25.37:005][584]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Main.Main
+[2022.05.14-15.25.37:127][584]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2022.05.14-15.25.37:128][584]Cmd: MAP LOAD FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.05.14-15.25.37:128][584]LightingResults: New page: Lighting Build
+[2022.05.14-15.25.37:130][584]LoadErrors: New page: Loading map: Main.umap
+[2022.05.14-15.25.37:130][584]MapCheck: New page: Map Check
+[2022.05.14-15.25.37:130][584]LightingResults: New page: Lighting Build
+[2022.05.14-15.25.37:174][584]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2022.05.14-15.25.37:372][584]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.05.14-15.25.37:416][584]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2022.05.14-15.25.37:462][584]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.05.14-15.25.37:462][584]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,127ms to complete.
+[2022.05.14-15.25.37:462][584]LogFileHelpers: Loading map 'Main' took 0.335
+[2022.05.14-15.25.42:902][819]LogAssetEditorManager: Opening Asset editor for Class /Script/TanksMiniGame.BasePawn
+[2022.05.14-15.31.18:411][250]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-15.31.18:411][250]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-15.31.18:411][250]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-15.31.20:749][257]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (2.337 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-16.40.23:361][462]LogHotReload: New module detected: UE4Editor-TanksMiniGame-0013.dll
+[2022.05.14-16.40.26:844][463]LogHotReload: Starting Hot-Reload from IDE
+[2022.05.14-16.41.46:303][463]LogUObjectHash: Compacting FUObjectHashTables data took 2632.16ms
+[2022.05.14-16.41.59:732][463]LogContentBrowser: Native class hierarchy updated for 'TanksMiniGame' in 1.5417 seconds. Added 3 classes and 2 folders.
+[2022.05.14-16.42.00:417][463]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.05.14-16.42.24:046][463]LogUObjectHash: Compacting FUObjectHashTables data took 303.29ms
+[2022.05.14-16.42.28:467][463]LogContentBrowser: Native class hierarchy populated in 1.7015 seconds. Added 2867 classes and 728 folders.
+[2022.05.14-16.42.31:114][463]Display: HotReload took 124.3s.
+[2022.05.14-16.42.31:639][463]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-16.42.31:639][463]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.120 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-16.43.20:512][662]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (48.993 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-16.47.15:655][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.05.14-16.47.27:496][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.05.14-16.47.32:094][800]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.05.14-16.47.48:356][978]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.05.14-16.48.07:156][ 84]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.14-16.48.08:420][ 84]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2022.05.14-16.48.08:591][ 84]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.14-16.48.09:085][ 84]PIE: New page: PIE session: Main (14 maj 2022, 20:48:08)
+[2022.05.14-16.48.10:208][ 84]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.05.14-16.48.12:541][ 84]LogPlayLevel: PIE: StaticDuplicateObject took: (2.084113s)
+[2022.05.14-16.48.14:034][ 84]LogAIModule: Creating AISystem for world Main
+[2022.05.14-16.48.14:285][ 84]LogPlayLevel: PIE: World Init took: (1.743656s)
+[2022.05.14-16.48.14:298][ 84]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (4.126342s)
+[2022.05.14-16.48.14:565][ 84]LogUObjectHash: Compacting FUObjectHashTables data took  27.35ms
+[2022.05.14-16.48.15:121][ 84]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.05.14-16.48.17:555][ 84]LogInit: FAudioDevice initialized.
+[2022.05.14-16.48.18:939][ 84]LogLoad: Game class is 'GameModeBase'
+[2022.05.14-16.48.20:250][ 84]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2022.05.14-18.48.20
+[2022.05.14-16.48.20:652][ 84]LogWorld: Bringing up level for play took: 0.896995
+[2022.05.14-16.48.21:539][ 84]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 20 classes and 0 folders.
+[2022.05.14-16.48.21:800][ 84]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main 12,91
+[2022.05.14-16.48.21:850][ 84]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2022.05.14-16.48.23:645][ 85]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (51.216 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-16.48.35:531][843]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2022.05.14-16.48.35:687][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.14-16.48.35:923][843]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.14-16.48.35:923][843]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2022.05.14-16.48.36:295][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.14-16.48.36:794][843]LogUObjectHash: Compacting FUObjectHashTables data took  21.95ms
+[2022.05.14-16.48.37:082][844]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2022.05.14-16.50.35:101][522]LogSlate: Took 2.783400 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.05.14-16.52.02:232][971]Candidate modules for hot reload:
+[2022.05.14-16.52.02:356][971]  TanksMiniGame
+[2022.05.14-16.52.02:466][971]Launching UnrealBuildTool... [E:/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TanksMiniGame,4519 Win64 Development -TargetType=Editor -Project="E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/TanksMiniGame.uproject" "E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/TanksMiniGame.uproject"  -IgnoreJunk]
+[2022.05.14-17.23.31:392][971]CompilerResultsLog: New page: Compilation - 14 maj 2022, 21:23:31
+[2022.05.14-17.23.31:618][971]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\GitHub\UnrealProjects\Tanks\TanksGame).
+[2022.05.14-17.23.31:618][971]CompilerResultsLog: Creating makefile for TanksMiniGameEditor (ini files are newer than makefile)
+[2022.05.14-17.23.31:618][971]CompilerResultsLog: Parsing headers for TanksMiniGameEditor
+[2022.05.14-17.23.31:618][971]CompilerResultsLog:   Running UnrealHeaderTool "E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\TanksMiniGame.uproject" "E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\TanksMiniGameEditor\Development\TanksMiniGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2022.05.14-17.23.31:618][971]CompilerResultsLog: Reflection code generated for TanksMiniGameEditor in 913,3680349 seconds
+[2022.05.14-17.23.31:618][971]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.14-17.23.31:618][971]CompilerResultsLog: Building 6 actions with 4 processes...
+[2022.05.14-17.23.31:618][971]CompilerResultsLog:   [1/6] TanksMiniGame.init.gen.cpp
+[2022.05.14-17.23.31:618][971]CompilerResultsLog:   [2/6] Tower.cpp
+[2022.05.14-17.23.31:618][971]CompilerResultsLog:   [3/6] Tower.gen.cpp
+[2022.05.14-17.23.31:618][971]CompilerResultsLog:   [4/6] UE4Editor-TanksMiniGame-4519.lib
+[2022.05.14-17.23.31:618][971]CompilerResultsLog:      Trwa tworzenie biblioteki E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-4519.lib i obiektu E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-4519.exp
+[2022.05.14-17.23.31:657][971]CompilerResultsLog:   [5/6] UE4Editor-TanksMiniGame-4519.dll
+[2022.05.14-17.23.31:657][971]CompilerResultsLog:      Trwa tworzenie biblioteki E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-4519.suppressed.lib i obiektu E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-4519.suppressed.exp
+[2022.05.14-17.23.31:657][971]CompilerResultsLog:   [6/6] TanksMiniGameEditor.target
+[2022.05.14-17.23.31:657][971]CompilerResultsLog: Total time in Parallel executor: 862,09 seconds
+[2022.05.14-17.23.31:657][971]CompilerResultsLog: Total execution time: 1887,42 seconds
+[2022.05.14-17.23.31:690][971]LogMainFrame: MainFrame: Module compiling took 1890.205 seconds
+[2022.05.14-17.23.32:103][971]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2022.05.14-17.23.34:861][971]LogClass: Could not find existing class Tower in package /Script/TanksMiniGame for HotReload, assuming new class
+[2022.05.14-17.23.35:925][971]LogContentBrowser: Native class hierarchy updated for 'TanksMiniGame' in 0.0008 seconds. Added 4 classes and 2 folders.
+[2022.05.14-17.23.35:928][971]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.05.14-17.23.41:344][971]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2022.05.14-17.23.41:439][971]LogContentBrowser: Native class hierarchy populated in 0.0190 seconds. Added 2868 classes and 728 folders.
+[2022.05.14-17.23.41:439][971]Display: HotReload took 1901.1s.
+[2022.05.14-17.23.41:441][971]Warning: HotReload operation took 1901.1s.
+[2022.05.14-17.23.52:476][971]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.23.52:970][971]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.05.14-17.23.53:936][971]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.23.53:938][971]LogHotReload: New module detected: UE4Editor-TanksMiniGame-4519.dll
+[2022.05.14-17.23.54:599][972]LogHotReload: Starting Hot-Reload from IDE
+[2022.05.14-17.23.54:808][972]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2022.05.14-17.23.54:812][972]LogContentBrowser: Native class hierarchy updated for 'TanksMiniGame' in 0.0007 seconds. Added 4 classes and 2 folders.
+[2022.05.14-17.23.54:816][972]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.05.14-17.23.55:001][972]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2022.05.14-17.23.55:099][972]LogContentBrowser: Native class hierarchy populated in 0.0228 seconds. Added 2868 classes and 728 folders.
+[2022.05.14-17.23.55:101][972]Display: HotReload took  0.5s.
+[2022.05.14-17.23.55:108][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:108][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:108][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:108][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:108][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:141][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.034 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:141][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.034 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:141][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.034 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:141][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.034 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:141][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.034 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:141][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.034 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:141][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.034 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:142][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.034 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:142][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.034 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:142][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.034 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:142][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.034 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:142][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.034 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:142][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.034 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:142][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.034 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:142][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.034 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:142][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.034 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:142][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.034 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:142][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.034 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:142][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.035 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:142][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.035 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:142][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.035 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:142][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.035 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:142][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.035 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:242][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.133 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:242][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.134 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:242][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.134 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:304][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.196 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.23.55:308][972]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.23.55:589][973]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.23.55:923][974]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.23.56:215][975]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.23.56:546][976]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.23.56:880][977]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.23.57:215][978]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.23.57:553][979]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.23.57:888][980]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.23.58:223][981]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.23.58:555][982]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.23.58:892][983]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.23.59:225][984]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.23.59:559][985]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.23.59:892][986]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.00:228][987]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.00:561][988]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.00:897][989]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.01:237][990]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.01:572][991]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.01:905][992]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.02:238][993]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.02:577][994]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.02:910][995]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.03:244][996]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.03:579][997]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.03:917][998]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.04:250][999]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.04:586][  0]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.04:921][  1]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.05:255][  2]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.05:588][  3]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.05:926][  4]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.06:264][  5]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.06:597][  6]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.06:931][  7]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.07:267][  8]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.07:600][  9]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.07:934][ 10]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.08:267][ 11]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.08:606][ 12]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.08:940][ 13]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.09:277][ 14]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.09:613][ 15]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.09:951][ 16]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.10:286][ 17]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.10:652][ 18]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.10:956][ 19]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.11:289][ 20]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.11:623][ 21]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.11:956][ 22]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.12:323][ 23]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.12:627][ 24]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.12:959][ 25]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.13:296][ 26]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.13:628][ 27]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.13:961][ 28]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.14:295][ 29]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.14:633][ 30]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.14:966][ 31]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.15:299][ 32]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.15:635][ 33]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.15:970][ 34]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.16:304][ 35]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.16:637][ 36]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.16:972][ 37]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.17:307][ 38]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.17:688][ 39]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.17:973][ 40]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.18:307][ 41]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.18:642][ 42]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.18:975][ 43]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.19:308][ 44]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.19:648][ 45]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.19:981][ 46]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.20:317][ 47]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.20:650][ 48]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (25.541 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.24.20:653][ 48]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.20:991][ 49]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.21:328][ 50]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.21:664][ 51]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.22:003][ 52]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.22:340][ 53]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.22:673][ 54]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.23:007][ 55]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.23:347][ 56]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.23:685][ 57]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.24:021][ 58]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.24:357][ 59]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.24:696][ 60]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.25:031][ 61]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.25:365][ 62]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.25:704][ 63]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.26:038][ 64]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.26:377][ 65]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.26:711][ 66]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.27:048][ 67]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.27:383][ 68]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.27:717][ 69]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.28:056][ 70]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.28:389][ 71]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.28:722][ 72]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.29:059][ 73]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.29:397][ 74]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.29:731][ 75]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.30:064][ 76]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.30:401][ 77]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.30:738][ 78]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.31:071][ 79]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.31:405][ 80]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.31:765][ 81]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.32:079][ 82]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.32:412][ 83]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.32:749][ 84]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.33:086][ 85]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.33:423][ 86]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.33:756][ 87]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.34:093][ 88]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.34:430][ 89]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.34:763][ 90]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.35:097][ 91]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.35:433][ 92]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.35:766][ 93]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.36:100][ 94]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.36:435][ 95]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.36:773][ 96]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.37:106][ 97]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.37:442][ 98]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.37:775][ 99]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.38:109][100]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.38:443][101]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.38:781][102]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.39:117][103]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.39:450][104]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.39:784][105]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.40:121][106]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.40:458][107]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.40:793][108]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.41:126][109]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.41:459][110]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.41:795][111]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.42:128][112]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.42:465][113]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.42:798][114]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.43:131][115]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.43:472][116]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.43:810][117]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.44:143][118]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.44:477][119]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.44:816][120]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.45:151][121]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.45:491][122]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.45:824][123]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.46:159][124]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.46:495][125]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.46:827][126]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.47:161][127]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.47:496][128]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.47:829][129]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.48:162][130]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.48:500][131]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.48:833][132]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.49:166][133]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.49:500][134]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.49:838][135]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.50:176][136]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.50:516][137]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.50:853][138]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.51:185][139]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.51:519][140]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.51:852][141]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.52:189][142]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.52:523][143]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.52:859][144]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.53:192][145]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.53:530][146]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.53:865][147]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.54:198][148]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.54:532][149]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.54:898][150]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.55:205][151]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.55:537][152]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.24.55:908][153]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.25.52:948][154]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.25.52:966][155]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.25.53:300][156]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.25.53:640][157]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.25.53:972][158]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.26.11:428][159]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.26.11:444][160]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.05.14-17.26.20:794][184]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (27.831 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.39.49:820][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.39.49:820][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.39.49:820][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.39.49:846][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.027 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.39.49:846][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.027 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.39.49:846][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.027 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.39.49:846][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.027 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.39.49:846][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.027 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.39.49:847][972]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.027 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-17.40.20:786][ 60]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (30.967 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-20.11.52:781][255]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.05.14-20.13.20:669][943]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (52.348 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-20.15.08:101][254]LogSlate: Window 'Project Settings' being destroyed
+[2022.05.14-20.15.08:111][254]LogSlate: Window 'Project Settings' being destroyed
+[2022.05.14-20.27.46:449][519]LogHotReload: New module detected: UE4Editor-TanksMiniGame-0015.dll
+[2022.05.14-20.27.54:012][542]LogHotReload: Starting Hot-Reload from IDE
+[2022.05.14-20.28.27:844][542]LogUObjectHash: Compacting FUObjectHashTables data took 1666.06ms
+[2022.05.14-20.28.30:450][542]LogClass: Could not find existing class Tower in package /Script/TanksMiniGame for HotReload, assuming new class
+[2022.05.14-20.28.32:518][542]LogHotReload: Re-instancing Tower after hot-reload.
+[2022.05.14-20.28.52:012][542]LogContentBrowser: Native class hierarchy updated for 'TanksMiniGame' in 0.2563 seconds. Added 4 classes and 2 folders.
+[2022.05.14-20.28.52:123][542]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.05.14-20.28.52:943][542]LogUObjectHash: Compacting FUObjectHashTables data took 110.95ms
+[2022.05.14-20.28.55:080][542]LogContentBrowser: Native class hierarchy populated in 1.0815 seconds. Added 2868 classes and 728 folders.
+[2022.05.14-20.28.55:669][542]Display: HotReload took 61.7s.
+[2022.05.14-20.29.20:807][614]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (25.132 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-20.36.11:122][927]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.14-20.36.12:258][927]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2022.05.14-20.36.12:428][927]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.14-20.36.12:700][927]PIE: New page: PIE session: Main (15 maj 2022, 00:36:12)
+[2022.05.14-20.36.13:031][927]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.05.14-20.36.15:697][927]LogPlayLevel: PIE: StaticDuplicateObject took: (2.471564s)
+[2022.05.14-20.36.17:212][927]LogAIModule: Creating AISystem for world Main
+[2022.05.14-20.36.17:937][927]LogPlayLevel: PIE: World Init took: (2.239123s)
+[2022.05.14-20.36.17:937][927]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (4.923343s)
+[2022.05.14-20.36.17:996][927]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2022.05.14-20.36.18:802][927]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.05.14-20.36.19:372][927]LogInit: FAudioDevice initialized.
+[2022.05.14-20.36.21:175][927]LogLoad: Game class is 'GameModeBase'
+[2022.05.14-20.36.22:639][927]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.05.14-22.36.22
+[2022.05.14-20.36.23:054][927]LogWorld: Bringing up level for play took: 1.596114
+[2022.05.14-20.36.24:024][927]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main 11,11
+[2022.05.14-20.36.24:243][927]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2022.05.14-20.38.22:864][717]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2022.05.14-20.38.23:454][717]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.14-20.38.24:308][717]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.14-20.38.24:329][717]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2022.05.14-20.38.24:860][717]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.14-20.38.26:603][717]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2022.05.14-20.38.31:362][718]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2022.05.14-20.38.58:859][423]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.05.14-20.39.09:158][474]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2022.05.14-20.39.32:625][474]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0376 seconds. Added 121 classes and 0 folders.
+[2022.05.14-20.39.52:963][582]LogSlate: Window 'BP_PawnTurret' being destroyed
+[2022.05.14-20.39.53:328][582]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2022.05.14-20.40.06:332][863]LogSlate: Took 0.111996 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.05.14-20.40.10:503][922]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.05.14-20.40.20:528][206]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (32.010 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.14-20.41.50:370][ 21]LogSlate: Window 'BP_PawnTurret' being destroyed
+[2022.05.14-20.41.50:373][ 21]LogSlate: Window 'BP_PawnTurret' being destroyed
+[2022.05.14-20.44.01:040][830]LogUObjectHash: Compacting FUObjectHashTables data took 547.86ms
+[2022.05.14-20.44.06:003][830]LogSlate: Window 'TanksMiniGame - Unreal Editor' being destroyed
+[2022.05.14-20.44.06:048][830]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.05.14-20.44.24:514][831]Cmd: QUIT_EDITOR
+[2022.05.14-20.44.44:326][831]LogExit: Preparing to exit.

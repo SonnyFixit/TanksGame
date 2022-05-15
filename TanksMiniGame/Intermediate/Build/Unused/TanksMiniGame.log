@@ -2,20 +2,18 @@
   Creating makefile for TanksMiniGameEditor (ini files are newer than makefile)
   Parsing headers for TanksMiniGameEditor
     Running UnrealHeaderTool "E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\TanksMiniGame.uproject" "E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\TanksMiniGameEditor\Development\TanksMiniGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for TanksMiniGameEditor in 94,2457398 seconds
+  Reflection code generated for TanksMiniGameEditor in 80,8323845 seconds
+E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Source\TanksMiniGame\Tower.cpp(1): error : Expected Tower.h to be first header included.
   Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 10 actions with 4 processes...
-    [1/10] BasePawn.cpp
-    [2/10] Tank.cpp
-    [3/10] BasePawn.gen.cpp
-    [4/10] Tower.cpp
-    [5/10] TanksMiniGame.init.gen.cpp
-    [6/10] Tower.gen.cpp
-    [7/10] Tank.gen.cpp
-    [8/10] UE4Editor-TanksMiniGame-0015.lib
-       Trwa tworzenie biblioteki E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-0015.lib i obiektu E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-0015.exp
-    [9/10] UE4Editor-TanksMiniGame-0015.dll
-       Trwa tworzenie biblioteki E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-0015.suppressed.lib i obiektu E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-0015.suppressed.exp
-    [10/10] TanksMiniGameEditor.target
-  Total time in Parallel executor: 433,50 seconds
-  Total execution time: 589,70 seconds
+  Building 6 actions with 4 processes...
+    [1/6] TanksMiniGame.init.gen.cpp
+    [2/6] Projectile.cpp
+    [3/6] Projectile.gen.cpp
+    [4/6] UE4Editor-TanksMiniGame-0021.lib
+       Trwa tworzenie biblioteki E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-0021.lib i obiektu E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-0021.exp
+    [5/6] UE4Editor-TanksMiniGame-0021.dll
+       Trwa tworzenie biblioteki E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-0021.suppressed.lib i obiektu E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-0021.suppressed.exp
+    [6/6] TanksMiniGameEditor.target
+  Total time in Parallel executor: 445,06 seconds
+  Total execution time: 556,95 seconds
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: Polecenie „E:\UE_4.22\Engine\Build\BatchFiles\Build.bat TanksMiniGameEditor Win64 Development -Project="E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\TanksMiniGame.uproject" -WaitMutex -FromMsBuild” zostało zakończone przez kod -1.

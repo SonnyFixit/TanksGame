@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TANKSMINIGAME_Tower_generated_h
 
-#define TanksMiniGame_Source_TanksMiniGame_Tower_h_15_RPC_WRAPPERS
-#define TanksMiniGame_Source_TanksMiniGame_Tower_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define TanksMiniGame_Source_TanksMiniGame_Tower_h_15_INCLASS_NO_PURE_DECLS \
+#define TanksMiniGame_Source_TanksMiniGame_Tower_h_16_RPC_WRAPPERS
+#define TanksMiniGame_Source_TanksMiniGame_Tower_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define TanksMiniGame_Source_TanksMiniGame_Tower_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATower(); \
 	friend struct Z_Construct_UClass_ATower_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(ATower)
 
 
-#define TanksMiniGame_Source_TanksMiniGame_Tower_h_15_INCLASS \
+#define TanksMiniGame_Source_TanksMiniGame_Tower_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesATower(); \
 	friend struct Z_Construct_UClass_ATower_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(ATower)
 
 
-#define TanksMiniGame_Source_TanksMiniGame_Tower_h_15_STANDARD_CONSTRUCTORS \
+#define TanksMiniGame_Source_TanksMiniGame_Tower_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ATower(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATower) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define TanksMiniGame_Source_TanksMiniGame_Tower_h_15_ENHANCED_CONSTRUCTORS \
+#define TanksMiniGame_Source_TanksMiniGame_Tower_h_16_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ATower() { }; \
 private: \
@@ -59,29 +59,29 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATower); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATower)
 
 
-#define TanksMiniGame_Source_TanksMiniGame_Tower_h_15_PRIVATE_PROPERTY_OFFSET \
+#define TanksMiniGame_Source_TanksMiniGame_Tower_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__FireRange() { return STRUCT_OFFSET(ATower, FireRange); }
 
 
-#define TanksMiniGame_Source_TanksMiniGame_Tower_h_12_PROLOG
-#define TanksMiniGame_Source_TanksMiniGame_Tower_h_15_GENERATED_BODY_LEGACY \
+#define TanksMiniGame_Source_TanksMiniGame_Tower_h_13_PROLOG
+#define TanksMiniGame_Source_TanksMiniGame_Tower_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TanksMiniGame_Source_TanksMiniGame_Tower_h_15_PRIVATE_PROPERTY_OFFSET \
-	TanksMiniGame_Source_TanksMiniGame_Tower_h_15_RPC_WRAPPERS \
-	TanksMiniGame_Source_TanksMiniGame_Tower_h_15_INCLASS \
-	TanksMiniGame_Source_TanksMiniGame_Tower_h_15_STANDARD_CONSTRUCTORS \
+	TanksMiniGame_Source_TanksMiniGame_Tower_h_16_PRIVATE_PROPERTY_OFFSET \
+	TanksMiniGame_Source_TanksMiniGame_Tower_h_16_RPC_WRAPPERS \
+	TanksMiniGame_Source_TanksMiniGame_Tower_h_16_INCLASS \
+	TanksMiniGame_Source_TanksMiniGame_Tower_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define TanksMiniGame_Source_TanksMiniGame_Tower_h_15_GENERATED_BODY \
+#define TanksMiniGame_Source_TanksMiniGame_Tower_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TanksMiniGame_Source_TanksMiniGame_Tower_h_15_PRIVATE_PROPERTY_OFFSET \
-	TanksMiniGame_Source_TanksMiniGame_Tower_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	TanksMiniGame_Source_TanksMiniGame_Tower_h_15_INCLASS_NO_PURE_DECLS \
-	TanksMiniGame_Source_TanksMiniGame_Tower_h_15_ENHANCED_CONSTRUCTORS \
+	TanksMiniGame_Source_TanksMiniGame_Tower_h_16_PRIVATE_PROPERTY_OFFSET \
+	TanksMiniGame_Source_TanksMiniGame_Tower_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	TanksMiniGame_Source_TanksMiniGame_Tower_h_16_INCLASS_NO_PURE_DECLS \
+	TanksMiniGame_Source_TanksMiniGame_Tower_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

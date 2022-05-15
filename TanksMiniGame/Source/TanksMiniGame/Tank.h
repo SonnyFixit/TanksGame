@@ -36,7 +36,7 @@ private:
 		class UCameraComponent* Camera;
 
 	UPROPERTY(VisibleAnywhere, Category = "Movements")
-		float Speed = 100.f;
+		float Speed = 300.f;
 
 	UPROPERTY(VisibleAnywhere, Category = "Movements")
 		float TurnRate = 50.f;
