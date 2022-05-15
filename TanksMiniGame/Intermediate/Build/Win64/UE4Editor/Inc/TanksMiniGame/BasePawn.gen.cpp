@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeBasePawn() {}
 	TANKSMINIGAME_API UClass* Z_Construct_UClass_ABasePawn();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_TanksMiniGame();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	TANKSMINIGAME_API UClass* Z_Construct_UClass_AProjectile_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCapsuleComponent_NoRegister();
@@ -34,6 +36,10 @@ void EmptyLinkFunctionForGeneratedCodeBasePawn() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ProjectileClass;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileSpawnPoint_MetaData[];
 #endif
@@ -65,6 +71,13 @@ void EmptyLinkFunctionForGeneratedCodeBasePawn() {}
 		{ "ModuleRelativePath", "BasePawn.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABasePawn_Statics::NewProp_ProjectileClass_MetaData[] = {
+		{ "Category", "Combat" },
+		{ "ModuleRelativePath", "BasePawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ABasePawn_Statics::NewProp_ProjectileClass = { "ProjectileClass", nullptr, (EPropertyFlags)0x0044000000010001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABasePawn, ProjectileClass), Z_Construct_UClass_AProjectile_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ABasePawn_Statics::NewProp_ProjectileClass_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABasePawn_Statics::NewProp_ProjectileClass_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABasePawn_Statics::NewProp_ProjectileSpawnPoint_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -102,6 +115,7 @@ void EmptyLinkFunctionForGeneratedCodeBasePawn() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABasePawn_Statics::NewProp_CapsuleComp = { "CapsuleComp", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABasePawn, CapsuleComp), Z_Construct_UClass_UCapsuleComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABasePawn_Statics::NewProp_CapsuleComp_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABasePawn_Statics::NewProp_CapsuleComp_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABasePawn_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABasePawn_Statics::NewProp_ProjectileClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABasePawn_Statics::NewProp_ProjectileSpawnPoint,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABasePawn_Statics::NewProp_TurretMesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABasePawn_Statics::NewProp_BaseMesh,
@@ -134,7 +148,7 @@ void EmptyLinkFunctionForGeneratedCodeBasePawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABasePawn, 1037485030);
+	IMPLEMENT_CLASS(ABasePawn, 2685735105);
 	template<> TANKSMINIGAME_API UClass* StaticClass<ABasePawn>()
 	{
 		return ABasePawn::StaticClass();

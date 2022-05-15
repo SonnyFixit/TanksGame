@@ -6,3 +6,5 @@ E:\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 E:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
 E:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
 E:\UE_4.22\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
+E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Source\TanksMiniGame\Projectile.h
+E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Inc\TanksMiniGame\Projectile.generated.h

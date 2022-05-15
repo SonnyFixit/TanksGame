@@ -1,3 +1,7 @@
 E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\Definitions.TanksMiniGame.h
 E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Source\TanksMiniGame\Projectile.h
 E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Inc\TanksMiniGame\Projectile.generated.h
+E:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
+E:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+E:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+E:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h

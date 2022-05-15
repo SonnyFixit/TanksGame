@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeProjectile() {}
 	TANKSMINIGAME_API UClass* Z_Construct_UClass_AProjectile();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_TanksMiniGame();
+	ENGINE_API UClass* Z_Construct_UClass_UProjectileMovementComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void AProjectile::StaticRegisterNativesAProjectile()
@@ -32,6 +33,10 @@ void EmptyLinkFunctionForGeneratedCodeProjectile() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileMovementComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ProjectileMovementComponent;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileMesh_MetaData[];
 #endif
@@ -51,6 +56,14 @@ void EmptyLinkFunctionForGeneratedCodeProjectile() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProjectile_Statics::NewProp_ProjectileMovementComponent_MetaData[] = {
+		{ "Category", "movement" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Projectile.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProjectile_Statics::NewProp_ProjectileMovementComponent = { "ProjectileMovementComponent", nullptr, (EPropertyFlags)0x0040000000090009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProjectile, ProjectileMovementComponent), Z_Construct_UClass_UProjectileMovementComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AProjectile_Statics::NewProp_ProjectileMovementComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AProjectile_Statics::NewProp_ProjectileMovementComponent_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProjectile_Statics::NewProp_ProjectileMesh_MetaData[] = {
 		{ "Category", "Combat" },
 		{ "EditInline", "true" },
@@ -59,6 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeProjectile() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProjectile_Statics::NewProp_ProjectileMesh = { "ProjectileMesh", nullptr, (EPropertyFlags)0x0040000000090009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProjectile, ProjectileMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AProjectile_Statics::NewProp_ProjectileMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_AProjectile_Statics::NewProp_ProjectileMesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AProjectile_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectile_Statics::NewProp_ProjectileMovementComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectile_Statics::NewProp_ProjectileMesh,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AProjectile_Statics::StaticCppClassTypeInfo = {
@@ -88,7 +102,7 @@ void EmptyLinkFunctionForGeneratedCodeProjectile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AProjectile, 665449672);
+	IMPLEMENT_CLASS(AProjectile, 2390645252);
 	template<> TANKSMINIGAME_API UClass* StaticClass<AProjectile>()
 	{
 		return AProjectile::StaticClass();

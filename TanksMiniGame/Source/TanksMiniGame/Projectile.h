@@ -26,5 +26,10 @@ public:
 private:
 	
 	UPROPERTY(EditDefaultsOnly, Category = "Combat")
-	UStaticMeshComponent* ProjectileMesh;
+		UStaticMeshComponent* ProjectileMesh;
+
+	UPROPERTY(EditDefaultsOnly, Category = "movement")
+		class UProjectileMovementComponent* ProjectileMovementComponent;
+	UFUNCTION()
+		void OnHit(UPrimitiveComponent* HitComp, AActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 };

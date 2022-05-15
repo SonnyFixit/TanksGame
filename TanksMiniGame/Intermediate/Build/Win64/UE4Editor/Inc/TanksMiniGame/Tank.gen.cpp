@@ -127,7 +127,7 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATank, 3674067788);
+	IMPLEMENT_CLASS(ATank, 652394351);
 	template<> TANKSMINIGAME_API UClass* StaticClass<ATank>()
 	{
 		return ATank::StaticClass();
