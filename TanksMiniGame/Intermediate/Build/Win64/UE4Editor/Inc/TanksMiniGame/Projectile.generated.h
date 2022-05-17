@@ -8,13 +8,47 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FVector;
+struct FHitResult;
 #ifdef TANKSMINIGAME_Projectile_generated_h
 #error "Projectile.generated.h already included, missing '#pragma once' in Projectile.h"
 #endif
 #define TANKSMINIGAME_Projectile_generated_h
 
-#define TanksMiniGame_Source_TanksMiniGame_Projectile_h_12_RPC_WRAPPERS
-#define TanksMiniGame_Source_TanksMiniGame_Projectile_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define TanksMiniGame_Source_TanksMiniGame_Projectile_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnHit) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComp); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_STRUCT(FVector,Z_Param_NormalImpulse); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnHit(Z_Param_HitComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
+		P_NATIVE_END; \
+	}
+
+
+#define TanksMiniGame_Source_TanksMiniGame_Projectile_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnHit) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComp); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_STRUCT(FVector,Z_Param_NormalImpulse); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnHit(Z_Param_HitComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
+		P_NATIVE_END; \
+	}
+
+
 #define TanksMiniGame_Source_TanksMiniGame_Projectile_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAProjectile(); \
@@ -59,7 +93,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AProjectile); \
 
 #define TanksMiniGame_Source_TanksMiniGame_Projectile_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__ProjectileMesh() { return STRUCT_OFFSET(AProjectile, ProjectileMesh); } \
-	FORCEINLINE static uint32 __PPO__ProjectileMovementComponent() { return STRUCT_OFFSET(AProjectile, ProjectileMovementComponent); }
+	FORCEINLINE static uint32 __PPO__ProjectileMovementComponent() { return STRUCT_OFFSET(AProjectile, ProjectileMovementComponent); } \
+	FORCEINLINE static uint32 __PPO__Damage() { return STRUCT_OFFSET(AProjectile, Damage); }
 
 
 #define TanksMiniGame_Source_TanksMiniGame_Projectile_h_9_PROLOG

@@ -5,3 +5,13 @@ E:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovement
 E:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
 E:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
 E:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h
+E:\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+E:\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+E:\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
+E:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
+E:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+E:\UE_4.22\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+E:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+E:\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+E:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+E:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h

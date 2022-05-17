@@ -364,9 +364,13 @@
     <NMakeOutput>..\..\Binaries\HTML5\TanksMiniGame-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\TanksMiniGame\HealthComponent.cpp" />
     <ClCompile Include="..\..\Source\TanksMiniGame\Projectile.cpp" />
+    <ClCompile Include="..\..\Source\TanksMiniGame\TanksMiniGameGameMode.cpp" />
     <ClCompile Include="..\..\Source\TanksMiniGame\Tower.cpp" />
+    <ClInclude Include="..\..\Source\TanksMiniGame\HealthComponent.h" />
     <ClInclude Include="..\..\Source\TanksMiniGame\Projectile.h" />
+    <ClInclude Include="..\..\Source\TanksMiniGame\TanksMiniGameGameMode.h" />
     <ClInclude Include="..\..\Source\TanksMiniGame\Tower.h" />
     <None Include="..\..\TanksMiniGame.uproject" />
     <None Include="..\..\Source\TanksMiniGame.Target.cs" />

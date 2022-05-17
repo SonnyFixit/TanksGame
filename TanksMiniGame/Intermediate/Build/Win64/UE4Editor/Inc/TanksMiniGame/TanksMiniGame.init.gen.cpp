@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeTanksMiniGame_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xBEF52818,
-				0x196B27DF,
+				0x598C5460,
+				0xD6B18C95,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
