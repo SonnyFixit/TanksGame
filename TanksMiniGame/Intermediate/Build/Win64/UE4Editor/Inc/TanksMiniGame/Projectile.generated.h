@@ -94,7 +94,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AProjectile); \
 #define TanksMiniGame_Source_TanksMiniGame_Projectile_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__ProjectileMesh() { return STRUCT_OFFSET(AProjectile, ProjectileMesh); } \
 	FORCEINLINE static uint32 __PPO__ProjectileMovementComponent() { return STRUCT_OFFSET(AProjectile, ProjectileMovementComponent); } \
-	FORCEINLINE static uint32 __PPO__Damage() { return STRUCT_OFFSET(AProjectile, Damage); }
+	FORCEINLINE static uint32 __PPO__Damage() { return STRUCT_OFFSET(AProjectile, Damage); } \
+	FORCEINLINE static uint32 __PPO__HitParticles() { return STRUCT_OFFSET(AProjectile, HitParticles); } \
+	FORCEINLINE static uint32 __PPO__TrailParticles() { return STRUCT_OFFSET(AProjectile, TrailParticles); }
 
 
 #define TanksMiniGame_Source_TanksMiniGame_Projectile_h_9_PROLOG
