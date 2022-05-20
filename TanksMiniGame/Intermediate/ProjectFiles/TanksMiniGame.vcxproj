@@ -365,10 +365,12 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\TanksMiniGame\HealthComponent.cpp" />
+    <ClCompile Include="..\..\Source\TanksMiniGame\MiniTanksPlayerController.cpp" />
     <ClCompile Include="..\..\Source\TanksMiniGame\Projectile.cpp" />
     <ClCompile Include="..\..\Source\TanksMiniGame\TanksMiniGameGameMode.cpp" />
     <ClCompile Include="..\..\Source\TanksMiniGame\Tower.cpp" />
     <ClInclude Include="..\..\Source\TanksMiniGame\HealthComponent.h" />
+    <ClInclude Include="..\..\Source\TanksMiniGame\MiniTanksPlayerController.h" />
     <ClInclude Include="..\..\Source\TanksMiniGame\Projectile.h" />
     <ClInclude Include="..\..\Source\TanksMiniGame\TanksMiniGameGameMode.h" />
     <ClInclude Include="..\..\Source\TanksMiniGame\Tower.h" />

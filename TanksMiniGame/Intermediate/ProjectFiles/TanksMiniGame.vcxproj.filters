@@ -67,6 +67,9 @@
     <ClInclude Include="..\..\Source\TanksMiniGame\TanksMiniGameGameMode.h">
       <Filter>Source\TanksMiniGame</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\TanksMiniGame\MiniTanksPlayerController.h">
+      <Filter>Source\TanksMiniGame</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\TanksMiniGame\Tower.cpp">
@@ -79,6 +82,9 @@
       <Filter>Source\TanksMiniGame</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\TanksMiniGame\TanksMiniGameGameMode.cpp">
+      <Filter>Source\TanksMiniGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TanksMiniGame\MiniTanksPlayerController.cpp">
       <Filter>Source\TanksMiniGame</Filter>
     </ClCompile>
   </ItemGroup>

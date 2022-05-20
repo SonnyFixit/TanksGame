@@ -21,3 +21,5 @@ E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\
 E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Inc\TanksMiniGame\Tank.generated.h
 E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Source\TanksMiniGame\Tower.h
 E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Inc\TanksMiniGame\Tower.generated.h
+E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Source\TanksMiniGame\MiniTanksPlayerController.h
+E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Inc\TanksMiniGame\MiniTanksPlayerController.generated.h

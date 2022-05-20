@@ -19,7 +19,14 @@ public:
 
 protected:
 	virtual void BeginPlay() override;
+
 private:
 	class ATank* Tank;
+	class AMiniTanksPlayerController* MiniTanksPlayerController;
+
+	float StartDelay = 4.f;
+
+	void HandleGameStart();
+
 	
 };
