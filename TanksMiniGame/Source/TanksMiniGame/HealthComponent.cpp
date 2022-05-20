@@ -25,6 +25,7 @@ void UHealthComponent::BeginPlay()
 	Health = MaxHealth;
 
 	GetOwner()->OnTakeAnyDamage.AddDynamic(this, &UHealthComponent::DamageTaken);
+	TanksMiniGameGameMode = Cast<ATanksMiniGameGameMode>(UGameplayStatics::GetGameMode(this));
 	
 }
 
@@ -43,7 +44,7 @@ void UHealthComponent::DamageTaken(AActor *DamagedActor, float Damage, const UDa
 	if (Damage <= 0.f) return;
 
 	Health -= Damage;
-	UE_LOG(LogTemp, Warning, TEXT("Health:%f"), Health);
+	//UE_LOG(LogTemp, Warning, TEXT("Health:%f"), Health);
 
 	if (Health <= 0.f && TanksMiniGameGameMode)
 	{
