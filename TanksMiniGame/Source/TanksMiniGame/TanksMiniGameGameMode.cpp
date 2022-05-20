@@ -34,7 +34,30 @@ void ATanksMiniGameGameMode::BeginPlay()
 	Super::BeginPlay();
 	HandleGameStart();
 
+	
+}
+
+void ATanksMiniGameGameMode::HandleGameStart()
+{
 	Tank = Cast<ATank>(UGameplayStatics::GetPlayerPawn(this, 0));
 	MiniTanksPlayerController = Cast<AMiniTanksPlayerController>(UGameplayStatics::GetPlayerController(this, 0));
+
+	if (MiniTanksPlayerController)
+	{
+		MiniTanksPlayerController->SetPlayerEnabledState(false);
+
+		FTimerHandle PlayerEnableTimerHandle;
+		FTimerDelegate PlayerEnableTimerDelegate = FTimerDelegate::CreateUObject(
+			MiniTanksPlayerController,
+			&AMiniTanksPlayerController::SetPlayerEnabledState,
+			true
+		);
+
+		GetWorldTimerManager().SetTimer(PlayerEnableTimerHandle,
+			PlayerEnableTimerDelegate,
+			StartDelay,
+			false
+		);
+	}
 }
 

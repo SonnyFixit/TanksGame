@@ -683,3 +683,14 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.05.20-20.57.58:603][340]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (29.506 sec). This should never happen. Something is wrong with the timer delegate!
 [2022.05.20-21.16.43:385][674]LogSlate: Window 'BP_MiniTanksPlayerController' being destroyed
 [2022.05.20-21.16.43:389][674]LogSlate: Window 'BP_MiniTanksPlayerController' being destroyed
+[2022.05.20-21.47.07:495][360]LogHotReload: New module detected: UE4Editor-TanksMiniGame-0006.dll
+[2022.05.20-21.47.17:344][390]LogHotReload: Starting Hot-Reload from IDE
+[2022.05.20-21.47.39:472][390]LogUObjectHash: Compacting FUObjectHashTables data took 440.55ms
+[2022.05.20-21.47.41:433][390]LogClass: Could not find existing class TanksMiniGameGameMode in package /Script/TanksMiniGame for HotReload, assuming new class
+[2022.05.20-21.47.42:185][390]LogHotReload: Re-instancing TanksMiniGameGameMode after hot-reload.
+[2022.05.20-21.47.49:105][390]LogContentBrowser: Native class hierarchy updated for 'TanksMiniGame' in 0.1411 seconds. Added 8 classes and 2 folders.
+[2022.05.20-21.47.49:161][390]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2022.05.20-21.47.54:671][390]LogUObjectHash: Compacting FUObjectHashTables data took   7.98ms
+[2022.05.20-21.47.55:340][390]LogContentBrowser: Native class hierarchy populated in 0.2448 seconds. Added 2872 classes and 728 folders.
+[2022.05.20-21.47.55:594][390]Display: HotReload took 38.3s.
+[2022.05.20-21.47.58:700][393]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (50.732 sec). This should never happen. Something is wrong with the timer delegate!
