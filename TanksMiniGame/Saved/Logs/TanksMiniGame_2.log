@@ -1,4 +1,4 @@
-﻿Log file open, 05/20/22 19:15:49
+﻿Log file open, 05/22/22 22:21:18
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: TanksMiniGame
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 1.096840
+LogStats: Stats thread started at 0.219267
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/libsndfile/Win64/libsndfile-1.dll' (GetLastError=126)
 LogWindows: File '../../../Engine/Binaries/ThirdParty/libsndfile/Win64/libsndfile-1.dll' does not exist
@@ -174,337 +174,322 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2022.05.20-17.15.54:260][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
-[2022.05.20-17.15.54:260][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
-[2022.05.20-17.15.54:260][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
-[2022.05.20-17.15.54:260][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2022.05.20-17.15.54:260][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2022.05.20-17.15.54:260][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
-[2022.05.20-17.15.54:260][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
-[2022.05.20-17.15.54:260][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2022.05.20-17.15.54:260][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2022.05.20-17.15.54:260][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2022.05.20-17.15.54:260][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2022.05.20-17.15.54:260][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2022.05.20-17.15.54:260][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2022.05.20-17.15.54:260][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2022.05.20-17.15.54:260][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2022.05.20-17.15.54:260][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2022.05.20-17.15.54:260][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2022.05.20-17.15.54:260][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2022.05.20-17.15.54:260][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2022.05.20-17.15.54:260][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2022.05.20-17.15.54:261][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
-[2022.05.20-17.15.54:261][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2022.05.20-17.15.54:261][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2022.05.20-17.15.54:261][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2022.05.20-17.15.54:261][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2022.05.20-17.15.54:261][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2022.05.20-17.15.54:261][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2022.05.20-17.15.54:261][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2022.05.20-17.15.54:261][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2022.05.20-17.15.54:261][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2022.05.20-17.15.54:261][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2022.05.20-17.15.54:261][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2022.05.20-17.15.54:261][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2022.05.20-17.15.54:261][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2022.05.20-17.15.54:261][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
-[2022.05.20-17.15.54:261][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
-[2022.05.20-17.15.54:297][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.20-17.15.54:297][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2022.05.20-17.15.54:297][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2022.05.20-17.15.54:297][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.20-17.15.54:297][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2022.05.20-17.15.54:297][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.20-17.15.54:297][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2022.05.20-17.15.54:297][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2022.05.20-17.15.54:297][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2022.05.20-17.15.54:297][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2022.05.20-17.15.54:297][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2022.05.20-17.15.54:297][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2022.05.20-17.15.54:298][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2022.05.20-17.15.54:298][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2022.05.20-17.15.54:298][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2022.05.20-17.15.54:298][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2022.05.20-17.15.54:298][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2022.05.20-17.15.54:298][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2022.05.20-17.15.54:298][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2022.05.20-17.15.54:298][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2022.05.20-17.15.54:298][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2022.05.20-17.15.54:298][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2022.05.20-17.15.54:298][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2022.05.20-17.15.54:298][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2022.05.20-17.15.54:298][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.20-17.15.54:298][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2022.05.20-17.15.54:299][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2022.05.20-17.15.54:299][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2022.05.20-17.15.54:299][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2022.05.20-17.15.54:299][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2022.05.20-17.15.54:299][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2022.05.20-17.15.54:299][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2022.05.20-17.15.54:299][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2022.05.20-17.15.54:299][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2022.05.20-17.15.54:299][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2022.05.20-17.15.54:299][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2022.05.20-17.15.54:299][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2022.05.20-17.15.54:299][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2022.05.20-17.15.54:299][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2022.05.20-17.15.54:299][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2022.05.20-17.15.54:299][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2022.05.20-17.15.54:300][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2022.05.20-17.15.54:300][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2022.05.20-17.15.54:300][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2022.05.20-17.15.54:300][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2022.05.20-17.15.54:300][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2022.05.20-17.15.54:300][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2022.05.20-17.15.54:300][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2022.05.20-17.15.54:300][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2022.05.20-17.15.54:300][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2022.05.20-17.15.54:300][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2022.05.20-17.15.54:300][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2022.05.20-17.15.54:300][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2022.05.20-17.15.54:300][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2022.05.20-17.15.54:300][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2022.05.20-17.15.54:300][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.20-17.15.54:301][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2022.05.20-17.15.54:301][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2022.05.20-17.15.54:301][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2022.05.20-17.15.54:301][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2022.05.20-17.15.54:301][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2022.05.20-17.15.54:301][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2022.05.20-17.15.54:301][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2022.05.20-17.15.54:301][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2022.05.20-17.15.54:301][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.20-17.15.54:301][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2022.05.20-17.15.54:301][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2022.05.20-17.15.54:301][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2022.05.20-17.15.54:301][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2022.05.20-17.15.54:301][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2022.05.20-17.15.54:301][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2022.05.20-17.15.54:301][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2022.05.20-17.15.54:301][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2022.05.20-17.15.54:301][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2022.05.20-17.15.54:301][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2022.05.20-17.15.54:301][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2022.05.20-17.15.54:301][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2022.05.20-17.15.54:302][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2022.05.20-17.15.54:302][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.20-17.15.54:302][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2022.05.20-17.15.54:302][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2022.05.20-17.15.54:305][  0]LogInit: Selected Device Profile: [Windows]
-[2022.05.20-17.15.54:305][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2022.05.20-17.15.54:369][  0]LogHAL: Display: Platform has ~ 4 GB [4080635904 / 4294967296 / 4], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2022.05.20-17.15.54:369][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2022.05.20-17.15.54:369][  0]LogInit: Going up to parent DeviceProfile []
-[2022.05.20-17.15.54:380][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.20-17.15.54:380][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2022.05.20-17.15.54:380][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2022.05.20-17.15.54:380][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.20-17.15.54:380][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2022.05.20-17.15.54:380][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.20-17.15.54:380][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2022.05.20-17.15.54:380][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2022.05.20-17.15.54:380][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2022.05.20-17.15.54:380][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2022.05.20-17.15.54:380][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2022.05.20-17.15.54:380][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2022.05.20-17.15.54:380][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2022.05.20-17.15.54:380][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2022.05.20-17.15.54:381][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2022.05.20-17.15.54:381][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2022.05.20-17.15.54:381][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2022.05.20-17.15.54:381][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2022.05.20-17.15.54:381][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2022.05.20-17.15.54:381][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2022.05.20-17.15.54:381][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2022.05.20-17.15.54:381][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2022.05.20-17.15.54:381][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2022.05.20-17.15.54:381][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2022.05.20-17.15.54:381][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.20-17.15.54:381][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2022.05.20-17.15.54:381][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2022.05.20-17.15.54:381][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2022.05.20-17.15.54:381][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2022.05.20-17.15.54:382][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2022.05.20-17.15.54:382][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2022.05.20-17.15.54:382][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2022.05.20-17.15.54:382][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2022.05.20-17.15.54:382][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2022.05.20-17.15.54:382][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2022.05.20-17.15.54:382][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2022.05.20-17.15.54:382][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2022.05.20-17.15.54:382][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2022.05.20-17.15.54:382][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2022.05.20-17.15.54:382][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2022.05.20-17.15.54:382][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2022.05.20-17.15.54:382][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2022.05.20-17.15.54:382][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2022.05.20-17.15.54:382][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2022.05.20-17.15.54:382][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2022.05.20-17.15.54:382][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2022.05.20-17.15.54:382][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2022.05.20-17.15.54:382][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2022.05.20-17.15.54:382][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2022.05.20-17.15.54:382][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2022.05.20-17.15.54:382][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2022.05.20-17.15.54:382][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2022.05.20-17.15.54:382][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2022.05.20-17.15.54:382][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2022.05.20-17.15.54:383][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2022.05.20-17.15.54:383][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.20-17.15.54:383][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2022.05.20-17.15.54:383][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2022.05.20-17.15.54:383][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2022.05.20-17.15.54:383][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2022.05.20-17.15.54:383][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2022.05.20-17.15.54:383][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2022.05.20-17.15.54:383][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2022.05.20-17.15.54:383][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2022.05.20-17.15.54:383][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.20-17.15.54:383][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2022.05.20-17.15.54:383][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2022.05.20-17.15.54:383][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2022.05.20-17.15.54:383][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2022.05.20-17.15.54:383][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2022.05.20-17.15.54:383][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2022.05.20-17.15.54:383][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2022.05.20-17.15.54:383][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2022.05.20-17.15.54:383][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2022.05.20-17.15.54:383][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2022.05.20-17.15.54:383][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2022.05.20-17.15.54:383][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2022.05.20-17.15.54:383][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2022.05.20-17.15.54:384][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.20-17.15.54:384][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2022.05.20-17.15.54:384][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2022.05.20-17.15.54:384][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2022.05.20-17.15.54:384][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2022.05.20-17.15.54:384][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2022.05.20-17.15.54:384][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
-[2022.05.20-17.15.54:432][  0]LogInit: Computer: SONNY
-[2022.05.20-17.15.54:432][  0]LogInit: User: SonnyFixit
-[2022.05.20-17.15.54:432][  0]LogInit: CPU Page size=4096, Cores=2
-[2022.05.20-17.15.54:432][  0]LogInit: High frequency timer resolution =1.851267 MHz
-[2022.05.20-17.15.54:440][  0]LogMemory: Memory total: Physical=3.8GB (4GB approx)
-[2022.05.20-17.15.54:445][  0]LogMemory: Platform Memory Stats for Windows
-[2022.05.20-17.15.54:445][  0]LogMemory: Process Physical Memory: 95.29 MB used, 95.29 MB peak
-[2022.05.20-17.15.54:445][  0]LogMemory: Process Virtual Memory: 91.85 MB used, 91.85 MB peak
-[2022.05.20-17.15.54:445][  0]LogMemory: Physical Memory: 3012.27 MB used,  879.33 MB free, 3891.60 MB total
-[2022.05.20-17.15.54:445][  0]LogMemory: Virtual Memory: 490.52 MB used,  134217240.00 MB free, 134217728.00 MB total
-[2022.05.20-17.15.56:807][  0]LogInit: Using OS detected language (pl-PL).
-[2022.05.20-17.15.56:807][  0]LogInit: Using OS detected locale (pl-PL).
-[2022.05.20-17.15.56:823][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
-[2022.05.20-17.15.56:896][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
-[2022.05.20-17.15.56:897][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
-[2022.05.20-17.15.56:910][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
-[2022.05.20-17.15.56:910][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
-[2022.05.20-17.15.56:941][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
-[2022.05.20-17.15.56:945][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
-[2022.05.20-17.15.56:952][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
-[2022.05.20-17.15.58:650][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2022.05.20-17.15.58:651][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2022.05.20-17.15.58:753][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2022.05.20-17.15.58:753][  0]LogD3D11RHI: D3D11 adapters:
-[2022.05.20-17.16.00:343][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 710M' (Feature Level 11_0)
-[2022.05.20-17.16.00:343][  0]LogD3D11RHI:       963/0/1945 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2022.05.20-17.16.00:415][  0]LogD3D11RHI:    1. 'NVIDIA GeForce 710M' (Feature Level 11_0)
-[2022.05.20-17.16.00:416][  0]LogD3D11RHI:       963/0/1945 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
-[2022.05.20-17.16.00:479][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2022.05.20-17.16.00:479][  0]LogD3D11RHI:       963/0/1945 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2022.05.20-17.16.00:479][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2022.05.20-17.16.00:527][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2022.05.20-17.16.00:527][  0]LogD3D11RHI:     GPU DeviceId: 0x1140 (for the marketing name, search the web for "GPU Device Id")
-[2022.05.20-17.16.00:546][  0]LogWindows: EnumDisplayDevices:
-[2022.05.20-17.16.00:567][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
-[2022.05.20-17.16.00:569][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
-[2022.05.20-17.16.00:570][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
-[2022.05.20-17.16.00:584][  0]LogWindows:    3. 'NVIDIA GeForce 710M' (P:0 D:0)
-[2022.05.20-17.16.00:585][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
-[2022.05.20-17.16.00:585][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 710M
-[2022.05.20-17.16.00:585][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
-[2022.05.20-17.16.00:585][  0]LogD3D11RHI:      Driver Date: 3-23-2018
-[2022.05.20-17.16.00:585][  0]LogRHI: Texture pool is 674 MB (70% of 963 MB)
-[2022.05.20-17.16.00:713][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
-[2022.05.20-17.16.00:721][  0]LogD3D11RHI: Async texture creation enabled
-[2022.05.20-17.16.00:936][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2022.05.20-17.16.00:960][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2022.05.20-17.16.00:960][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2022.05.20-17.16.01:059][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 3)
-[2022.05.20-17.16.02:646][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2022.05.20-17.16.02:697][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2022.05.20-17.16.02:770][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2022.05.20-17.16.02:816][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2022.05.20-17.16.02:816][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2022.05.20-17.16.03:089][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2022.05.20-17.16.04:628][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/Shaders/WorkingDirectory/10040/).
-[2022.05.20-17.16.04:628][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SonnyFixit/AppData/Local/Temp/UnrealShaderWorkingDir/C7C407574B69531D6A7144B42EF96A09/'.
-[2022.05.20-17.16.04:660][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2022.05.20-17.16.04:660][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2022.05.20-17.16.04:676][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2022.05.20-17.16.17:002][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2022.05.20-17.16.18:643][  0]LogDerivedDataCache: Loaded boot cache 1.62s 72MB C:/Users/SonnyFixit/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2022.05.20-17.16.18:643][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/SonnyFixit/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2022.05.20-17.16.18:644][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2022.05.20-17.16.18:644][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2022.05.20-17.16.18:644][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2022.05.20-17.16.18:644][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2022.05.20-17.16.18:827][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2022.05.20-17.16.18:870][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
-[2022.05.20-17.16.18:883][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SonnyFixit/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2022.05.20-17.16.18:883][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2022.05.20-17.16.18:883][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2022.05.20-17.16.19:078][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2022.05.20-17.16.19:667][  0]LogSlate: Using FreeType 2.6.0
-[2022.05.20-17.16.20:223][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2022.05.20-17.16.25:741][  0]LogInit: Using OS detected language (pl-PL).
-[2022.05.20-17.16.25:741][  0]LogInit: Using OS detected locale (pl-PL).
-[2022.05.20-17.16.25:741][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the language.
-[2022.05.20-17.16.25:741][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the locale.
-[2022.05.20-17.16.25:741][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2022.05.20-17.16.25:741][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2022.05.20-17.16.25:753][  0]LogTextLocalizationManager: Compacting localization data took   1.88ms
-[2022.05.20-17.16.25:795][  0]LogAssetRegistry: FAssetRegistry took 0.0102 seconds to start up
-[2022.05.20-17.16.29:742][  0]LogPackageLocalizationCache: Processed 16 localized package path(s) for 1 prioritized culture(s) in 0.013984 seconds
-[2022.05.20-17.16.30:179][  0]LogInit: Selected Device Profile: [Windows]
-[2022.05.20-17.16.32:572][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2022.05.20-17.16.32:572][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2022.05.20-17.16.32:572][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2022.05.20-17.16.32:572][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2022.05.20-17.16.32:815][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2022.05.20-17.16.35:754][  0]LogNetVersion: TanksMiniGame 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1412442164)
-[2022.05.20-17.17.06:605][  0]LogMoviePlayer: Initializing movie player
-[2022.05.20-17.17.08:137][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2022.05.20-17.17.08:189][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2022.05.20-17.17.09:185][  0]SourceControl: Source control is disabled
-[2022.05.20-17.17.09:185][  0]SourceControl: Source control is disabled
-[2022.05.20-17.17.09:222][  0]SourceControl: Source control is disabled
-[2022.05.20-17.17.11:124][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2022.05.20-17.17.12:845][  0]LogOcInput: OculusInput pre-init called
-[2022.05.20-17.17.12:999][  0]LogUObjectArray: 46520 objects as part of root set at end of initial load.
-[2022.05.20-17.17.12:999][  0]LogUObjectAllocator: 8199960 out of 0 bytes used by permanent object pool.
-[2022.05.20-17.17.12:999][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2022.05.20-17.17.15:113][  0]LogEngine: Initializing Engine...
-[2022.05.20-17.17.15:164][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2022.05.20-17.17.15:263][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.010 s
-[2022.05.20-17.17.16:498][  0]LogInit: Initializing FReadOnlyCVARCache
-[2022.05.20-17.17.16:600][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.05.20-17.17.16:957][  0]LogInit: FAudioDevice initialized.
-[2022.05.20-17.17.16:969][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2022.05.20-17.17.16:979][  0]LogInit: Texture streaming: Enabled
-[2022.05.20-17.17.18:770][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2022.05.20-17.17.18:771][  0]LogInit: Display: Game Engine Initialized.
-[2022.05.20-17.17.19:360][  0]LogInit: Display: Starting Game.
-[2022.05.20-17.17.19:373][  0]LogNet: Browse: /Game/Maps/Main?Name=Player
-[2022.05.20-17.17.19:373][  0]LogLoad: LoadMap: /Game/Maps/Main?Name=Player
-[2022.05.20-17.17.19:451][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
-[2022.05.20-17.17.23:461][  0]LogAIModule: Creating AISystem for world Main
-[2022.05.20-17.17.23:960][  0]LogLoad: Game class is 'BP_TanksMiniGameMode_C'
-[2022.05.20-17.17.24:439][  0]LogWorld: Bringing World /Game/Maps/Main.Main up for play (max tick rate 0) at 2022.05.20-19.17.24
-[2022.05.20-17.17.24:440][  0]LogWorld: Bringing up level for play took: 0.462711
-[2022.05.20-17.17.24:649][  0]LogLoad: Took 5.276319 seconds to LoadMap(/Game/Maps/Main)
-[2022.05.20-17.17.26:408][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2022.05.20-17.17.26:408][  0]LogLoad: (Engine Initialization) Total time: 103.07 seconds
-[2022.05.20-17.17.26:408][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2022.05.20-17.17.26:795][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2022.05.20-17.17.28:475][  0]LogRenderer: Reallocating scene render targets to support 128x128 Format 10 NumSamples 1 (Frame:1).
-[2022.05.20-17.17.29:580][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:2).
+[2022.05.22-20.21.18:954][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.05.22-20.21.18:955][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2022.05.22-20.21.18:955][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.05.22-20.21.18:955][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.05.22-20.21.18:955][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.05.22-20.21.18:956][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.05.22-20.21.18:956][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.05.22-20.21.18:956][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.05.22-20.21.18:956][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.05.22-20.21.18:956][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.05.22-20.21.18:956][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.05.22-20.21.18:958][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.05.22-20.21.18:958][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.05.22-20.21.18:958][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.05.22-20.21.18:960][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.05.22-20.21.18:960][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.05.22-20.21.18:960][  0]LogInit: Selected Device Profile: [Windows]
+[2022.05.22-20.21.18:960][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.05.22-20.21.18:973][  0]LogHAL: Display: Platform has ~ 4 GB [4080635904 / 4294967296 / 4], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.05.22-20.21.18:973][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2022.05.22-20.21.18:973][  0]LogInit: Going up to parent DeviceProfile []
+[2022.05.22-20.21.18:974][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.05.22-20.21.18:974][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.05.22-20.21.18:974][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.05.22-20.21.18:975][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.05.22-20.21.18:977][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.05.22-20.21.18:977][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.05.22-20.21.18:977][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.05.22-20.21.18:978][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.05.22-20.21.18:978][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.05.22-20.21.18:978][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.05.22-20.21.18:979][  0]LogInit: Computer: SONNY
+[2022.05.22-20.21.18:979][  0]LogInit: User: SonnyFixit
+[2022.05.22-20.21.18:979][  0]LogInit: CPU Page size=4096, Cores=2
+[2022.05.22-20.21.18:979][  0]LogInit: High frequency timer resolution =1.851267 MHz
+[2022.05.22-20.21.18:979][  0]LogMemory: Memory total: Physical=3.8GB (4GB approx)
+[2022.05.22-20.21.18:979][  0]LogMemory: Platform Memory Stats for Windows
+[2022.05.22-20.21.18:979][  0]LogMemory: Process Physical Memory: 95.31 MB used, 95.31 MB peak
+[2022.05.22-20.21.18:979][  0]LogMemory: Process Virtual Memory: 91.85 MB used, 91.85 MB peak
+[2022.05.22-20.21.18:979][  0]LogMemory: Physical Memory: 3240.56 MB used,  651.04 MB free, 3891.60 MB total
+[2022.05.22-20.21.18:979][  0]LogMemory: Virtual Memory: 490.52 MB used,  134217240.00 MB free, 134217728.00 MB total
+[2022.05.22-20.21.19:026][  0]LogInit: Using OS detected language (pl-PL).
+[2022.05.22-20.21.19:026][  0]LogInit: Using OS detected locale (pl-PL).
+[2022.05.22-20.21.19:027][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
+[2022.05.22-20.21.19:028][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
+[2022.05.22-20.21.19:029][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
+[2022.05.22-20.21.19:029][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
+[2022.05.22-20.21.19:029][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
+[2022.05.22-20.21.19:030][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
+[2022.05.22-20.21.19:030][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
+[2022.05.22-20.21.19:030][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
+[2022.05.22-20.21.19:063][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.05.22-20.21.19:063][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.05.22-20.21.19:107][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.05.22-20.21.19:107][  0]LogD3D11RHI: D3D11 adapters:
+[2022.05.22-20.21.19:153][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 710M' (Feature Level 11_0)
+[2022.05.22-20.21.19:153][  0]LogD3D11RHI:       963/0/1945 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.05.22-20.21.19:188][  0]LogD3D11RHI:    1. 'NVIDIA GeForce 710M' (Feature Level 11_0)
+[2022.05.22-20.21.19:189][  0]LogD3D11RHI:       963/0/1945 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2022.05.22-20.21.19:191][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.05.22-20.21.19:191][  0]LogD3D11RHI:       963/0/1945 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.05.22-20.21.19:191][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.05.22-20.21.19:205][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.05.22-20.21.19:205][  0]LogD3D11RHI:     GPU DeviceId: 0x1140 (for the marketing name, search the web for "GPU Device Id")
+[2022.05.22-20.21.19:205][  0]LogWindows: EnumDisplayDevices:
+[2022.05.22-20.21.19:205][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2022.05.22-20.21.19:206][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2022.05.22-20.21.19:206][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2022.05.22-20.21.19:207][  0]LogWindows:    3. 'NVIDIA GeForce 710M' (P:0 D:0)
+[2022.05.22-20.21.19:207][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2022.05.22-20.21.19:207][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 710M
+[2022.05.22-20.21.19:207][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
+[2022.05.22-20.21.19:207][  0]LogD3D11RHI:      Driver Date: 3-23-2018
+[2022.05.22-20.21.19:207][  0]LogRHI: Texture pool is 674 MB (70% of 963 MB)
+[2022.05.22-20.21.19:268][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2022.05.22-20.21.19:269][  0]LogD3D11RHI: Async texture creation enabled
+[2022.05.22-20.21.19:276][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2022.05.22-20.21.19:277][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2022.05.22-20.21.19:277][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2022.05.22-20.21.19:293][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2022.05.22-20.21.19:867][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2022.05.22-20.21.19:895][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2022.05.22-20.21.19:923][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2022.05.22-20.21.19:936][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2022.05.22-20.21.19:936][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.05.22-20.21.19:951][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.05.22-20.21.20:028][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/Shaders/WorkingDirectory/8752/).
+[2022.05.22-20.21.20:028][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SonnyFixit/AppData/Local/Temp/UnrealShaderWorkingDir/0252BF4046B2278DF5640594D105A140/'.
+[2022.05.22-20.21.20:032][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.05.22-20.21.20:032][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.05.22-20.21.20:032][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.05.22-20.21.25:136][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.05.22-20.21.26:750][  0]LogDerivedDataCache: Loaded boot cache 1.61s 72MB C:/Users/SonnyFixit/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2022.05.22-20.21.26:750][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/SonnyFixit/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2022.05.22-20.21.26:750][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.05.22-20.21.26:750][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.05.22-20.21.26:750][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.05.22-20.21.26:750][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.05.22-20.21.27:020][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.05.22-20.21.27:215][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2022.05.22-20.21.27:228][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SonnyFixit/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.05.22-20.21.27:228][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.05.22-20.21.27:228][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.05.22-20.21.27:284][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2022.05.22-20.21.27:501][  0]LogSlate: Using FreeType 2.6.0
+[2022.05.22-20.21.27:710][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.05.22-20.21.35:380][  0]LogInit: Using OS detected language (pl-PL).
+[2022.05.22-20.21.35:380][  0]LogInit: Using OS detected locale (pl-PL).
+[2022.05.22-20.21.35:380][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the language.
+[2022.05.22-20.21.35:380][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the locale.
+[2022.05.22-20.21.35:381][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2022.05.22-20.21.35:381][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2022.05.22-20.21.35:462][  0]LogTextLocalizationManager: Compacting localization data took  35.51ms
+[2022.05.22-20.21.35:525][  0]LogAssetRegistry: FAssetRegistry took 0.0094 seconds to start up
+[2022.05.22-20.21.36:028][  0]LogPackageLocalizationCache: Processed 16 localized package path(s) for 1 prioritized culture(s) in 0.023005 seconds
+[2022.05.22-20.21.36:523][  0]LogInit: Selected Device Profile: [Windows]
+[2022.05.22-20.21.39:838][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.05.22-20.21.39:838][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.05.22-20.21.39:838][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.05.22-20.21.39:838][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.05.22-20.21.39:838][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.05.22-20.21.40:035][  0]LogNetVersion: TanksMiniGame 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1412442164)
+[2022.05.22-20.21.55:326][  0]LogMoviePlayer: Initializing movie player
+[2022.05.22-20.21.58:222][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.05.22-20.21.58:385][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.05.22-20.22.00:200][  0]SourceControl: Source control is disabled
+[2022.05.22-20.22.00:223][  0]SourceControl: Source control is disabled
+[2022.05.22-20.22.00:362][  0]SourceControl: Source control is disabled
+[2022.05.22-20.22.04:993][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.05.22-20.22.06:691][  0]LogOcInput: OculusInput pre-init called
+[2022.05.22-20.22.06:911][  0]LogUObjectArray: 46523 objects as part of root set at end of initial load.
+[2022.05.22-20.22.06:911][  0]LogUObjectAllocator: 8203064 out of 0 bytes used by permanent object pool.
+[2022.05.22-20.22.06:912][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.05.22-20.22.09:623][  0]LogEngine: Initializing Engine...
+[2022.05.22-20.22.09:754][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.05.22-20.22.09:808][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.010 s
+[2022.05.22-20.22.11:398][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.05.22-20.22.15:792][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.05.22-20.22.19:953][  0]LogInit: FAudioDevice initialized.
+[2022.05.22-20.22.20:046][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.05.22-20.22.20:055][  0]LogInit: Texture streaming: Enabled
+[2022.05.22-20.22.27:275][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.22-20.22.27:358][  0]LogInit: Display: Game Engine Initialized.

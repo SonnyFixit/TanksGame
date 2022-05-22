@@ -42,6 +42,8 @@ void ATanksMiniGameGameMode::HandleGameStart()
 	Tank = Cast<ATank>(UGameplayStatics::GetPlayerPawn(this, 0));
 	MiniTanksPlayerController = Cast<AMiniTanksPlayerController>(UGameplayStatics::GetPlayerController(this, 0));
 
+	StartGame();
+
 	if (MiniTanksPlayerController)
 	{
 		MiniTanksPlayerController->SetPlayerEnabledState(false);
