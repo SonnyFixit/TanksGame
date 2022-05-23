@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeTanksMiniGame_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xF0BC496A,
+				0xB879CA29,
 				0xC52BCE31,
 				METADATA_PARAMS(nullptr, 0)
 			};

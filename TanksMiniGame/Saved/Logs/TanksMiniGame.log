@@ -589,3 +589,27 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.05.23-20.57.11:214][742]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
 [2022.05.23-20.57.11:214][742]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
 [2022.05.23-20.57.30:036][798]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (18.823 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.23-22.01.59:202][262]LogHotReload: New module detected: UE4Editor-TanksMiniGame-0009.dll
+[2022.05.23-22.02.07:379][284]LogHotReload: Starting Hot-Reload from IDE
+[2022.05.23-22.02.47:101][284]LogUObjectHash: Compacting FUObjectHashTables data took 1407.77ms
+[2022.05.23-22.02.51:460][284]LogClass: Could not find existing class BasePawn in package /Script/TanksMiniGame for HotReload, assuming new class
+[2022.05.23-22.02.51:803][284]LogClass: Could not find existing class Tank in package /Script/TanksMiniGame for HotReload, assuming new class
+[2022.05.23-22.02.51:816][284]LogClass: Could not find existing class Tower in package /Script/TanksMiniGame for HotReload, assuming new class
+[2022.05.23-22.02.52:589][284]LogHotReload: Re-instancing BasePawn after hot-reload.
+[2022.05.23-22.03.03:042][284]LogHotReload: Re-instancing Tank after hot-reload.
+[2022.05.23-22.03.06:546][284]LogHotReload: Re-instancing Tower after hot-reload.
+[2022.05.23-22.03.09:714][284]LogContentBrowser: Native class hierarchy updated for 'TanksMiniGame' in 0.3314 seconds. Added 8 classes and 2 folders.
+[2022.05.23-22.03.09:969][284]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2022.05.23-22.03.10:714][284]LogUObjectHash: Compacting FUObjectHashTables data took   5.88ms
+[2022.05.23-22.03.12:592][284]LogContentBrowser: Native class hierarchy populated in 0.7146 seconds. Added 2872 classes and 728 folders.
+[2022.05.23-22.03.13:282][284]Display: HotReload took 65.9s.
+[2022.05.23-22.03.29:797][506]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (16.365 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.05.23-22.05.30:136][584]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2022.05.23-22.05.51:179][702]LogRenderer: Reallocating scene render targets to support 856x460 Format 9 NumSamples 1 (Frame:1).
+[2022.05.23-22.06.06:028][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2022.05.23-22.06.07:556][ 10]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/BP_PawnTankE12A3AFB41BFDD0ECB7F46B531CA0E1D.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2022.05.23-22.06.54:639][163]LogSlate: Window 'BP_PawnTank' being destroyed
+[2022.05.23-22.06.54:642][163]LogSlate: Window 'BP_PawnTank' being destroyed
+[2022.05.23-22.06.56:907][164]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2022.05.23-22.07.28:855][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTurret" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTurret.uasset" SILENT=true
+[2022.05.23-22.07.31:713][446]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/BP_PawnTurret02819DD549FD910614856FB2A3E4E1F3.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTurret.uasset'
