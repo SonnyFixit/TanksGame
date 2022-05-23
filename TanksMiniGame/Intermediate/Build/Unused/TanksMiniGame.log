@@ -2,17 +2,9 @@
   Creating makefile for TanksMiniGameEditor (ini files are newer than makefile)
   Parsing headers for TanksMiniGameEditor
     Running UnrealHeaderTool "E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\TanksMiniGame.uproject" "E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\TanksMiniGameEditor\Development\TanksMiniGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for TanksMiniGameEditor in 135,9790484 seconds
+  Reflection code generated for TanksMiniGameEditor in 80,648357 seconds
   Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 7 actions with 4 processes...
-    [1/7] TanksMiniGame.init.gen.cpp
-    [2/7] TanksMiniGameGameMode.gen.cpp
-    [3/7] HealthComponent.cpp
-    [4/7] TanksMiniGameGameMode.cpp
-    [5/7] UE4Editor-TanksMiniGame-0007.lib
-       Trwa tworzenie biblioteki E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-0007.lib i obiektu E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-0007.exp
-    [6/7] UE4Editor-TanksMiniGame-0007.dll
-       Trwa tworzenie biblioteki E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-0007.suppressed.lib i obiektu E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-0007.suppressed.exp
-    [7/7] TanksMiniGameEditor.target
-  Total time in Parallel executor: 438,90 seconds
-  Total execution time: 644,07 seconds
+  Building 1 action with 4 processes...
+    [1/1] TanksMiniGameEditor.target
+  Total time in Parallel executor: 15,32 seconds
+  Total execution time: 233,87 seconds
