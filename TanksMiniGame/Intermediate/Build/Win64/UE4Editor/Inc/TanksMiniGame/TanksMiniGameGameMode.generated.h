@@ -15,7 +15,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define TanksMiniGame_Source_TanksMiniGame_TanksMiniGameGameMode_h_15_RPC_WRAPPERS
 #define TanksMiniGame_Source_TanksMiniGame_TanksMiniGameGameMode_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define TanksMiniGame_Source_TanksMiniGame_TanksMiniGameGameMode_h_15_EVENT_PARMS
+#define TanksMiniGame_Source_TanksMiniGame_TanksMiniGameGameMode_h_15_EVENT_PARMS \
+	struct TanksMiniGameGameMode_eventGameOver_Parms \
+	{ \
+		bool bWonGame; \
+	};
+
+
 #define TanksMiniGame_Source_TanksMiniGame_TanksMiniGameGameMode_h_15_CALLBACK_WRAPPERS
 #define TanksMiniGame_Source_TanksMiniGame_TanksMiniGameGameMode_h_15_INCLASS_NO_PURE_DECLS \
 private: \

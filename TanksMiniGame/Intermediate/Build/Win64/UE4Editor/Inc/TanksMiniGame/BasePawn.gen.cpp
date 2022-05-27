@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeBasePawn() {}
 	TANKSMINIGAME_API UClass* Z_Construct_UClass_ABasePawn();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_TanksMiniGame();
+	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	TANKSMINIGAME_API UClass* Z_Construct_UClass_AProjectile_NoRegister();
@@ -37,6 +38,10 @@ void EmptyLinkFunctionForGeneratedCodeBasePawn() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DeathSound_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_DeathSound;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DeathParticles_MetaData[];
 #endif
@@ -76,6 +81,13 @@ void EmptyLinkFunctionForGeneratedCodeBasePawn() {}
 		{ "ModuleRelativePath", "BasePawn.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABasePawn_Statics::NewProp_DeathSound_MetaData[] = {
+		{ "Category", "Combat" },
+		{ "ModuleRelativePath", "BasePawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABasePawn_Statics::NewProp_DeathSound = { "DeathSound", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABasePawn, DeathSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABasePawn_Statics::NewProp_DeathSound_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABasePawn_Statics::NewProp_DeathSound_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABasePawn_Statics::NewProp_DeathParticles_MetaData[] = {
 		{ "Category", "Combat" },
@@ -127,6 +139,7 @@ void EmptyLinkFunctionForGeneratedCodeBasePawn() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABasePawn_Statics::NewProp_CapsuleComp = { "CapsuleComp", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABasePawn, CapsuleComp), Z_Construct_UClass_UCapsuleComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABasePawn_Statics::NewProp_CapsuleComp_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABasePawn_Statics::NewProp_CapsuleComp_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABasePawn_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABasePawn_Statics::NewProp_DeathSound,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABasePawn_Statics::NewProp_DeathParticles,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABasePawn_Statics::NewProp_ProjectileClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABasePawn_Statics::NewProp_ProjectileSpawnPoint,
@@ -161,7 +174,7 @@ void EmptyLinkFunctionForGeneratedCodeBasePawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABasePawn, 2289033380);
+	IMPLEMENT_CLASS(ABasePawn, 2057288796);
 	template<> TANKSMINIGAME_API UClass* StaticClass<ABasePawn>()
 	{
 		return ABasePawn::StaticClass();

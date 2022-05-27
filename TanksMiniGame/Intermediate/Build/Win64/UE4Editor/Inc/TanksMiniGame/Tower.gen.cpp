@@ -87,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodeTower() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATower, 2616736189);
+	IMPLEMENT_CLASS(ATower, 4082714819);
 	template<> TANKSMINIGAME_API UClass* StaticClass<ATower>()
 	{
 		return ATower::StaticClass();
