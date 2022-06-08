@@ -38,6 +38,11 @@ void AProjectile::BeginPlay()
 	{
 		UGameplayStatics::PlaySoundAtLocation(this, HitSound, GetActorLocation());
 	}
+
+	if (HitCameraShakeClass)
+	{
+		GetWorld()->GetFirstPlayerController()->ClientPlayCameraShake(HitCameraShakeClass);
+	}
 	
 }
 

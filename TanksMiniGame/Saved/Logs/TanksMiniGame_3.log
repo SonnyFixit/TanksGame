@@ -684,3 +684,20 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.06.08-21.26.31:327][710]LogUObjectHash: Compacting FUObjectHashTables data took   4.62ms
 [2022.06.08-21.26.31:403][711]LogPlayLevel: Display: Destroying online subsystem :Context_9
 [2022.06.08-21.26.36:536][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.06.08-21.32.39:675][197]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.06.08-21.33.20:891][ 84]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.06.08-21.33.41:575][311]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Camera/HitCameraShake.HitCameraShake
+[2022.06.08-21.35.16:164][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Camera/HitCameraShake" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Camera/HitCameraShake.uasset" SILENT=true
+[2022.06.08-21.35.16:171][229]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/HitCameraShake7D22891C4564326B25C9F2BD2CE08DC0.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Camera/HitCameraShake.uasset'
+[2022.06.08-21.37.25:227][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Camera/HitCameraShake" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Camera/HitCameraShake.uasset" SILENT=true
+[2022.06.08-21.37.25:271][311]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/HitCameraShake4D9C8AF24E71B32C6AC6C7BEA98FE3AA.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Camera/HitCameraShake.uasset'
+[2022.06.08-21.37.27:059][405]BlueprintLog: New page: Compile HitCameraShake
+[2022.06.08-21.37.27:184][405]LogUObjectHash: Compacting FUObjectHashTables data took   7.99ms
+[2022.06.08-21.37.57:087][403]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.06.08-21.38.03:720][798]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Camera/DeathCameraShake.DeathCameraShake
+[2022.06.08-21.38.31:406][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Camera/DeathCameraShake" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Camera/DeathCameraShake.uasset" SILENT=true
+[2022.06.08-21.38.31:413][241]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/DeathCameraShake2D977798418AF32C8FE1509378E41BE2.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Camera/DeathCameraShake.uasset'
+[2022.06.08-21.38.57:192][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Camera/DeathCameraShake" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Camera/DeathCameraShake.uasset" SILENT=true
+[2022.06.08-21.38.57:222][637]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/DeathCameraShakeC453EDA942F0FF51B6A1DCAEF0790436.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Camera/DeathCameraShake.uasset'
+[2022.06.08-21.38.59:616][762]BlueprintLog: New page: Compile DeathCameraShake
+[2022.06.08-21.38.59:706][762]LogUObjectHash: Compacting FUObjectHashTables data took   8.10ms
