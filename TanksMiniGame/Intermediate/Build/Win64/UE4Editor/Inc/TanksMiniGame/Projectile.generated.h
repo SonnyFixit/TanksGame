@@ -98,7 +98,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AProjectile); \
 	FORCEINLINE static uint32 __PPO__HitParticles() { return STRUCT_OFFSET(AProjectile, HitParticles); } \
 	FORCEINLINE static uint32 __PPO__TrailParticles() { return STRUCT_OFFSET(AProjectile, TrailParticles); } \
 	FORCEINLINE static uint32 __PPO__LaunchSound() { return STRUCT_OFFSET(AProjectile, LaunchSound); } \
-	FORCEINLINE static uint32 __PPO__HitSound() { return STRUCT_OFFSET(AProjectile, HitSound); }
+	FORCEINLINE static uint32 __PPO__HitSound() { return STRUCT_OFFSET(AProjectile, HitSound); } \
+	FORCEINLINE static uint32 __PPO__HitCameraShakeClass() { return STRUCT_OFFSET(AProjectile, HitCameraShakeClass); }
 
 
 #define TanksMiniGame_Source_TanksMiniGame_Projectile_h_11_PROLOG

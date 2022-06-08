@@ -701,3 +701,97 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.06.08-21.38.57:222][637]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/DeathCameraShakeC453EDA942F0FF51B6A1DCAEF0790436.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Camera/DeathCameraShake.uasset'
 [2022.06.08-21.38.59:616][762]BlueprintLog: New page: Compile DeathCameraShake
 [2022.06.08-21.38.59:706][762]LogUObjectHash: Compacting FUObjectHashTables data took   8.10ms
+[2022.06.08-22.06.26:176][ 73]LogHotReload: New module detected: UE4Editor-TanksMiniGame-0014.dll
+[2022.06.08-22.06.34:153][ 96]LogHotReload: Starting Hot-Reload from IDE
+[2022.06.08-22.08.28:838][ 96]LogUObjectHash: Compacting FUObjectHashTables data took 1870.95ms
+[2022.06.08-22.08.32:746][ 96]LogClass: Could not find existing class BasePawn in package /Script/TanksMiniGame for HotReload, assuming new class
+[2022.06.08-22.08.33:079][ 96]LogClass: Could not find existing class Projectile in package /Script/TanksMiniGame for HotReload, assuming new class
+[2022.06.08-22.08.33:079][ 96]LogClass: Function OnHit is new.
+[2022.06.08-22.08.33:079][ 96]LogClass: Could not find existing class Tank in package /Script/TanksMiniGame for HotReload, assuming new class
+[2022.06.08-22.08.33:190][ 96]LogClass: Could not find existing class Tower in package /Script/TanksMiniGame for HotReload, assuming new class
+[2022.06.08-22.08.35:908][ 96]LogHotReload: Re-instancing BasePawn after hot-reload.
+[2022.06.08-22.08.58:959][ 96]LogHotReload: Re-instancing Projectile after hot-reload.
+[2022.06.08-22.09.02:323][ 96]LogHotReload: Re-instancing Tank after hot-reload.
+[2022.06.08-22.09.03:385][ 96]LogHotReload: Re-instancing Tower after hot-reload.
+[2022.06.08-22.09.08:564][ 96]LogContentBrowser: Native class hierarchy updated for 'TanksMiniGame' in 0.8723 seconds. Added 8 classes and 2 folders.
+[2022.06.08-22.09.08:604][ 96]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.06.08-22.09.10:111][ 96]LogUObjectHash: Compacting FUObjectHashTables data took 151.83ms
+[2022.06.08-22.09.13:417][ 96]LogContentBrowser: Native class hierarchy populated in 0.8834 seconds. Added 2872 classes and 728 folders.
+[2022.06.08-22.09.14:315][ 96]Display: HotReload took 160.2s.
+[2022.06.08-22.09.14:485][ 96]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.06.08-22.09.14:556][ 96]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.071 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.06.08-22.09.38:913][116]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (24.428 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.06.08-22.28.32:579][785]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2022.06.08-22.29.07:320][869]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.06.08-22.29.19:195][141]BlueprintLog: New page: Compile BP_PawnTank
+[2022.06.08-22.29.30:507][141]LogUObjectHash: Compacting FUObjectHashTables data took 171.27ms
+[2022.06.08-22.29.37:253][314]LogSlate: Window 'BP_PawnTank' being destroyed
+[2022.06.08-22.29.37:438][314]LogSlate: Window 'BP_PawnTank' being destroyed
+[2022.06.08-22.30.51:707][314]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.06.08-22.30.52:859][314]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2022.06.08-22.30.57:536][315]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.06.08-22.31.00:361][324]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.06.08-22.31.08:089][435]BlueprintLog: New page: Compile BP_PawnTurret
+[2022.06.08-22.31.24:754][435]LogUObjectHash: Compacting FUObjectHashTables data took  63.28ms
+[2022.06.08-22.31.36:807][811]LogSlate: Window 'BP_PawnTurret' being destroyed
+[2022.06.08-22.31.36:840][811]LogSlate: Window 'BP_PawnTurret' being destroyed
+[2022.06.08-22.31.38:814][816]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (41.278 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.06.08-22.31.42:312][923]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Actors/BP_Projectile.BP_Projectile
+[2022.06.08-22.31.51:691][232]LogSlate: Window 'BP_Projectile' being destroyed
+[2022.06.08-22.31.52:138][232]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Actors/BP_Projectile.BP_Projectile
+[2022.06.08-22.31.55:622][289]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.06.08-22.31.59:672][451]BlueprintLog: New page: Compile BP_Projectile
+[2022.06.08-22.32.06:090][451]LogUObjectHash: Compacting FUObjectHashTables data took   9.72ms
+[2022.06.08-22.32.12:466][635]LogSlate: Window 'BP_Projectile' being destroyed
+[2022.06.08-22.32.12:478][635]LogSlate: Window 'BP_Projectile' being destroyed
+[2022.06.08-22.32.16:110][715]LogTemp: Repeating last play command: Selected Viewport
+[2022.06.08-22.32.16:902][715]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2022.06.08-22.32.17:007][715]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.08-22.32.17:268][715]PIE: New page: PIE session: Main (9 cze 2022, 02:32:17)
+[2022.06.08-22.32.17:469][715]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.06.08-22.32.18:771][715]LogPlayLevel: PIE: StaticDuplicateObject took: (1.184866s)
+[2022.06.08-22.32.18:894][715]LogAIModule: Creating AISystem for world Main
+[2022.06.08-22.32.19:092][715]LogPlayLevel: PIE: World Init took: (0.319878s)
+[2022.06.08-22.32.19:135][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (1.665161s)
+[2022.06.08-22.32.19:297][715]LogUObjectHash: Compacting FUObjectHashTables data took   5.75ms
+[2022.06.08-22.32.19:879][715]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.06.08-22.32.20:295][715]LogInit: FAudioDevice initialized.
+[2022.06.08-22.32.21:433][715]LogLoad: Game class is 'BP_TanksMiniGameMode_C'
+[2022.06.08-22.32.21:758][715]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.06.09-00.32.21
+[2022.06.08-22.32.22:109][715]LogWorld: Bringing up level for play took: 0.643050
+[2022.06.08-22.32.23:678][715]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main 6,812
+[2022.06.08-22.32.23:745][715]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2022.06.08-22.32.44:295][524]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2022.06.08-22.32.44:381][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.08-22.32.44:758][524]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.08-22.32.44:760][524]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2022.06.08-22.32.45:145][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.08-22.32.45:492][524]LogUObjectHash: Compacting FUObjectHashTables data took   4.64ms
+[2022.06.08-22.32.46:282][525]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2022.06.08-22.32.46:597][530]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.06.08-22.32.48:690][643]LogTemp: Repeating last play command: Selected Viewport
+[2022.06.08-22.32.48:733][643]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2022.06.08-22.32.48:733][643]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.08-22.32.48:733][643]PIE: New page: PIE session: Main (9 cze 2022, 02:32:48)
+[2022.06.08-22.32.48:733][643]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.06.08-22.32.48:935][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005731s)
+[2022.06.08-22.32.48:935][643]LogAIModule: Creating AISystem for world Main
+[2022.06.08-22.32.48:948][643]LogPlayLevel: PIE: World Init took: (0.013022s)
+[2022.06.08-22.32.48:948][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.214587s)
+[2022.06.08-22.32.49:060][643]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2022.06.08-22.32.49:062][643]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.06.08-22.32.49:262][643]LogInit: FAudioDevice initialized.
+[2022.06.08-22.32.49:263][643]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.06.08-22.32.49:387][643]LogLoad: Game class is 'BP_TanksMiniGameMode_C'
+[2022.06.08-22.32.49:389][643]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.06.09-00.32.49
+[2022.06.08-22.32.49:390][643]LogWorld: Bringing up level for play took: 0.002246
+[2022.06.08-22.32.49:405][643]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main 0,539
+[2022.06.08-22.32.49:405][643]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2022.06.08-22.33.04:145][495]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.06.08-22.33.06:082][609]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2022.06.08-22.33.06:082][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.08-22.33.06:121][609]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.08-22.33.06:121][609]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2022.06.08-22.33.06:196][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.08-22.33.06:234][609]LogUObjectHash: Compacting FUObjectHashTables data took   6.07ms
+[2022.06.08-22.33.06:256][610]LogPlayLevel: Display: Destroying online subsystem :Context_21

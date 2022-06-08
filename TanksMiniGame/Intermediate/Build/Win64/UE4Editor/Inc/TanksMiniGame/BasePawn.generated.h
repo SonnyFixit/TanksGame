@@ -64,7 +64,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABasePawn); \
 	FORCEINLINE static uint32 __PPO__ProjectileSpawnPoint() { return STRUCT_OFFSET(ABasePawn, ProjectileSpawnPoint); } \
 	FORCEINLINE static uint32 __PPO__ProjectileClass() { return STRUCT_OFFSET(ABasePawn, ProjectileClass); } \
 	FORCEINLINE static uint32 __PPO__DeathParticles() { return STRUCT_OFFSET(ABasePawn, DeathParticles); } \
-	FORCEINLINE static uint32 __PPO__DeathSound() { return STRUCT_OFFSET(ABasePawn, DeathSound); }
+	FORCEINLINE static uint32 __PPO__DeathSound() { return STRUCT_OFFSET(ABasePawn, DeathSound); } \
+	FORCEINLINE static uint32 __PPO__DeathCameraShakeClass() { return STRUCT_OFFSET(ABasePawn, DeathCameraShakeClass); }
 
 
 #define TanksMiniGame_Source_TanksMiniGame_BasePawn_h_9_PROLOG
