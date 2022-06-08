@@ -1,4 +1,4 @@
-﻿Log file open, 05/22/22 22:21:18
+﻿Log file open, 06/08/22 21:54:31
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,13 +10,15 @@ LogInit: Display: Running engine for game: TanksMiniGame
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.219267
+LogStats: Stats thread started at 7.741598
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/libsndfile/Win64/libsndfile-1.dll' (GetLastError=126)
 LogWindows: File '../../../Engine/Binaries/ThirdParty/libsndfile/Win64/libsndfile-1.dll' does not exist
 LogAudioMixer: Display: Failed to load Sound File dll
 LogAudioEditor: Display: LibSoundFile failed to load. Importing audio will not work correctly.
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogConfig: Warning: Failed to saved backup for config[../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/Config/CoalescedSourceConfigs/Engine.ini]
+LogConfig: Warning: Failed to saved backup for config[../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/Config/CoalescedSourceConfigs/Input.ini]
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin AISupport
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -143,7 +145,7 @@ LogInit: Compiled (64-bit): Mar 31 2019 02:05:09
 LogInit: Compiled with Visual C++: 19.16.27025.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.22
-LogInit: Command Line:  /Game/Maps/Main -game -PIEVIACONSOLE -ResX=1280 -ResY=720 -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed
+LogInit: Command Line: 
 LogInit: Base Directory: E:/UE_4.22/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
@@ -174,322 +176,797 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2022.05.22-20.21.18:954][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
-[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
-[2022.05.22-20.21.18:955][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
-[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2022.05.22-20.21.18:955][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
-[2022.05.22-20.21.18:955][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
-[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2022.05.22-20.21.18:955][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
-[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2022.05.22-20.21.18:955][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2022.05.22-20.21.18:956][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2022.05.22-20.21.18:956][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2022.05.22-20.21.18:956][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2022.05.22-20.21.18:956][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2022.05.22-20.21.18:956][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
-[2022.05.22-20.21.18:956][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
-[2022.05.22-20.21.18:958][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2022.05.22-20.21.18:958][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2022.05.22-20.21.18:958][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2022.05.22-20.21.18:958][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2022.05.22-20.21.18:959][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2022.05.22-20.21.18:960][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2022.05.22-20.21.18:960][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2022.05.22-20.21.18:960][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2022.05.22-20.21.18:960][  0]LogInit: Selected Device Profile: [Windows]
-[2022.05.22-20.21.18:960][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2022.05.22-20.21.18:973][  0]LogHAL: Display: Platform has ~ 4 GB [4080635904 / 4294967296 / 4], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2022.05.22-20.21.18:973][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2022.05.22-20.21.18:973][  0]LogInit: Going up to parent DeviceProfile []
-[2022.05.22-20.21.18:974][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2022.05.22-20.21.18:974][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2022.05.22-20.21.18:974][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2022.05.22-20.21.18:974][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2022.05.22-20.21.18:975][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2022.05.22-20.21.18:975][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2022.05.22-20.21.18:976][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2022.05.22-20.21.18:977][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2022.05.22-20.21.18:977][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2022.05.22-20.21.18:977][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2022.05.22-20.21.18:977][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2022.05.22-20.21.18:978][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2022.05.22-20.21.18:978][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2022.05.22-20.21.18:978][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
-[2022.05.22-20.21.18:979][  0]LogInit: Computer: SONNY
-[2022.05.22-20.21.18:979][  0]LogInit: User: SonnyFixit
-[2022.05.22-20.21.18:979][  0]LogInit: CPU Page size=4096, Cores=2
-[2022.05.22-20.21.18:979][  0]LogInit: High frequency timer resolution =1.851267 MHz
-[2022.05.22-20.21.18:979][  0]LogMemory: Memory total: Physical=3.8GB (4GB approx)
-[2022.05.22-20.21.18:979][  0]LogMemory: Platform Memory Stats for Windows
-[2022.05.22-20.21.18:979][  0]LogMemory: Process Physical Memory: 95.31 MB used, 95.31 MB peak
-[2022.05.22-20.21.18:979][  0]LogMemory: Process Virtual Memory: 91.85 MB used, 91.85 MB peak
-[2022.05.22-20.21.18:979][  0]LogMemory: Physical Memory: 3240.56 MB used,  651.04 MB free, 3891.60 MB total
-[2022.05.22-20.21.18:979][  0]LogMemory: Virtual Memory: 490.52 MB used,  134217240.00 MB free, 134217728.00 MB total
-[2022.05.22-20.21.19:026][  0]LogInit: Using OS detected language (pl-PL).
-[2022.05.22-20.21.19:026][  0]LogInit: Using OS detected locale (pl-PL).
-[2022.05.22-20.21.19:027][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
-[2022.05.22-20.21.19:028][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
-[2022.05.22-20.21.19:029][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
-[2022.05.22-20.21.19:029][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
-[2022.05.22-20.21.19:029][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
-[2022.05.22-20.21.19:030][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
-[2022.05.22-20.21.19:030][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
-[2022.05.22-20.21.19:030][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
-[2022.05.22-20.21.19:063][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2022.05.22-20.21.19:063][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2022.05.22-20.21.19:107][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2022.05.22-20.21.19:107][  0]LogD3D11RHI: D3D11 adapters:
-[2022.05.22-20.21.19:153][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 710M' (Feature Level 11_0)
-[2022.05.22-20.21.19:153][  0]LogD3D11RHI:       963/0/1945 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2022.05.22-20.21.19:188][  0]LogD3D11RHI:    1. 'NVIDIA GeForce 710M' (Feature Level 11_0)
-[2022.05.22-20.21.19:189][  0]LogD3D11RHI:       963/0/1945 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
-[2022.05.22-20.21.19:191][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2022.05.22-20.21.19:191][  0]LogD3D11RHI:       963/0/1945 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2022.05.22-20.21.19:191][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2022.05.22-20.21.19:205][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2022.05.22-20.21.19:205][  0]LogD3D11RHI:     GPU DeviceId: 0x1140 (for the marketing name, search the web for "GPU Device Id")
-[2022.05.22-20.21.19:205][  0]LogWindows: EnumDisplayDevices:
-[2022.05.22-20.21.19:205][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
-[2022.05.22-20.21.19:206][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
-[2022.05.22-20.21.19:206][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
-[2022.05.22-20.21.19:207][  0]LogWindows:    3. 'NVIDIA GeForce 710M' (P:0 D:0)
-[2022.05.22-20.21.19:207][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
-[2022.05.22-20.21.19:207][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 710M
-[2022.05.22-20.21.19:207][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
-[2022.05.22-20.21.19:207][  0]LogD3D11RHI:      Driver Date: 3-23-2018
-[2022.05.22-20.21.19:207][  0]LogRHI: Texture pool is 674 MB (70% of 963 MB)
-[2022.05.22-20.21.19:268][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
-[2022.05.22-20.21.19:269][  0]LogD3D11RHI: Async texture creation enabled
-[2022.05.22-20.21.19:276][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2022.05.22-20.21.19:277][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2022.05.22-20.21.19:277][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2022.05.22-20.21.19:293][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2022.05.22-20.21.19:867][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2022.05.22-20.21.19:895][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2022.05.22-20.21.19:923][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2022.05.22-20.21.19:936][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2022.05.22-20.21.19:936][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2022.05.22-20.21.19:951][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2022.05.22-20.21.20:028][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/Shaders/WorkingDirectory/8752/).
-[2022.05.22-20.21.20:028][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SonnyFixit/AppData/Local/Temp/UnrealShaderWorkingDir/0252BF4046B2278DF5640594D105A140/'.
-[2022.05.22-20.21.20:032][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2022.05.22-20.21.20:032][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2022.05.22-20.21.20:032][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2022.05.22-20.21.25:136][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2022.05.22-20.21.26:750][  0]LogDerivedDataCache: Loaded boot cache 1.61s 72MB C:/Users/SonnyFixit/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2022.05.22-20.21.26:750][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/SonnyFixit/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2022.05.22-20.21.26:750][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2022.05.22-20.21.26:750][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2022.05.22-20.21.26:750][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2022.05.22-20.21.26:750][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2022.05.22-20.21.27:020][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2022.05.22-20.21.27:215][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
-[2022.05.22-20.21.27:228][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SonnyFixit/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2022.05.22-20.21.27:228][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2022.05.22-20.21.27:228][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2022.05.22-20.21.27:284][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2022.05.22-20.21.27:501][  0]LogSlate: Using FreeType 2.6.0
-[2022.05.22-20.21.27:710][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2022.05.22-20.21.35:380][  0]LogInit: Using OS detected language (pl-PL).
-[2022.05.22-20.21.35:380][  0]LogInit: Using OS detected locale (pl-PL).
-[2022.05.22-20.21.35:380][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the language.
-[2022.05.22-20.21.35:380][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the locale.
-[2022.05.22-20.21.35:381][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2022.05.22-20.21.35:381][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2022.05.22-20.21.35:462][  0]LogTextLocalizationManager: Compacting localization data took  35.51ms
-[2022.05.22-20.21.35:525][  0]LogAssetRegistry: FAssetRegistry took 0.0094 seconds to start up
-[2022.05.22-20.21.36:028][  0]LogPackageLocalizationCache: Processed 16 localized package path(s) for 1 prioritized culture(s) in 0.023005 seconds
-[2022.05.22-20.21.36:523][  0]LogInit: Selected Device Profile: [Windows]
-[2022.05.22-20.21.39:838][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2022.05.22-20.21.39:838][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2022.05.22-20.21.39:838][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2022.05.22-20.21.39:838][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2022.05.22-20.21.39:838][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2022.05.22-20.21.40:035][  0]LogNetVersion: TanksMiniGame 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1412442164)
-[2022.05.22-20.21.55:326][  0]LogMoviePlayer: Initializing movie player
-[2022.05.22-20.21.58:222][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2022.05.22-20.21.58:385][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2022.05.22-20.22.00:200][  0]SourceControl: Source control is disabled
-[2022.05.22-20.22.00:223][  0]SourceControl: Source control is disabled
-[2022.05.22-20.22.00:362][  0]SourceControl: Source control is disabled
-[2022.05.22-20.22.04:993][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2022.05.22-20.22.06:691][  0]LogOcInput: OculusInput pre-init called
-[2022.05.22-20.22.06:911][  0]LogUObjectArray: 46523 objects as part of root set at end of initial load.
-[2022.05.22-20.22.06:911][  0]LogUObjectAllocator: 8203064 out of 0 bytes used by permanent object pool.
-[2022.05.22-20.22.06:912][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2022.05.22-20.22.09:623][  0]LogEngine: Initializing Engine...
-[2022.05.22-20.22.09:754][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2022.05.22-20.22.09:808][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.010 s
-[2022.05.22-20.22.11:398][  0]LogInit: Initializing FReadOnlyCVARCache
-[2022.05.22-20.22.15:792][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2022.05.22-20.22.19:953][  0]LogInit: FAudioDevice initialized.
-[2022.05.22-20.22.20:046][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2022.05.22-20.22.20:055][  0]LogInit: Texture streaming: Enabled
-[2022.05.22-20.22.27:275][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2022.05.22-20.22.27:358][  0]LogInit: Display: Game Engine Initialized.
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.06.08-19.54.36:045][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.06.08-19.54.36:045][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.06.08-19.54.36:045][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.06.08-19.54.36:045][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.06.08-19.54.36:045][  0]LogInit: Selected Device Profile: [Windows]
+[2022.06.08-19.54.36:045][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.06.08-19.54.36:138][  0]LogHAL: Display: Platform has ~ 4 GB [4080635904 / 4294967296 / 4], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2022.06.08-19.54.36:138][  0]LogInit: Going up to parent DeviceProfile []
+[2022.06.08-19.54.36:138][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Scalability.ini]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2022.06.08-19.54.36:138][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.06.08-19.54.36:201][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.06.08-19.54.36:201][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.06.08-19.54.36:201][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Config/Windows/Engine.ini]
+[2022.06.08-19.54.36:215][  0]LogInit: Computer: SONNY
+[2022.06.08-19.54.36:215][  0]LogInit: User: SonnyFixit
+[2022.06.08-19.54.36:215][  0]LogInit: CPU Page size=4096, Cores=2
+[2022.06.08-19.54.36:215][  0]LogInit: High frequency timer resolution =1.851267 MHz
+[2022.06.08-19.54.36:216][  0]LogMemory: Memory total: Physical=3.8GB (4GB approx)
+[2022.06.08-19.54.36:216][  0]LogMemory: Platform Memory Stats for Windows
+[2022.06.08-19.54.36:216][  0]LogMemory: Process Physical Memory: 94.57 MB used, 94.57 MB peak
+[2022.06.08-19.54.36:216][  0]LogMemory: Process Virtual Memory: 83.91 MB used, 83.91 MB peak
+[2022.06.08-19.54.36:216][  0]LogMemory: Physical Memory: 1944.95 MB used,  1946.65 MB free, 3891.60 MB total
+[2022.06.08-19.54.36:216][  0]LogMemory: Virtual Memory: 482.52 MB used,  134217248.00 MB free, 134217728.00 MB total
+[2022.06.08-19.54.37:569][  0]LogInit: Using OS detected language (pl-PL).
+[2022.06.08-19.54.37:569][  0]LogInit: Using OS detected locale (pl-PL).
+[2022.06.08-19.54.37:729][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
+[2022.06.08-19.54.37:730][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
+[2022.06.08-19.54.37:730][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
+[2022.06.08-19.54.37:730][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
+[2022.06.08-19.54.37:731][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
+[2022.06.08-19.54.37:772][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
+[2022.06.08-19.54.37:809][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
+[2022.06.08-19.54.37:809][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
+[2022.06.08-19.54.38:088][  0]LogInit: Setting process to per monitor DPI aware
+[2022.06.08-19.54.38:934][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.06.08-19.54.38:934][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.06.08-19.54.40:434][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.06.08-19.54.40:434][  0]LogD3D11RHI: D3D11 adapters:
+[2022.06.08-19.54.41:359][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 710M' (Feature Level 11_0)
+[2022.06.08-19.54.41:359][  0]LogD3D11RHI:       963/0/1945 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.06.08-19.54.41:413][  0]LogD3D11RHI:    1. 'NVIDIA GeForce 710M' (Feature Level 11_0)
+[2022.06.08-19.54.41:413][  0]LogD3D11RHI:       963/0/1945 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2022.06.08-19.54.41:565][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.06.08-19.54.41:565][  0]LogD3D11RHI:       963/0/1945 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.06.08-19.54.41:565][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.06.08-19.54.41:582][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.06.08-19.54.41:582][  0]LogD3D11RHI:     GPU DeviceId: 0x1140 (for the marketing name, search the web for "GPU Device Id")
+[2022.06.08-19.54.41:582][  0]LogWindows: EnumDisplayDevices:
+[2022.06.08-19.54.41:582][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2022.06.08-19.54.41:583][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2022.06.08-19.54.41:583][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2022.06.08-19.54.41:584][  0]LogWindows:    3. 'NVIDIA GeForce 710M' (P:0 D:0)
+[2022.06.08-19.54.41:585][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2022.06.08-19.54.41:585][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 710M
+[2022.06.08-19.54.41:585][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
+[2022.06.08-19.54.41:585][  0]LogD3D11RHI:      Driver Date: 3-23-2018
+[2022.06.08-19.54.41:585][  0]LogRHI: Texture pool is 674 MB (70% of 963 MB)
+[2022.06.08-19.54.41:630][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2022.06.08-19.54.41:631][  0]LogD3D11RHI: Async texture creation enabled
+[2022.06.08-19.54.41:645][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2022.06.08-19.54.41:646][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2022.06.08-19.54.41:646][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2022.06.08-19.54.41:665][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2022.06.08-19.54.51:917][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2022.06.08-19.54.52:048][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2022.06.08-19.54.52:194][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2022.06.08-19.54.52:316][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2022.06.08-19.54.52:754][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2022.06.08-19.54.52:816][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2022.06.08-19.54.53:076][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2022.06.08-19.54.53:139][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2022.06.08-19.54.53:313][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2022.06.08-19.54.53:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2022.06.08-19.54.53:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2022.06.08-19.54.53:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2022.06.08-19.54.53:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2022.06.08-19.54.53:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2022.06.08-19.54.53:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2022.06.08-19.54.53:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2022.06.08-19.54.53:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2022.06.08-19.54.53:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2022.06.08-19.54.53:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2022.06.08-19.54.53:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2022.06.08-19.54.53:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2022.06.08-19.54.53:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2022.06.08-19.54.53:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2022.06.08-19.54.53:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2022.06.08-19.54.53:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2022.06.08-19.54.53:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2022.06.08-19.54.53:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2022.06.08-19.54.53:802][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2022.06.08-19.54.54:210][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2022.06.08-19.54.54:210][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2022.06.08-19.54.54:353][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2022.06.08-19.54.54:353][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2022.06.08-19.54.54:546][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2022.06.08-19.54.54:626][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2022.06.08-19.54.54:713][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2022.06.08-19.54.54:841][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2022.06.08-19.54.55:008][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2022.06.08-19.54.55:009][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2022.06.08-19.54.55:009][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.06.08-19.54.55:339][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.06.08-19.54.56:445][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/Shaders/WorkingDirectory/3208/).
+[2022.06.08-19.54.56:445][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SonnyFixit/AppData/Local/Temp/UnrealShaderWorkingDir/2C3564504CFD397A27AC84AA107E9C77/'.
+[2022.06.08-19.54.56:472][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.06.08-19.54.56:472][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.06.08-19.54.56:472][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.06.08-19.55.00:010][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.06.08-19.55.01:442][  0]LogDerivedDataCache: Loaded boot cache 1.43s 72MB C:/Users/SonnyFixit/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2022.06.08-19.55.01:442][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/SonnyFixit/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2022.06.08-19.55.01:443][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.06.08-19.55.01:443][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.06.08-19.55.01:443][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.06.08-19.55.01:443][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.06.08-19.55.01:471][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.06.08-19.55.01:477][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2022.06.08-19.55.01:491][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SonnyFixit/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.06.08-19.55.01:491][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.06.08-19.55.01:491][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.06.08-19.55.01:567][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2022.06.08-19.55.01:570][  0]LogSlate: Using FreeType 2.6.0
+[2022.06.08-19.55.01:786][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.06.08-19.55.02:919][  0]LogAssetRegistry: FAssetRegistry took 0.0532 seconds to start up
+[2022.06.08-19.55.04:036][  0]LogInit: Selected Device Profile: [Windows]
+[2022.06.08-19.55.05:078][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.06.08-19.55.05:078][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.06.08-19.55.05:078][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.06.08-19.55.05:078][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.06.08-19.55.05:078][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.06.08-19.55.05:352][  0]LogNetVersion: TanksMiniGame 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1412442164)
+[2022.06.08-19.55.07:829][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/CachedAssetRegistry.bin
+[2022.06.08-19.55.07:829][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/67f932d1.bin.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/67f932d1.bin', retrying in .5s...
+[2022.06.08-19.55.08:330][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/67f932d1.bin.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/67f932d1.bin', retrying in .5s...
+[2022.06.08-19.55.08:831][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/67f932d1.bin.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/67f932d1.bin', retrying in .5s...
+[2022.06.08-19.55.09:332][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/67f932d1.bin.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/67f932d1.bin', retrying in .5s...
+[2022.06.08-19.55.09:833][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/67f932d1.bin.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/67f932d1.bin', retrying in .5s...
+[2022.06.08-19.55.10:333][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/67f932d1.bin.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/67f932d1.bin', retrying in .5s...
+[2022.06.08-19.55.10:834][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/67f932d1.bin.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/67f932d1.bin', retrying in .5s...
+[2022.06.08-19.55.11:334][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/67f932d1.bin.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/67f932d1.bin', retrying in .5s...
+[2022.06.08-19.55.11:835][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/67f932d1.bin.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/67f932d1.bin', retrying in .5s...
+[2022.06.08-19.55.12:336][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/67f932d1.bin.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/67f932d1.bin', retrying in .5s...
+[2022.06.08-19.55.12:836][  0]LogFileManager: Error: Error moving file '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/67f932d1.bin.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/67f932d1.bin'.
+[2022.06.08-19.55.12:848][  0]LogFileManager: Warning: DeleteFile was unable to delete '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/cda0e59c.bin', retrying in .5s...
+[2022.06.08-19.55.13:349][  0]LogFileManager: Warning: DeleteFile recovered during retry!
+[2022.06.08-19.55.13:349][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/cda0e59c.bin.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/cda0e59c.bin', retrying in .5s...
+[2022.06.08-19.55.13:850][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/cda0e59c.bin.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/cda0e59c.bin', retrying in .5s...
+[2022.06.08-19.55.14:350][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/cda0e59c.bin.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/cda0e59c.bin', retrying in .5s...
+[2022.06.08-19.55.14:851][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/cda0e59c.bin.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/cda0e59c.bin', retrying in .5s...
+[2022.06.08-19.55.15:352][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/cda0e59c.bin.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/cda0e59c.bin', retrying in .5s...
+[2022.06.08-19.55.15:852][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/cda0e59c.bin.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/cda0e59c.bin', retrying in .5s...
+[2022.06.08-19.55.16:353][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/cda0e59c.bin.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/cda0e59c.bin', retrying in .5s...
+[2022.06.08-19.55.16:853][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/cda0e59c.bin.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/cda0e59c.bin', retrying in .5s...
+[2022.06.08-19.55.17:354][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/cda0e59c.bin.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/cda0e59c.bin', retrying in .5s...
+[2022.06.08-19.55.17:855][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/cda0e59c.bin.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/cda0e59c.bin', retrying in .5s...
+[2022.06.08-19.55.18:355][  0]LogFileManager: Error: Error moving file '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/cda0e59c.bin.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Intermediate/AssetRegistryCache/cda0e59c.bin'.
+[2022.06.08-19.55.18:411][  0]LogPackageLocalizationCache: Processed 16 localized package path(s) for 1 prioritized culture(s) in 11.460098 seconds
+[2022.06.08-19.55.18:422][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2022.06.08-19.55.18:422][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2022.06.08-19.55.18:422][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.06.08-19.55.38:949][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.06.08-19.55.39:026][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.06.08-19.55.39:972][  0]SourceControl: Source control is disabled
+[2022.06.08-19.55.39:972][  0]SourceControl: Source control is disabled
+[2022.06.08-19.55.40:207][  0]SourceControl: Source control is disabled
+[2022.06.08-19.55.40:269][  0]SourceControl: Source control is disabled
+[2022.06.08-19.55.42:572][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.06.08-19.55.42:977][  0]LogOcInput: OculusInput pre-init called
+[2022.06.08-19.55.52:262][  0]LogEngine: Initializing Engine...
+[2022.06.08-19.55.52:264][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.06.08-19.55.52:268][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.06.08-19.55.52:920][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.06.08-19.55.53:153][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.06.08-19.55.53:327][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.06.08-19.55.53:640][  0]LogInit: FAudioDevice initialized.
+[2022.06.08-19.55.53:641][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.06.08-19.55.54:920][  0]LogDerivedDataCache: Error: Could not save memory cache C:/Users/SonnyFixit/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2022.06.08-19.55.54:933][  0]LogInit: Texture streaming: Enabled
+[2022.06.08-19.56.00:103][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.06.08-19.56.01:766][  0]LogInit: Transaction tracking system initialized
+[2022.06.08-19.56.03:342][  0]BlueprintLog: New page: Editor Load
+[2022.06.08-19.56.05:263][  0]LocalizationService: Localization service is disabled
+[2022.06.08-19.56.10:017][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/' took 0.02s
+[2022.06.08-19.56.10:017][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.06.08-19.56.10:017][  0]LogCook: Display: Mobile HDR setting 1
+[2022.06.08-19.56.17:137][  0]SourceControl: Source control is disabled
+[2022.06.08-19.56.17:138][  0]Cmd: MAP LOAD FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.06.08-19.56.17:174][  0]LightingResults: New page: Lighting Build
+[2022.06.08-19.56.17:356][  0]MapCheck: New page: Map Check
+[2022.06.08-19.56.17:356][  0]LightingResults: New page: Lighting Build
+[2022.06.08-19.56.17:642][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.93ms
+[2022.06.08-19.56.20:027][  0]LogAIModule: Creating AISystem for world Main
+[2022.06.08-19.56.20:951][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.06.08-19.56.21:076][  0]LogUObjectHash: Compacting FUObjectHashTables data took   6.13ms
+[2022.06.08-19.56.21:077][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.06.08-19.56.21:088][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 10,752ms to complete.
+[2022.06.08-19.56.21:107][  0]LogFileHelpers: Loading map 'Main' took 3.969
+[2022.06.08-19.56.23:123][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.08-19.56.23:208][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.08-19.56.23:228][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.08-19.56.23:250][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.08-19.56.23:474][  0]LogCollectionManager: Loaded 0 collections in 0.003550 seconds
+[2022.06.08-19.56.23:967][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Collections/' took 0.01s
+[2022.06.08-19.56.23:967][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Developers/SonnyFixit/Collections/' took 0.00s
+[2022.06.08-19.56.23:967][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Collections/' took 0.00s
+[2022.06.08-19.56.23:967][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2022.06.08-19.56.24:057][  0]LogContentBrowser: Native class hierarchy populated in 0.0718 seconds. Added 2872 classes and 728 folders.
+[2022.06.08-19.56.24:377][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2022.06.08-19.56.24:452][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.24:593][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.24:618][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.24:635][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.24:642][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.24:652][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.24:654][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.24:680][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.24:737][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.24:803][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.24:847][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.24:862][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.24:886][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.24:912][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.25:053][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.25:098][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.25:118][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.25:187][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.25:277][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.25:352][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.25:370][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.25:385][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.25:400][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.25:426][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.25:456][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.25:498][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.25:542][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.25:604][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.06.08-19.56.26:859][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2022.06.08-19.56.27:114][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 0 folders.
+[2022.06.08-19.56.28:028][  0]LogSlate: Took 0.016482 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.06.08-19.56.28:079][  0]LogSlate: Took 0.018325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.06.08-19.56.28:325][  0]LogSlate: Took 0.020411 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.06.08-19.56.29:260][  0]LogRenderer: Reallocating scene render targets to support 856x372 Format 9 NumSamples 1 (Frame:1).
+[2022.06.08-19.56.30:554][  0]LogSlate: Took 0.023569 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.06.08-19.56.38:712][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2022.06.08-19.56.38:712][  0]LogLoad: (Engine Initialization) Total time: 271.18 seconds
+[2022.06.08-19.56.38:712][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.06.08-19.56.41:006][  0]LogD3D11RHI: Timed out while waiting for GPU to catch up. (2.0 s)
+[2022.06.08-19.56.41:006][  0]LogTemp: Display: Unable to get render query result on a platform supporting RQT_AbsoluteTime queries, defaulting to 5 iterations for LongGPUTask
+[2022.06.08-19.56.41:006][  0]LogContentStreaming: Texture pool size now 400 MB
+[2022.06.08-19.56.43:359][  2]LogSlate: Took 0.000478 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.06.08-19.56.43:833][  4]LogAssetRegistry: Asset discovery search completed in 100.9357 seconds
+[2022.06.08-19.56.44:377][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2022.06.08-19.56.44:377][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000193 seconds (updated 0 objects)
+[2022.06.08-20.25.26:065][152]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.06.08-20.25.26:203][152]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2022.06.08-20.25.26:468][152]LogSlate: Window 'TanksMiniGame - Unreal Editor' being destroyed
+[2022.06.08-20.25.26:469][152]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.06.08-20.25.27:258][153]Cmd: QUIT_EDITOR
+[2022.06.08-20.25.27:521][153]LogExit: Preparing to exit.
+[2022.06.08-20.25.28:570][153]LogExit: Editor shut down
+[2022.06.08-20.25.28:571][153]LogExit: Transaction tracking system shut down
+[2022.06.08-20.25.31:813][153]LogExit: Object subsystem successfully closed.
+[2022.06.08-20.25.32:529][153]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.06.08-20.25.32:562][153]LogD3D11RHI: Shutdown
+[2022.06.08-20.25.32:562][153]LogD3D11RHI: CleanupD3DDevice
+[2022.06.08-20.25.32:615][153]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2022.06.08-20.25.32:615][153]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2022.06.08-20.25.32:627][153]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2022.06.08-20.25.32:627][153]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2022.06.08-20.25.32:627][153]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2022.06.08-20.25.32:627][153]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2022.06.08-20.25.32:936][153]LogD3D11RHI: ~FD3D11DynamicRHI
+[2022.06.08-20.25.34:735][153]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (686)
+[2022.06.08-20.25.34:735][153]LogModuleManager: Shutting down and abandoning module SceneOutliner (684)
+[2022.06.08-20.25.34:735][153]LogModuleManager: Shutting down and abandoning module AddContentDialog (682)
+[2022.06.08-20.25.34:791][153]LogModuleManager: Shutting down and abandoning module WidgetCarousel (681)
+[2022.06.08-20.25.34:791][153]LogModuleManager: Shutting down and abandoning module EditorWidgets (678)
+[2022.06.08-20.25.34:791][153]LogModuleManager: Shutting down and abandoning module CollectionManager (676)
+[2022.06.08-20.25.34:791][153]LogModuleManager: Shutting down and abandoning module StatsViewer (674)
+[2022.06.08-20.25.34:819][153]LogModuleManager: Shutting down and abandoning module FoliageEdit (672)
+[2022.06.08-20.25.34:820][153]LogModuleManager: Shutting down and abandoning module LandscapeEditor (670)
+[2022.06.08-20.25.34:845][153]LogModuleManager: Shutting down and abandoning module MeshPaintMode (668)
+[2022.06.08-20.25.34:845][153]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (666)
+[2022.06.08-20.25.34:845][153]LogModuleManager: Shutting down and abandoning module ActorPickerMode (664)
+[2022.06.08-20.25.34:845][153]LogModuleManager: Shutting down and abandoning module GeometryMode (662)
+[2022.06.08-20.25.34:845][153]LogModuleManager: Shutting down and abandoning module TextureAlignMode (660)
+[2022.06.08-20.25.34:845][153]LogModuleManager: Shutting down and abandoning module BspMode (658)
+[2022.06.08-20.25.34:845][153]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (656)
+[2022.06.08-20.25.34:984][153]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (654)
+[2022.06.08-20.25.34:984][153]LogModuleManager: Shutting down and abandoning module AutomationWorker (652)
+[2022.06.08-20.25.34:984][153]LogModuleManager: Shutting down and abandoning module DatasmithFBXImporter (650)
+[2022.06.08-20.25.35:026][153]LogModuleManager: Shutting down and abandoning module DatasmithDeltaGenImporter (648)
+[2022.06.08-20.25.35:063][153]LogModuleManager: Shutting down and abandoning module DatasmithVREDImporter (646)
+[2022.06.08-20.25.35:063][153]LogModuleManager: Shutting down and abandoning module OculusMR (644)
+[2022.06.08-20.25.35:063][153]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (642)
+[2022.06.08-20.25.35:063][153]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (640)
+[2022.06.08-20.25.35:063][153]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (638)
+[2022.06.08-20.25.35:092][153]LogModuleManager: Shutting down and abandoning module PlacementMode (637)
+[2022.06.08-20.25.35:092][153]LogModuleManager: Shutting down and abandoning module MaterialEditor (636)
+[2022.06.08-20.25.35:218][153]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (632)
+[2022.06.08-20.25.35:218][153]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (630)
+[2022.06.08-20.25.35:218][153]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (628)
+[2022.06.08-20.25.35:218][153]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (626)
+[2022.06.08-20.25.35:218][153]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (624)
+[2022.06.08-20.25.35:218][153]LogModuleManager: Shutting down and abandoning module WebMMedia (622)
+[2022.06.08-20.25.35:218][153]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (620)
+[2022.06.08-20.25.35:218][153]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (618)
+[2022.06.08-20.25.35:219][153]LogModuleManager: Shutting down and abandoning module SequenceRecorder (617)
+[2022.06.08-20.25.35:219][153]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (614)
+[2022.06.08-20.25.35:219][153]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (612)
+[2022.06.08-20.25.35:219][153]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (610)
+[2022.06.08-20.25.35:219][153]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (608)
+[2022.06.08-20.25.35:219][153]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (606)
+[2022.06.08-20.25.35:219][153]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (604)
+[2022.06.08-20.25.35:219][153]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (602)
+[2022.06.08-20.25.35:219][153]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (600)
+[2022.06.08-20.25.35:219][153]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (598)
+[2022.06.08-20.25.35:219][153]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (596)
+[2022.06.08-20.25.35:219][153]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (594)
+[2022.06.08-20.25.35:219][153]LogModuleManager: Shutting down and abandoning module CharacterAI (592)
+[2022.06.08-20.25.35:219][153]LogModuleManager: Shutting down and abandoning module SmartSnapping (590)
+[2022.06.08-20.25.35:219][153]LogModuleManager: Shutting down and abandoning module SessionServices (588)
+[2022.06.08-20.25.35:219][153]LogModuleManager: Shutting down and abandoning module MeshPaint (586)
+[2022.06.08-20.25.35:219][153]LogModuleManager: Shutting down and abandoning module ViewportSnapping (584)
+[2022.06.08-20.25.35:219][153]LogModuleManager: Shutting down and abandoning module ViewportInteraction (582)
+[2022.06.08-20.25.35:219][153]LogModuleManager: Shutting down and abandoning module ClothPainter (580)
+[2022.06.08-20.25.35:289][153]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (579)
+[2022.06.08-20.25.35:289][153]LogModuleManager: Shutting down and abandoning module LogVisualizer (576)
+[2022.06.08-20.25.35:289][153]LogModuleManager: Shutting down and abandoning module IntroTutorials (574)
+[2022.06.08-20.25.35:290][153]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (573)
+[2022.06.08-20.25.35:335][153]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (570)
+[2022.06.08-20.25.35:335][153]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (568)
+[2022.06.08-20.25.35:335][153]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (566)
+[2022.06.08-20.25.35:335][153]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (564)
+[2022.06.08-20.25.35:335][153]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (563)
+[2022.06.08-20.25.36:210][153]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (560)
+[2022.06.08-20.25.36:210][153]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (558)
+[2022.06.08-20.25.36:210][153]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (556)
+[2022.06.08-20.25.36:210][153]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (554)
+[2022.06.08-20.25.36:210][153]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (552)
+[2022.06.08-20.25.36:210][153]LogModuleManager: Shutting down and abandoning module InputBindingEditor (550)
+[2022.06.08-20.25.36:210][153]LogModuleManager: Shutting down and abandoning module MergeActors (548)
+[2022.06.08-20.25.36:210][153]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (546)
+[2022.06.08-20.25.36:210][153]LogModuleManager: Shutting down and abandoning module LocalizationService (545)
+[2022.06.08-20.25.36:210][153]LogModuleManager: Shutting down and abandoning module HardwareTargeting (542)
+[2022.06.08-20.25.36:210][153]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (540)
+[2022.06.08-20.25.36:210][153]LogModuleManager: Shutting down and abandoning module UndoHistory (538)
+[2022.06.08-20.25.36:210][153]LogModuleManager: Shutting down and abandoning module XmlParser (536)
+[2022.06.08-20.25.36:210][153]LogModuleManager: Shutting down and abandoning module Blutility (534)
+[2022.06.08-20.25.36:210][153]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (532)
+[2022.06.08-20.25.36:210][153]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (531)
+[2022.06.08-20.25.36:211][153]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (528)
+[2022.06.08-20.25.36:211][153]LogModuleManager: Shutting down and abandoning module SettingsEditor (526)
+[2022.06.08-20.25.36:211][153]LogModuleManager: Shutting down and abandoning module ProjectLauncher (524)
+[2022.06.08-20.25.36:211][153]LogModuleManager: Shutting down and abandoning module SessionFrontend (522)
+[2022.06.08-20.25.36:211][153]LogModuleManager: Shutting down and abandoning module ProfilerClient (520)
+[2022.06.08-20.25.36:211][153]LogModuleManager: Shutting down and abandoning module DeviceManager (518)
+[2022.06.08-20.25.36:211][153]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (517)
+[2022.06.08-20.25.36:255][153]LogModuleManager: Shutting down and abandoning module AutomationController (514)
+[2022.06.08-20.25.36:255][153]LogModuleManager: Shutting down and abandoning module AutomationWindow (512)
+[2022.06.08-20.25.36:255][153]LogModuleManager: Shutting down and abandoning module Layers (510)
+[2022.06.08-20.25.36:255][153]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (508)
+[2022.06.08-20.25.36:255][153]LogModuleManager: Shutting down and abandoning module DetailCustomizations (506)
+[2022.06.08-20.25.36:321][153]LogModuleManager: Shutting down and abandoning module PackagesDialog (504)
+[2022.06.08-20.25.36:321][153]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (502)
+[2022.06.08-20.25.36:335][153]LogModuleManager: Shutting down and abandoning module Persona (500)
+[2022.06.08-20.25.36:335][153]LogModuleManager: Shutting down and abandoning module AnimGraph (499)
+[2022.06.08-20.25.36:336][153]LogModuleManager: Shutting down and abandoning module Kismet (496)
+[2022.06.08-20.25.36:455][153]LogModuleManager: Shutting down and abandoning module GraphEditor (494)
+[2022.06.08-20.25.36:524][153]LogModuleManager: Shutting down and abandoning module ClassViewer (492)
+[2022.06.08-20.25.36:524][153]LogModuleManager: Shutting down and abandoning module Toolbox (490)
+[2022.06.08-20.25.36:524][153]LogModuleManager: Shutting down and abandoning module DesktopPlatform (489)
+[2022.06.08-20.25.36:548][153]LogModuleManager: Shutting down and abandoning module ModuleUI (486)
+[2022.06.08-20.25.36:548][153]LogModuleManager: Shutting down and abandoning module MovieSceneTools (484)
+[2022.06.08-20.25.36:548][153]LogModuleManager: Shutting down and abandoning module OutputLog (482)
+[2022.06.08-20.25.36:548][153]LogModuleManager: Shutting down and abandoning module GammaUI (480)
+[2022.06.08-20.25.36:548][153]LogModuleManager: Shutting down and abandoning module Documentation (478)
+[2022.06.08-20.25.36:548][153]LogModuleManager: Shutting down and abandoning module LiveCoding (476)
+[2022.06.08-20.25.36:549][153]LogModuleManager: Shutting down and abandoning module LevelSequence (474)
+[2022.06.08-20.25.36:549][153]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (472)
+[2022.06.08-20.25.36:549][153]LogModuleManager: Shutting down and abandoning module MovieScene (470)
+[2022.06.08-20.25.36:584][153]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (468)
+[2022.06.08-20.25.36:585][153]LogModuleManager: Shutting down and abandoning module LauncherPlatform (466)
+[2022.06.08-20.25.36:585][153]LogModuleManager: Shutting down and abandoning module AnalyticsET (464)
+[2022.06.08-20.25.36:585][153]LogModuleManager: Shutting down and abandoning module PortalServices (462)
+[2022.06.08-20.25.36:585][153]LogModuleManager: Shutting down and abandoning module PortalRpc (460)
+[2022.06.08-20.25.36:585][153]LogModuleManager: Shutting down and abandoning module MessagingRpc (458)
+[2022.06.08-20.25.36:585][153]LogModuleManager: Shutting down and abandoning module AIModule (456)
+[2022.06.08-20.25.36:648][153]LogModuleManager: Shutting down and abandoning module GameplayDebugger (455)
+[2022.06.08-20.25.36:678][153]LogModuleManager: Shutting down and abandoning module AITestSuite (453)
+[2022.06.08-20.25.36:678][153]LogModuleManager: Shutting down and abandoning module NavigationSystem (451)
+[2022.06.08-20.25.36:678][153]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (448)
+[2022.06.08-20.25.36:683][153]LogModuleManager: Shutting down and abandoning module ProfilerService (446)
+[2022.06.08-20.25.36:862][153]LogModuleManager: Shutting down and abandoning module TaskGraph (444)
+[2022.06.08-20.25.36:863][153]LogModuleManager: Shutting down and abandoning module DatasmithCADImporter (442)
+[2022.06.08-20.25.36:864][153]LogModuleManager: Shutting down and abandoning module VariantManager (440)
+[2022.06.08-20.25.36:940][153]LogModuleManager: Shutting down and abandoning module StaticMeshEditorExtension (438)
+[2022.06.08-20.25.36:940][153]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (437)
+[2022.06.08-20.25.37:021][153]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (436)
+[2022.06.08-20.25.37:021][153]LogModuleManager: Shutting down and abandoning module MeshProcessingLibrary (433)
+[2022.06.08-20.25.37:021][153]LogModuleManager: Shutting down and abandoning module MDLImporter (430)
+[2022.06.08-20.25.37:040][153]LogModuleManager: Shutting down and abandoning module DatasmithGLTFImporter (428)
+[2022.06.08-20.25.37:098][153]LogModuleManager: Shutting down and abandoning module DatasmithImporter (427)
+[2022.06.08-20.25.37:144][153]LogModuleManager: Shutting down and abandoning module DatasmithDataPrepLibraries (424)
+[2022.06.08-20.25.37:161][153]LogModuleManager: Shutting down and abandoning module DatasmithDataPrepEditor (422)
+[2022.06.08-20.25.37:281][153]LogModuleManager: Shutting down and abandoning module SteamVRController (420)
+[2022.06.08-20.25.37:281][153]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (418)
+[2022.06.08-20.25.37:281][153]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (416)
+[2022.06.08-20.25.37:281][153]LogModuleManager: Shutting down and abandoning module OculusEditor (414)
+[2022.06.08-20.25.37:312][153]LogModuleManager: Shutting down and abandoning module OculusInput (412)
+[2022.06.08-20.25.37:312][153]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (410)
+[2022.06.08-20.25.37:313][153]LogModuleManager: Shutting down and abandoning module EditableMesh (408)
+[2022.06.08-20.25.37:313][153]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (406)
+[2022.06.08-20.25.37:313][153]LogModuleManager: Shutting down and abandoning module CableComponent (404)
+[2022.06.08-20.25.37:313][153]LogModuleManager: Shutting down and abandoning module AudioCapture (402)
+[2022.06.08-20.25.37:313][153]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (400)
+[2022.06.08-20.25.37:313][153]LogModuleManager: Shutting down and abandoning module AndroidPermission (398)
+[2022.06.08-20.25.37:313][153]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (396)
+[2022.06.08-20.25.37:313][153]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (394)
+[2022.06.08-20.25.37:313][153]LogModuleManager: Shutting down and abandoning module MediaCompositing (392)
+[2022.06.08-20.25.37:313][153]LogModuleManager: Shutting down and abandoning module LinearTimecode (390)
+[2022.06.08-20.25.37:313][153]LogModuleManager: Shutting down and abandoning module ImgMedia (388)
+[2022.06.08-20.25.37:313][153]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (386)
+[2022.06.08-20.25.37:313][153]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (384)
+[2022.06.08-20.25.37:313][153]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (382)
+[2022.06.08-20.25.37:313][153]LogModuleManager: Shutting down and abandoning module HTML5Networking (380)
+[2022.06.08-20.25.37:313][153]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (378)
+[2022.06.08-20.25.37:335][153]LogModuleManager: Shutting down and abandoning module GeometryCollectionExampleCore (376)
+[2022.06.08-20.25.37:366][153]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (374)
+[2022.06.08-20.25.37:366][153]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (372)
+[2022.06.08-20.25.37:366][153]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (370)
+[2022.06.08-20.25.37:366][153]LogModuleManager: Shutting down and abandoning module BlastAuthoring (368)
+[2022.06.08-20.25.37:366][153]LogModuleManager: Shutting down and abandoning module BackChannel (366)
+[2022.06.08-20.25.37:366][153]LogModuleManager: Shutting down and abandoning module AppleVision (364)
+[2022.06.08-20.25.37:366][153]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (362)
+[2022.06.08-20.25.37:366][153]LogModuleManager: Shutting down and abandoning module AppleImageUtils (360)
+[2022.06.08-20.25.37:366][153]LogModuleManager: Shutting down and abandoning module AlembicImporter (358)
+[2022.06.08-20.25.37:366][153]LogModuleManager: Shutting down and abandoning module AlembicLibrary (357)
+[2022.06.08-20.25.37:366][153]LogModuleManager: Shutting down and abandoning module GeometryCache (356)
+[2022.06.08-20.25.37:366][153]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (355)
+[2022.06.08-20.25.37:367][153]LogModuleManager: Shutting down and abandoning module VariantManagerContent (350)
+[2022.06.08-20.25.37:367][153]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (348)
+[2022.06.08-20.25.37:367][153]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (346)
+[2022.06.08-20.25.37:367][153]LogModuleManager: Shutting down and abandoning module PluginBrowser (344)
+[2022.06.08-20.25.37:367][153]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (342)
+[2022.06.08-20.25.37:367][153]LogModuleManager: Shutting down and abandoning module PolygonModeling (340)
+[2022.06.08-20.25.37:367][153]LogModuleManager: Shutting down and abandoning module MeshEditor (338)
+[2022.06.08-20.25.37:367][153]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (336)
+[2022.06.08-20.25.37:367][153]LogModuleManager: Shutting down and abandoning module GLTFImporter (334)
+[2022.06.08-20.25.37:402][153]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (332)
+[2022.06.08-20.25.37:402][153]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2022.06.08-20.25.37:402][153]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2022.06.08-20.25.37:402][153]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2022.06.08-20.25.37:402][153]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2022.06.08-20.25.37:402][153]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2022.06.08-20.25.37:402][153]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2022.06.08-20.25.37:402][153]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2022.06.08-20.25.37:402][153]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2022.06.08-20.25.37:402][153]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2022.06.08-20.25.37:513][153]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2022.06.08-20.25.37:513][153]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (310)
+[2022.06.08-20.25.37:513][153]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2022.06.08-20.25.37:513][153]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2022.06.08-20.25.37:513][153]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2022.06.08-20.25.37:513][153]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2022.06.08-20.25.37:513][153]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2022.06.08-20.25.37:513][153]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2022.06.08-20.25.37:513][153]LogModuleManager: Shutting down and abandoning module TanksMiniGame (296)
+[2022.06.08-20.25.37:513][153]LogModuleManager: Shutting down and abandoning module SignificanceManager (294)
+[2022.06.08-20.25.37:513][153]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
+[2022.06.08-20.25.37:513][153]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
+[2022.06.08-20.25.37:513][153]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
+[2022.06.08-20.25.37:513][153]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2022.06.08-20.25.37:513][153]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2022.06.08-20.25.37:513][153]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2022.06.08-20.25.37:614][153]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2022.06.08-20.25.37:714][153]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2022.06.08-20.25.37:714][153]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2022.06.08-20.25.37:714][153]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2022.06.08-20.25.37:746][153]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2022.06.08-20.25.37:746][153]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2022.06.08-20.25.37:746][153]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.06.08-20.25.37:746][153]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2022.06.08-20.25.37:746][153]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2022.06.08-20.25.37:746][153]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2022.06.08-20.25.37:746][153]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2022.06.08-20.25.37:746][153]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2022.06.08-20.25.37:746][153]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2022.06.08-20.25.37:746][153]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2022.06.08-20.25.37:746][153]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2022.06.08-20.25.37:785][153]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2022.06.08-20.25.37:785][153]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2022.06.08-20.25.37:786][153]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2022.06.08-20.25.37:786][153]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2022.06.08-20.25.37:786][153]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2022.06.08-20.25.37:788][153]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2022.06.08-20.25.37:788][153]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2022.06.08-20.25.37:788][153]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2022.06.08-20.25.37:788][153]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2022.06.08-20.25.37:788][153]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2022.06.08-20.25.37:788][153]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2022.06.08-20.25.37:788][153]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2022.06.08-20.25.37:788][153]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2022.06.08-20.25.37:818][153]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2022.06.08-20.25.37:818][153]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2022.06.08-20.25.37:849][153]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2022.06.08-20.25.37:849][153]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2022.06.08-20.25.37:849][153]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2022.06.08-20.25.37:849][153]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2022.06.08-20.25.37:922][153]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2022.06.08-20.25.37:922][153]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2022.06.08-20.25.37:922][153]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2022.06.08-20.25.37:922][153]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2022.06.08-20.25.37:922][153]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2022.06.08-20.25.37:922][153]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2022.06.08-20.25.37:922][153]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2022.06.08-20.25.37:937][153]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2022.06.08-20.25.37:976][153]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2022.06.08-20.25.38:083][153]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2022.06.08-20.25.38:083][153]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2022.06.08-20.25.38:084][153]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2022.06.08-20.25.38:084][153]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2022.06.08-20.25.38:086][153]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2022.06.08-20.25.38:086][153]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2022.06.08-20.25.38:086][153]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2022.06.08-20.25.38:086][153]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2022.06.08-20.25.38:087][153]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2022.06.08-20.25.38:087][153]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2022.06.08-20.25.38:087][153]LogModuleManager: Shutting down and abandoning module Core (174)
+[2022.06.08-20.25.38:087][153]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2022.06.08-20.25.38:087][153]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2022.06.08-20.25.38:087][153]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2022.06.08-20.25.38:087][153]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2022.06.08-20.25.38:087][153]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2022.06.08-20.25.38:087][153]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2022.06.08-20.25.38:087][153]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2022.06.08-20.25.38:087][153]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2022.06.08-20.25.38:106][153]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2022.06.08-20.25.38:130][153]LogDerivedDataCache: Shutdown
+[2022.06.08-20.25.38:130][153]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2022.06.08-20.25.38:164][153]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2022.06.08-20.25.38:179][153]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2022.06.08-20.25.38:179][153]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2022.06.08-20.25.38:180][153]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2022.06.08-20.25.38:180][153]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2022.06.08-20.25.38:180][153]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2022.06.08-20.25.38:180][153]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2022.06.08-20.25.38:180][153]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2022.06.08-20.25.38:180][153]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2022.06.08-20.25.38:180][153]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2022.06.08-20.25.38:180][153]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2022.06.08-20.25.38:180][153]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2022.06.08-20.25.38:180][153]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2022.06.08-20.25.38:180][153]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2022.06.08-20.25.38:180][153]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2022.06.08-20.25.38:180][153]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2022.06.08-20.25.38:180][153]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2022.06.08-20.25.38:182][153]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2022.06.08-20.25.38:182][153]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2022.06.08-20.25.38:182][153]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2022.06.08-20.25.38:182][153]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2022.06.08-20.25.38:182][153]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2022.06.08-20.25.38:183][153]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2022.06.08-20.25.38:183][153]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2022.06.08-20.25.38:184][153]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2022.06.08-20.25.38:184][153]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2022.06.08-20.25.38:228][153]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2022.06.08-20.25.38:229][153]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2022.06.08-20.25.38:229][153]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2022.06.08-20.25.38:229][153]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2022.06.08-20.25.38:229][153]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2022.06.08-20.25.38:229][153]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2022.06.08-20.25.38:229][153]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2022.06.08-20.25.38:229][153]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2022.06.08-20.25.38:229][153]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2022.06.08-20.25.38:229][153]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2022.06.08-20.25.38:229][153]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2022.06.08-20.25.38:229][153]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2022.06.08-20.25.38:229][153]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2022.06.08-20.25.38:229][153]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2022.06.08-20.25.38:251][153]LogHMD: Freeing OpenVRDLLHandle.
+[2022.06.08-20.25.38:251][153]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2022.06.08-20.25.38:278][153]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2022.06.08-20.25.38:278][153]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2022.06.08-20.25.38:278][153]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2022.06.08-20.25.38:278][153]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2022.06.08-20.25.38:419][153]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2022.06.08-20.25.38:496][153]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2022.06.08-20.25.38:669][153]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2022.06.08-20.25.38:669][153]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.06.08-20.25.38:669][153]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B983EF2DF-4BD3-FE1E-A6E8-5D9E6772FEAF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=c7f6e53a46d6f42f2b11e7bfc89925ce%7Cd1e8de5257fd4791841550c52874b473%7C51ed53e2-c7bf-49e5-b5df-38ef365f1d22&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2022.06.08-20.25.38:731][153]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2022.06.08-20.25.38:738][153]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2022.06.08-20.25.38:827][153]LogModuleManager: Shutting down and abandoning module Media (45)
+[2022.06.08-20.25.38:834][153]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2022.06.08-20.25.38:888][153]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2022.06.08-20.25.38:888][153]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2022.06.08-20.25.38:938][153]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2022.06.08-20.25.39:019][153]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2022.06.08-20.25.39:144][153]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2022.06.08-20.25.39:313][153]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2022.06.08-20.25.39:313][153]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2022.06.08-20.25.39:328][153]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2022.06.08-20.25.39:375][153]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2022.06.08-20.25.39:393][153]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2022.06.08-20.25.39:393][153]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.06.08-20.25.39:406][153]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.06.08-20.25.39:437][153]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.06.08-20.25.39:437][153]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.06.08-20.25.39:437][153]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2022.06.08-20.25.39:457][153]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2022.06.08-20.25.39:457][153]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2022.06.08-20.25.39:472][153]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2022.06.08-20.25.39:472][153]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.06.08-20.25.39:482][153]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.06.08-20.25.39:678][153]LogExit: Exiting.
+[2022.06.08-20.25.39:706][153]Log file closed, 06/08/22 22:25:39
