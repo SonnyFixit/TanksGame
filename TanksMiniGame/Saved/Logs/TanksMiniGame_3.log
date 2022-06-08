@@ -832,3 +832,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.06.08-23.11.32:321][513]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.065 sec). This should never happen. Something is wrong with the timer delegate!
 [2022.06.08-23.11.32:321][513]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.065 sec). This should never happen. Something is wrong with the timer delegate!
 [2022.06.08-23.12.39:952][516]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (2.644 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.06.08-23.29.32:406][583]LogSlate: FSceneViewport::OnFocusLost() reason 0
