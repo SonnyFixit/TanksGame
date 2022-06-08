@@ -2,23 +2,17 @@
   Creating makefile for TanksMiniGameEditor (ini files are newer than makefile)
   Parsing headers for TanksMiniGameEditor
     Running UnrealHeaderTool "E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\TanksMiniGame.uproject" "E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\TanksMiniGameEditor\Development\TanksMiniGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for TanksMiniGameEditor in 111,7934106 seconds
+  Reflection code generated for TanksMiniGameEditor in 87,8639591 seconds
   Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 13 actions with 4 processes...
-    [1/13] TanksMiniGame.init.gen.cpp
-    [2/13] Projectile.gen.cpp
-    [3/13] Tank.gen.cpp
-    [4/13] Tower.gen.cpp
-    [5/13] BasePawn.gen.cpp
-    [6/13] Tank.cpp
-    [7/13] BasePawn.cpp
-    [8/13] TanksMiniGameGameMode.cpp
-    [9/13] Projectile.cpp
-    [10/13] Tower.cpp
-    [11/13] UE4Editor-TanksMiniGame-0014.lib
-       Trwa tworzenie biblioteki E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-0014.lib i obiektu E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-0014.exp
-    [12/13] UE4Editor-TanksMiniGame-0014.dll
-       Trwa tworzenie biblioteki E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-0014.suppressed.lib i obiektu E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-0014.suppressed.exp
-    [13/13] TanksMiniGameEditor.target
-  Total time in Parallel executor: 719,90 seconds
-  Total execution time: 904,31 seconds
+  Building 7 actions with 4 processes...
+    [1/7] Tank.gen.cpp
+    [2/7] TanksMiniGameGameMode.cpp
+    [3/7] Tower.cpp
+    [4/7] Tank.cpp
+    [5/7] UE4Editor-TanksMiniGame-0015.lib
+       Trwa tworzenie biblioteki E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-0015.lib i obiektu E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-0015.exp
+    [6/7] UE4Editor-TanksMiniGame-0015.dll
+       Trwa tworzenie biblioteki E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-0015.suppressed.lib i obiektu E:\GitHub\UnrealProjects\Tanks\TanksGame\TanksMiniGame\Intermediate\Build\Win64\UE4Editor\Development\TanksMiniGame\UE4Editor-TanksMiniGame-0015.suppressed.exp
+    [7/7] TanksMiniGameEditor.target
+  Total time in Parallel executor: 595,11 seconds
+  Total execution time: 745,61 seconds

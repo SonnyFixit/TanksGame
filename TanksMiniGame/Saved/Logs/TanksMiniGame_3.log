@@ -795,3 +795,40 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.06.08-22.33.06:196][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2022.06.08-22.33.06:234][609]LogUObjectHash: Compacting FUObjectHashTables data took   6.07ms
 [2022.06.08-22.33.06:256][610]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2022.06.08-22.36.04:234][347]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.06.08-22.36.07:008][487]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2022.06.08-22.37.05:816][227]BlueprintLog: New page: Compile BP_PawnTank
+[2022.06.08-22.37.07:632][227]LogUObjectHash: Compacting FUObjectHashTables data took   8.30ms
+[2022.06.08-22.38.03:654][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2022.06.08-22.38.05:205][451]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/BP_PawnTank4845D72143EAA23B1A9CF783361E97B8.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2022.06.08-22.38.06:475][470]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.06.08-22.38.06:579][474]BlueprintLog: New page: Compile BP_PawnTank
+[2022.06.08-22.38.07:128][474]LogUObjectHash: Compacting FUObjectHashTables data took   7.14ms
+[2022.06.08-22.39.49:888][573]LogUObjectHash: Compacting FUObjectHashTables data took   9.23ms
+[2022.06.08-22.39.50:454][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Autosaves/Game/Maps/Main_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.06.08-22.39.53:149][573]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Main_Auto4D633094C4542F023C71A8FB6F530949B.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Autosaves/Game/Maps/Main_Auto4.umap'
+[2022.06.08-22.39.53:359][573]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 3.756
+[2022.06.08-22.39.53:359][573]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.756
+[2022.06.08-22.39.53:431][573]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pawns/BP_PawnTurret] ([1] browsable assets)...
+[2022.06.08-22.39.54:032][573]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret]
+[2022.06.08-22.39.54:032][573]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pawns/BP_PawnTurret]
+[2022.06.08-22.39.54:358][573]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/BP_PawnTurret_Auto4BA5DDE9C42FA5388E4510CB9BC51FEF6.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Autosaves/Game/Blueprints/Pawns/BP_PawnTurret_Auto4.uasset'
+[2022.06.08-22.39.54:371][573]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Actors/BP_Projectile] ([1] browsable assets)...
+[2022.06.08-22.39.54:975][573]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Actors/BP_Projectile.BP_Projectile]
+[2022.06.08-22.39.54:975][573]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actors/BP_Projectile]
+[2022.06.08-22.39.55:544][573]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/BP_Projectile_Auto4E48599074FF7CE0513F76DB801D881DE.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Autosaves/Game/Blueprints/Actors/BP_Projectile_Auto4.uasset'
+[2022.06.08-22.39.55:546][573]LogFileHelpers: Auto-saving content packages took 2.182
+[2022.06.08-23.08.25:916][512]LogHotReload: New module detected: UE4Editor-TanksMiniGame-0015.dll
+[2022.06.08-23.08.28:575][513]LogHotReload: Starting Hot-Reload from IDE
+[2022.06.08-23.10.38:617][513]LogUObjectHash: Compacting FUObjectHashTables data took 6271.38ms
+[2022.06.08-23.10.42:104][513]LogClass: Could not find existing class Tank in package /Script/TanksMiniGame for HotReload, assuming new class
+[2022.06.08-23.10.45:397][513]LogHotReload: Re-instancing Tank after hot-reload.
+[2022.06.08-23.11.21:192][513]LogContentBrowser: Native class hierarchy updated for 'TanksMiniGame' in 0.3283 seconds. Added 8 classes and 2 folders.
+[2022.06.08-23.11.21:430][513]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2022.06.08-23.11.23:645][513]LogUObjectHash: Compacting FUObjectHashTables data took 329.08ms
+[2022.06.08-23.11.31:595][513]LogContentBrowser: Native class hierarchy populated in 4.9672 seconds. Added 2872 classes and 728 folders.
+[2022.06.08-23.11.32:198][513]Display: HotReload took 183.6s.
+[2022.06.08-23.11.32:278][513]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.06.08-23.11.32:321][513]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.065 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.06.08-23.11.32:321][513]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.065 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.06.08-23.12.39:952][516]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (2.644 sec). This should never happen. Something is wrong with the timer delegate!

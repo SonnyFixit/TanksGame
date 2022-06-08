@@ -62,6 +62,7 @@ void ATank::HandleDestruction()
 	Super::HandleDestruction();
 	SetActorHiddenInGame(true);
 	SetActorTickEnabled(false);
+	bAlive = false;
 
 	//Ticking for the Tank will be disabled.
 }
