@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TanksMiniGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{6F39F720-B3B8-43B9-AED9-80BE88F0F5BF}</UniqueIdentifier>
+      <UniqueIdentifier>{EAFB6057-009C-481F-A017-F90C72645C2B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TanksMiniGame.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{024BE056-F152-4F6E-AEC1-DF034884100A}</UniqueIdentifier>
+      <UniqueIdentifier>{783DCAF1-5788-407B-B3D0-632DF049664D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,13 +23,34 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\TanksMiniGame">
-      <UniqueIdentifier>{67F13C1A-A034-4AAC-996B-C8323FD38D28}</UniqueIdentifier>
+      <UniqueIdentifier>{06F695EB-B585-4959-A58D-F12AB0BF1400}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TanksMiniGame\BasePawn.cpp">
       <Filter>Source\TanksMiniGame</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TanksMiniGame\BasePawn.h">
+      <Filter>Source\TanksMiniGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TanksMiniGame\HealthComponent.cpp">
+      <Filter>Source\TanksMiniGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TanksMiniGame\HealthComponent.h">
+      <Filter>Source\TanksMiniGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TanksMiniGame\MiniTanksPlayerController.cpp">
+      <Filter>Source\TanksMiniGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TanksMiniGame\MiniTanksPlayerController.h">
+      <Filter>Source\TanksMiniGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TanksMiniGame\Projectile.cpp">
+      <Filter>Source\TanksMiniGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TanksMiniGame\Projectile.h">
       <Filter>Source\TanksMiniGame</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\TanksMiniGame\Tank.cpp">
@@ -47,45 +68,23 @@
     <ClInclude Include="..\..\Source\TanksMiniGame\TanksMiniGame.h">
       <Filter>Source\TanksMiniGame</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\TanksMiniGame\TanksMiniGameGameMode.cpp">
+      <Filter>Source\TanksMiniGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TanksMiniGame\TanksMiniGameGameMode.h">
+      <Filter>Source\TanksMiniGame</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\TanksMiniGame\TanksMiniGameGameModeBase.cpp">
       <Filter>Source\TanksMiniGame</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TanksMiniGame\TanksMiniGameGameModeBase.h">
       <Filter>Source\TanksMiniGame</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\TanksMiniGame\Tower.h">
-      <Filter>Source\TanksMiniGame</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\TanksMiniGame\Projectile.h">
-      <Filter>Source\TanksMiniGame</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\TanksMiniGame\HealthComponent.h">
-      <Filter>Source\TanksMiniGame</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\TanksMiniGame\TanksMiniGameGameMode.h">
-      <Filter>Source\TanksMiniGame</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\TanksMiniGame\MiniTanksPlayerController.h">
-      <Filter>Source\TanksMiniGame</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="..\..\Source\TanksMiniGame\Tower.cpp">
       <Filter>Source\TanksMiniGame</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\TanksMiniGame\Projectile.cpp">
+    <ClInclude Include="..\..\Source\TanksMiniGame\Tower.h">
       <Filter>Source\TanksMiniGame</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\TanksMiniGame\HealthComponent.cpp">
-      <Filter>Source\TanksMiniGame</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\TanksMiniGame\TanksMiniGameGameMode.cpp">
-      <Filter>Source\TanksMiniGame</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\TanksMiniGame\MiniTanksPlayerController.cpp">
-      <Filter>Source\TanksMiniGame</Filter>
-    </ClCompile>
+    </ClInclude>
   </ItemGroup>
 </Project>
