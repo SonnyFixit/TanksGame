@@ -833,3 +833,25 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.06.08-23.11.32:321][513]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.065 sec). This should never happen. Something is wrong with the timer delegate!
 [2022.06.08-23.12.39:952][516]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (2.644 sec). This should never happen. Something is wrong with the timer delegate!
 [2022.06.08-23.29.32:406][583]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.06.08-23.33.52:731][401]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.06.08-23.34.11:202][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.06.08-23.34.15:889][401]LogWorld: Updating cull distance volumes took  1.76 seconds
+[2022.06.08-23.36.12:848][401]LogUObjectHash: Compacting FUObjectHashTables data took 505.02ms
+[2022.06.08-23.36.16:549][401]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/MainEDD308694EC707B4404B14B9A2EF1732.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Maps/Main.umap'
+[2022.06.08-23.36.35:237][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2022.06.08-23.36.43:201][401]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/Main_BuiltDataBFC3EB4D48746C5AA7028BBF600EF1CC.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Maps/Main_BuiltData.uasset'
+[2022.06.08-23.36.44:712][402]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.06.08-23.36.44:713][402]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.06.08-23.36.44:713][402]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.06.08-23.37.05:803][404]LogUObjectHash: Compacting FUObjectHashTables data took 256.39ms
+[2022.06.08-23.37.13:163][404]LogSlate: Window 'Save Content' being destroyed
+[2022.06.08-23.37.13:259][404]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.06.08-23.37.13:336][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/BP_Projectile" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Actors/BP_Projectile.uasset" SILENT=true
+[2022.06.08-23.37.14:067][404]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/BP_Projectile3365DBC84318DBD7F97679AF249423C0.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Actors/BP_Projectile.uasset'
+[2022.06.08-23.37.14:232][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTurret" FILE="../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTurret.uasset" SILENT=true
+[2022.06.08-23.37.14:559][404]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/BP_PawnTurret17C948B749F9F3432CF6B182A93DC5E4.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Pawns/BP_PawnTurret.uasset'
+[2022.06.08-23.37.15:266][404]LogSavePackage: Moving '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Saved/WPB_EndGameWidget6CFE34F44B0B09BAC21B969AECEA960B.tmp' to '../../../../GitHub/UnrealProjects/Tanks/TanksGame/TanksMiniGame/Content/Blueprints/Widgets/WPB_EndGameWidget.uasset'
+[2022.06.08-23.37.16:807][404]LogSlate: Window 'BP_PawnTank' being destroyed
+[2022.06.08-23.38.30:722][404]LogSlate: Window 'TanksMiniGame - Unreal Editor' being destroyed
+[2022.06.08-23.38.30:819][404]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.06.08-23.39.04:528][405]Cmd: QUIT_EDITOR
